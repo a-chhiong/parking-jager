@@ -2,7 +2,7 @@
 
 本目錄為 **Parking Jäger 臺北市專屬模組**，包含專屬圖資串流生成程式、已生成之最新地圖圖層檔案，以及各行政區統一表格對照手冊。
 
-本工具以「[格上-民有市場地下停車場](https://maps.app.goo.gl/WsLPEg952dXUfFgv5)」作為品質基準，向**臺北市停車管理工程處（停管處）官方單一真相來源（SSOT）**串流即時圖資，從全市登記之 1,767 處場站中，自動過濾出符合 **24小時營運、公有平價計時、全室內地下平面坡道、具備電動車充電樁** 之 230 處優質場站。
+本工具完全依據**客觀資料條件（Objective Conditions，零寫死座標或特定場名）**，向**臺北市停車管理工程處（停管處）官方單一真相來源（SSOT）**串流即時圖資，從全市登記之 1,767 處場站中，自動剔除非公眾停車之行政組織（如市場自治會、客運調度站）與純機車塔，過濾出符合 **24小時營運、公有平價計時、全室內地下/立體平面、具備小型車位與電動車充電樁** 之 **225 處**優質場站。
 
 ---
 
@@ -10,11 +10,11 @@
 
 | 格式 / 檔案名稱 | 適用生態系 / 導航軟體 | 特色與說明 |
 | :--- | :--- | :--- |
-| 📲 **[taipei_parking_lots.kmz](./taipei_parking_lots.kmz)** | **[CoMaps](https://github.com/comaps/comaps)** / **Organic Maps** | **【推薦】** 僅 32 KB！手機點擊即開，一鍵匯入 230 站離線書籤，內建專屬停車圖標與全離線導航 |
+| 📲 **[taipei_parking_lots.kmz](./taipei_parking_lots.kmz)** | **[CoMaps](https://github.com/comaps/comaps)** / **Organic Maps** | **【推薦】** 僅 32.5 KB！手機點擊即開，一鍵匯入 225 站離線書籤，內建專屬停車圖標與全離線導航 |
 | 🌐 **[taipei_parking_lots.geojson](./taipei_parking_lots.geojson)** | **OpenStreetMap** / **uMap** / **GitHub** | 符合標準 OSM 標籤架構（`amenity=parking`），可用於 JOSM 編輯對齊或 GitHub 線上預覽 |
 | 📍 **[taipei_parking_lots.kml](./taipei_parking_lots.kml)** | **Google 我的地圖 (My Maps)** | 內嵌氣泡資訊卡、自訂地圖圖標與 Google Maps 導航一鍵連結 |
-| 📊 **[taipei_parking_lots.csv](./taipei_parking_lots.csv)** | **Excel** / **Google 試算表** | 帶有 UTF-8 BOM，包含官方車道入口精準經緯度與完整計費文字說明 |
-| 📋 **[taipei_parking_lots.md](./taipei_parking_lots.md)** | **Markdown 文件** | 臺北市 12 行政區統一 7 欄位表格完整手冊（共 230 站） |
+| 📊 **[taipei_parking_lots.csv](./taipei_parking_lots.csv)** | **Excel** / **Google 試算表** | 帶有 UTF-8 BOM，包含官方車道入口或 TM2 大地逆投影精準經緯度與完整計費說明 |
+| 📋 **[taipei_parking_lots.md](./taipei_parking_lots.md)** | **Markdown 文件** | 臺北市 12 行政區統一 7 欄位表格完整手冊（共 225 站） |
 
 ---
 
@@ -77,7 +77,7 @@ CoMaps 的離線地圖底層全量取自 **OpenStreetMap (OSM)** 的每月資料
 本程式採用**純 Python 標準庫**撰寫，無任何第三方套件相依性（免 `pip install`）：
 
 ```bash
-# 1. 預設模式：抓取官方最新數據，產出 230 處優質場站 (同時更新 KMZ, KML, GeoJSON, CSV, MD)
+# 1. 預設模式：抓取官方最新數據，產出 225 處優質場站 (同時更新 KMZ, KML, GeoJSON, CSV, MD)
 python Taipei/generate_parking_maps.py
 
 # 2. 純電車模式：僅篩選具備 EV 充電樁格位之場站 (188 處)
@@ -95,25 +95,28 @@ python Taipei/generate_parking_maps.py --no-cache
 
 ---
 
-## 🔍 六道篩選機制管線 (Filtering Pipeline)
+## 🔍 客觀篩選與大地座標轉換管線 (Objective Filtering & Geodetic Pipeline)
 
-停管處官方圖資（`TCMSV_alldesc.json`）收錄臺北市全區 1,767 處停車設施。為避開私人高價、機械塔樓、露天曝曬與夜間關門等問題，程式自動執行 6 關篩選：
+停管處官方圖資（`TCMSV_alldesc.json`）收錄臺北市全區 1,767 處登記紀錄。為避開私人高價、行政辦公室（如市場自治會）、客運調度站、純機車塔、機械塔樓、露天曝曬與夜間關門等問題，並解決部分新場站（如福星公園）官方 `EntranceCoord` 填寫 `(0, 0)` 的資料缺失，程式自動執行以下客觀管線：
 
 ```mermaid
 flowchart TD
     A["停管處官方全量圖資 (1,767 處)"] --> B["1. 營運主管過濾 (type2)"]
     B -->|剔除 1,091 處民營場站| C["公有/機關/學校場站 (676 處)"]
-    C --> D["2. 24 小時全日營運 (serviceTime)"]
-    D -->|剔除夜間鎖門閉館場站| E["24/7 全天候場站 (492 處)"]
-    E --> F["3. 建築形式與無機械塔 (Keywords)"]
-    F -->|剔除露天曝曬場與純機械塔台| G["室內地下平面場站 (276 處)"]
-    G --> H["4. 日間費率上限過濾 (≤ $50/hr)"]
-    H -->|剔除觀光熱點暴利定價| I["公有平價目標場站 (230 處)"]
-    I --> J{"EV 充電樁需求?"}
-    J -->|一般模式| K["230 處全合格名冊"]
-    J -->|--ev-only 旗標| L["188 處全充電設備名冊"]
-    K --> M["即時輸出 KMZ, KML, GeoJSON, CSV, MD"]
-    L --> M
+    C --> D["2. 實體停車設施與汽車容量檢驗"]
+    D -->|剔除自治會、客運調度站與 0 汽車位場站| E["具備小型車位之公眾停車場 (641 處)"]
+    E --> F["3. 24 小時全日營運 (serviceTime)"]
+    F -->|剔除夜間鎖門閉館場站| G["24/7 全天候場站 (471 處)"]
+    G --> H["4. 建築形式與無機械塔檢驗"]
+    H -->|剔除露天曝曬場與純機械塔台| I["室內地下/立體平面場站 (271 處)"]
+    I --> J["5. 日間費率上限過濾 (≤ $50/hr, 支援 C/CM 車種)"]
+    J -->|剔除高價位場站| K["公有平價目標場站 (225 處)"]
+    K --> L["6. 座標驗證與 TWD97 TM2 橫軸墨卡托逆投影"]
+    L --> M{"EV 充電樁需求?"}
+    M -->|一般模式| N["225 處全合格名冊"]
+    M -->|--ev-only 旗標| O["188 處全充電設備名冊"]
+    N --> P["即時輸出 KMZ, KML, GeoJSON, CSV, MD"]
+    O --> P
 ```
 
 ---

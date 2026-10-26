@@ -10,16 +10,16 @@
 
 ---
 
-## 🎯 Jäger 優質停車場選址標準 (The Jäger Benchmark)
+## 🎯 Jäger 優質停車場客觀選址標準 (The Jäger Objective Benchmark)
 
-所有收錄於本專案之場站均須通過以下 6 大嚴選標準（以「[格上-民有市場地下站](https://maps.app.goo.gl/WsLPEg952dXUfFgv5)」為旗艦基準）：
+所有收錄於本專案之場站均完全依據官方開放資料之**客觀條件（Objective Conditions）**自動篩選，零人工寫死（Zero Hardcoding）：
 
-1. **🏛️ 公有體系管轄**：政府自營或公有委外，杜絕民間私人業者隨意哄抬與暴利定價。
+1. **🏛️ 公有體系管轄與實體場站檢驗**：限定政府自營或公有委外，並自動剔除「市場自治會、客運調度站、保養廠、0 小型車位之純機車塔」等非公眾汽車停車設施。
 2. **🕒 24 小時全天候營運**：任何時段皆可自由進出場，絕無半夜拉鐵捲門鎖車之風險。
 3. **🏢 室內地下全平面**：坡道平面、風雨無阻，嚴格剔除易刮傷車身或無法停放休旅車/純電車之機械塔台。
-4. **💰 公有平價費率**：日間臨停主流 30~40 元/時，住宅區更享夜間離峰 10 元/時超值優惠。
-5. **⚡ 電動車友善設備**：優先篩選配備專屬 AC / DC 充電樁與友善專屬車位之場站。
-6. **📍 車道入口精準定位**：嚴格採集「車道進場坡道閘門」之經緯度座標，避免導航至公園中心或大地地號。
+4. **💰 公有平價費率**：日間臨停主流 20~50 元/時（支援結構化 `FareRule` 之 `C` 與 `CM` 車種費率解析），住宅區更享夜間離峰 10 元/時優惠。
+5. **⚡ 電動車與友善車位**：自動解析並標註場站內之 EV 充電樁數量、身心障礙專用格與親子友善車位。
+6. **📍 亞米級大地座標定位**：優先採集經邊界驗證之官方「車道進場坡道（`EntranceCoord`）」WGS84 座標；若無則以標準**橫軸墨卡托二度分帶逆投影（TWD97 TM2 $\to$ WGS84）**精確轉換地籍座標，杜絕粗糙線性估算造成的偏移。
 
 ---
 
@@ -27,7 +27,7 @@
 
 | 城市 (City) | 詳細說明文件 | 篩選合格場站 | EV 充電專屬站 | 官方單一真相來源 (SSOT) | 一鍵下載圖資檔案 |
 | :--- | :--- | :---: | :---: | :--- | :--- |
-| **臺北市 (Taipei)** | [📖 **Taipei/README.md**](./Taipei/README.md) | **230 處** | **188 處** | 臺北市停管處 Azure Blob API | [📲 **KMZ (CoMaps)**](./Taipei/taipei_parking_lots.kmz) · [🌐 **GeoJSON (OSM)**](./Taipei/taipei_parking_lots.geojson) · [📍 KML](./Taipei/taipei_parking_lots.kml) · [📊 CSV](./Taipei/taipei_parking_lots.csv) · [📋 手冊](./Taipei/taipei_parking_lots.md) |
+| **臺北市 (Taipei)** | [📖 **Taipei/README.md**](./Taipei/README.md) | **225 處** | **188 處** | 臺北市停管處 Azure Blob API | [📲 **KMZ (CoMaps)**](./Taipei/taipei_parking_lots.kmz) · [🌐 **GeoJSON (OSM)**](./Taipei/taipei_parking_lots.geojson) · [📍 KML](./Taipei/taipei_parking_lots.kml) · [📊 CSV](./Taipei/taipei_parking_lots.csv) · [📋 手冊](./Taipei/taipei_parking_lots.md) |
 | *新北市 (New Taipei)* | *規劃中 (Planned)* | - | - | 新北市政府開放資料平台 | *敬請期待* |
 | *臺中市 (Taichung)* | *規劃中 (Planned)* | - | - | 臺中市政府交通局開放資料 | *敬請期待* |
 | *高雄市 (Kaohsiung)* | *規劃中 (Planned)* | - | - | 高雄市政府交通局開放資料 | *敬請期待* |
@@ -38,9 +38,9 @@
 
 ### 生態系 A：開源離線導航（CoMaps / Organic Maps / OpenStreetMap）
 * **手機端 1 鍵匯入**：
-  1. 下載僅 32 KB 的 [**`taipei_parking_lots.kmz`**](./Taipei/taipei_parking_lots.kmz)。
+  1. 下載僅 32.5 KB 的 [**`taipei_parking_lots.kmz`**](./Taipei/taipei_parking_lots.kmz)。
   2. 在手機上以 **[CoMaps](https://github.com/comaps/comaps)**（或 Organic Maps）開啟。
-  3. 即刻享有 230 處自訂圖釘、完整費率備註，並具備 100% 無網路離線路線導航！
+  3. 即刻享有 225 處自訂圖釘、完整費率備註，並具備 100% 無網路離線路線導航！
 * **回饋至 OpenStreetMap (OSM)**：
   * 開發者與圖資維護者可載入 [**`taipei_parking_lots.geojson`**](./Taipei/taipei_parking_lots.geojson)，內含標準 OSM 標籤（`amenity=parking`, `parking=underground`, `capacity:charging` 等），可直接用於 JOSM 進行社群回饋。
 
