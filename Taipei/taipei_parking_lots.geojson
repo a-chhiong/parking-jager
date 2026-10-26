@@ -1,0 +1,6848 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5596,
+          25.0585
+        ]
+      },
+      "properties": {
+        "name": "民生立體停車場",
+        "amenity": "parking",
+        "parking": "multi-storey",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "1.7",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區民生東路5段84號",
+        "ref:tpe": "TPE0003",
+        "charge": "30 TWD/hour",
+        "description": "【松山區】民生立體停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：457格（EV充電：12）｜限高：1.7m",
+        "capacity": "457",
+        "capacity:charging": "12",
+        "phone": "0227608303"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5058,
+          25.0443
+        ]
+      },
+      "properties": {
+        "name": "峨眉立體停車場",
+        "amenity": "parking",
+        "parking": "multi-storey",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區峨眉街83號地下1層及地上7層",
+        "ref:tpe": "TPE0006",
+        "charge": "50 TWD/hour",
+        "description": "【萬華區】峨眉立體停車場｜費率：10時~22時 每小時 50 元；22時~10時 每小時 10 元｜機車：20 元/日｜車位：518格（EV充電：10）｜限高：2.0m",
+        "capacity": "518",
+        "capacity:charging": "10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5203,
+          25.0687
+        ]
+      },
+      "properties": {
+        "name": "花博公園圓山地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中山區",
+        "addr:full": "臺北市中山區玉門街1號地下1層",
+        "ref:tpe": "TPE0007",
+        "charge": "08-22 每小時 20 元；22-08 每小時 10 元",
+        "description": "【中山區】花博公園圓山地下停車場｜費率：08-22 每小時 20 元；22-08 每小時 10 元｜機車：無機車位｜車位：105格（EV充電：2）｜限高：2.0m",
+        "capacity": "105",
+        "capacity:charging": "2",
+        "phone": "0800-021-111"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.552658,
+          25.065611
+        ]
+      },
+      "properties": {
+        "name": "北寧路地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區八德路3段25號地下（地下共2層）",
+        "ref:tpe": "TPE0008",
+        "charge": "40 TWD/hour",
+        "description": "【松山區】北寧路地下停車場｜費率：09-21 每小時 40 元；21-09 每小時 30 元｜機車：無機車位｜車位：76格（EV充電：2）｜限高：2.0m",
+        "capacity": "76",
+        "capacity:charging": "2",
+        "phone": "0227995657"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5049,
+          25.0476
+        ]
+      },
+      "properties": {
+        "name": "洛陽綜合立體停車場",
+        "amenity": "parking",
+        "parking": "multi-storey",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區環河南路1段1號",
+        "ref:tpe": "TPE0010",
+        "charge": "20 TWD/hour",
+        "description": "【萬華區】洛陽綜合立體停車場｜費率：08-22 每小時 10 元；22-08 每小時 20 元｜機車：無機車位｜車位：1295格（EV充電：46）｜限高：2.0m",
+        "capacity": "1295",
+        "capacity:charging": "46",
+        "phone": "2381-2484"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5107,
+          25.0441
+        ]
+      },
+      "properties": {
+        "name": "中山堂地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中正區",
+        "addr:full": "臺北市中正區延平南路98號地下1至2層",
+        "ref:tpe": "TPE0011",
+        "charge": "50 TWD/hour",
+        "description": "【中正區】中山堂地下停車場｜費率：08-20 每小時 10 元；20-08 每小時 60 元｜機車：無機車位｜車位：441格（EV充電：9）｜限高：2.0m",
+        "capacity": "441",
+        "capacity:charging": "9",
+        "phone": "2655-0818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5715,
+          25.0495
+        ]
+      },
+      "properties": {
+        "name": "八德立體停車場",
+        "amenity": "parking",
+        "parking": "multi-storey",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區八德路4段580號(地下1層及地上10層)",
+        "ref:tpe": "TPE0051",
+        "charge": "40 TWD/hour",
+        "description": "【松山區】八德立體停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：310格（EV充電：7）｜限高：2.0m",
+        "capacity": "310",
+        "capacity:charging": "7",
+        "phone": "0226550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5631,
+          25.0599
+        ]
+      },
+      "properties": {
+        "name": "民生社區中心地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區民生東路5段163之1號地下室［地下2至3］層",
+        "ref:tpe": "TPE0054",
+        "charge": "30 TWD/hour",
+        "description": "【松山區】民生社區中心地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：151格（EV充電：3）｜限高：2.0m",
+        "capacity": "151",
+        "capacity:charging": "3",
+        "phone": "0222408767"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5105,
+          25.051
+        ]
+      },
+      "properties": {
+        "name": "塔城公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大同區",
+        "addr:full": "臺北市大同區塔城街11號地下共2層",
+        "ref:tpe": "TPE0056",
+        "charge": "30 TWD/hour",
+        "description": "【大同區】塔城公園地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：157格（EV充電：4）｜限高：2.0m",
+        "capacity": "157",
+        "capacity:charging": "4",
+        "phone": "0226550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5234,
+          25.0857
+        ]
+      },
+      "properties": {
+        "name": "百齡高中地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "士林區",
+        "addr:full": "臺北市士林區承德路4段175號地下",
+        "ref:tpe": "TPE0058",
+        "charge": "40 TWD/hour",
+        "description": "【士林區】百齡高中地下停車場｜費率：00-09 每小時 40 元；09-22 每小時 10 元｜機車：無機車位｜車位：231格（EV充電：5）｜限高：2.0m",
+        "capacity": "231",
+        "capacity:charging": "5",
+        "phone": "0228836364"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.518749,
+          25.056712
+        ]
+      },
+      "properties": {
+        "name": "台大醫院停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中正區",
+        "addr:full": "臺北市中正區中山南路7號地下1至2層",
+        "ref:tpe": "TPE0060",
+        "charge": "50 TWD/hour",
+        "description": "【中正區】台大醫院停車場｜費率：全日每小時 50 元（全程半小時計）｜機車：無機車位｜車位：196格（EV充電：0）｜限高：2.0m",
+        "capacity": "196",
+        "phone": "23123456"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5214,
+          25.0859
+        ]
+      },
+      "properties": {
+        "name": "前港公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "士林區",
+        "addr:full": "臺北市士林區前港街45號地下",
+        "ref:tpe": "TPE0062",
+        "charge": "30 TWD/hour",
+        "description": "【士林區】前港公園地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：528格（EV充電：14）｜限高：2.0m",
+        "capacity": "528",
+        "capacity:charging": "14",
+        "phone": "0228817033"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5664,
+          25.037
+        ]
+      },
+      "properties": {
+        "name": "松壽廣場地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區松智路15號（地下共3層）",
+        "ref:tpe": "TPE0070",
+        "charge": "30 TWD/hour",
+        "description": "【信義區】松壽廣場地下停車場｜費率：09-22 每小時 10 元；22-09 每小時 60 元｜機車：無機車位｜車位：446格（EV充電：8）｜限高：2.0m",
+        "capacity": "446",
+        "capacity:charging": "8",
+        "phone": "0226550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5637,
+          25.0441
+        ]
+      },
+      "properties": {
+        "name": "松山高中地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區基隆路1段156號地下",
+        "ref:tpe": "TPE0072",
+        "charge": "30 TWD/hour",
+        "description": "【信義區】松山高中地下停車場｜費率：08-20 每小時 10 元；20-08 每小時 30 元｜機車：無機車位｜車位：226格（EV充電：6）｜限高：2.0m",
+        "capacity": "226",
+        "capacity:charging": "6",
+        "phone": "0227685492"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5806,
+          25.0468
+        ]
+      },
+      "properties": {
+        "name": "五分埔公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區中坡北路57號地下",
+        "ref:tpe": "TPE0075",
+        "charge": "40 TWD/hour",
+        "description": "【信義區】五分埔公園地下停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：無機車位｜車位：209格（EV充電：5）｜限高：2.0m",
+        "capacity": "209",
+        "capacity:charging": "5",
+        "phone": "0227606275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.558364,
+          25.061732
+        ]
+      },
+      "properties": {
+        "name": "民權公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區民權東路4段180號地下(地下共3層)",
+        "ref:tpe": "TPE0082",
+        "charge": "30 TWD/hour",
+        "description": "【松山區】民權公園地下停車場｜費率：08-22 每小時 30 元；22-08 每小時 10 元｜機車：無機車位｜車位：716格（EV充電：14）｜限高：2.0m",
+        "capacity": "716",
+        "capacity:charging": "14",
+        "phone": "0227676903"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5317,
+          25.0296
+        ]
+      },
+      "properties": {
+        "name": "金華公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大安區",
+        "addr:full": "臺北市大安區金華街190號地下",
+        "ref:tpe": "TPE0086",
+        "charge": "50 TWD/hour",
+        "description": "【大安區】金華公園地下停車場｜費率：08:00–22:00 每小時 50 元；22:00–08:00 每小時 10 元｜機車：無機車位｜車位：193格（EV充電：5）｜限高：2.0m",
+        "capacity": "193",
+        "capacity:charging": "5",
+        "phone": "022357-8564"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5202,
+          25.0374
+        ]
+      },
+      "properties": {
+        "name": "兩廳院地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中正區",
+        "addr:full": "臺北市中正區中山南路21-1號地下1層",
+        "ref:tpe": "TPE0088",
+        "charge": "50 TWD/hour",
+        "description": "【中正區】兩廳院地下停車場｜費率：全日每小時 50 元（全程半小時計）｜機車：無機車位｜車位：695格（EV充電：14）｜限高：2.0m",
+        "capacity": "695",
+        "capacity:charging": "14",
+        "phone": "2705-7716"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5099,
+          25.0239
+        ]
+      },
+      "properties": {
+        "name": "古亭國中地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區中華路2段606巷1號地下",
+        "ref:tpe": "TPE0092",
+        "charge": "30 TWD/hour",
+        "description": "【萬華區】古亭國中地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：260格（EV充電：7）｜限高：2.0m",
+        "capacity": "260",
+        "capacity:charging": "7",
+        "phone": "23390684"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5438,
+          24.9951
+        ]
+      },
+      "properties": {
+        "name": "景華公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區景華街55號地下(地下共2層)",
+        "ref:tpe": "TPE0094",
+        "charge": "20 TWD/hour",
+        "description": "【文山區】景華公園地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：無機車位｜車位：750格（EV充電：20）｜限高：2.0m",
+        "capacity": "750",
+        "capacity:charging": "20",
+        "phone": "8919-3669"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5374,
+          25.0319
+        ]
+      },
+      "properties": {
+        "name": "大安森林公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大安區",
+        "addr:full": "臺北市大安區建國南路2段2號地下",
+        "ref:tpe": "TPE0095",
+        "charge": "20 TWD/hour",
+        "description": "【大安區】大安森林公園地下停車場｜費率：08時~23時 每小時 10 元；23時~08時 每小時 40 元｜機車：10 元/時（當日上限 20 元）｜車位：1360格（EV充電：37）｜限高：2.0m",
+        "capacity": "1360",
+        "capacity:charging": "37",
+        "phone": "022709-2940"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.563,
+          25.0359
+        ]
+      },
+      "properties": {
+        "name": "府前廣場地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區松壽路1號(地下共2層)",
+        "ref:tpe": "TPE0096",
+        "charge": "30 TWD/hour",
+        "description": "【信義區】府前廣場地下停車場｜費率：09-18 每小時 10 元；19-08 每小時 10 元｜機車：10 元/時（當日上限 20 元）｜車位：1998格（EV充電：40）｜限高：2.0m",
+        "capacity": "1998",
+        "capacity:charging": "40",
+        "phone": "0226550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5409,
+          25.0328
+        ]
+      },
+      "properties": {
+        "name": "大安高工地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大安區",
+        "addr:full": "臺北市大安區信義路3段166巷6弄12號地下(共2層)",
+        "ref:tpe": "TPE0098",
+        "charge": "50 TWD/hour",
+        "description": "【大安區】大安高工地下停車場｜費率：09-21 每小時 50 元；21-09 每小時 10 元｜機車：無機車位｜車位：522格（EV充電：14）｜限高：2.0m",
+        "capacity": "522",
+        "capacity:charging": "14",
+        "phone": "022655-0818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5192,
+          25.0482
+        ]
+      },
+      "properties": {
+        "name": "市民大道公中段停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中山區",
+        "addr:full": "臺北市中山區公園路至中山北路地下室",
+        "ref:tpe": "TPE0099",
+        "charge": "40 TWD/hour",
+        "description": "【中山區】市民大道公中段停車場｜費率：08-18 每小時 40 元；18-08 每小時 10 元｜機車：無機車位｜車位：186格（EV充電：8）｜限高：2.0m",
+        "capacity": "186",
+        "capacity:charging": "8",
+        "phone": "2655-0818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5222,
+          25.048
+        ]
+      },
+      "properties": {
+        "name": "市民大道中林段停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中山區",
+        "addr:full": "臺北市中山區市民大道2段(中山北路至林森北路)地下1-2層",
+        "ref:tpe": "TPE0100",
+        "charge": "30 TWD/hour",
+        "description": "【中山區】市民大道中林段停車場｜費率：09-18 每小時 20 元；18-09 每小時 20 元｜機車：無機車位｜車位：496格（EV充電：10）｜限高：2.0m",
+        "capacity": "496",
+        "capacity:charging": "10",
+        "phone": "2655-0818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5426,
+          25.0361
+        ]
+      },
+      "properties": {
+        "name": "附中公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大安區",
+        "addr:full": "臺北市大安區復興南路1段340巷11號地下1至2層",
+        "ref:tpe": "TPE0106",
+        "charge": "50 TWD/hour",
+        "description": "【大安區】附中公園地下停車場｜費率：08-21 每小時 50 元；21-08 每小時 10 元｜機車：無機車位｜車位：115格（EV充電：2）｜限高：2.0m",
+        "capacity": "115",
+        "capacity:charging": "2",
+        "phone": "022655-0818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5729,
+          25.0348
+        ]
+      },
+      "properties": {
+        "name": "興雅國中地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區松德路200巷18號地下",
+        "ref:tpe": "TPE0108",
+        "charge": "30 TWD/hour",
+        "description": "【信義區】興雅國中地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：447格（EV充電：11）｜限高：2.0m",
+        "capacity": "447",
+        "capacity:charging": "11",
+        "phone": "0227585499"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5405,
+          25.0447
+        ]
+      },
+      "properties": {
+        "name": "市民大道建復段停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中山區",
+        "addr:full": "臺北市中山區市民大道3段(建國南路至復興南路)地下(地下共1層)",
+        "ref:tpe": "TPE0109",
+        "charge": "30 TWD/hour",
+        "description": "【中山區】市民大道建復段停車場｜費率：08-12 每小時 40 元；12-23 每小時 20 元｜機車：無機車位｜車位：178格（EV充電：4）｜限高：2.0m",
+        "capacity": "178",
+        "capacity:charging": "4",
+        "phone": "2799-5657"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5256,
+          25.0477
+        ]
+      },
+      "properties": {
+        "name": "市民大道林金段停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中山區",
+        "addr:full": "臺北市中山區市民大道2段(林森北路至金山北路)地下1至2層",
+        "ref:tpe": "TPE0110",
+        "charge": "30 TWD/hour",
+        "description": "【中山區】市民大道林金段停車場｜費率：09-18 每小時 20 元；18-09 每小時 20 元｜機車：無機車位｜車位：973格（EV充電：19）｜限高：2.0m",
+        "capacity": "973",
+        "capacity:charging": "19",
+        "phone": "2655-0818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5377,
+          25.0462
+        ]
+      },
+      "properties": {
+        "name": "進安公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中山區",
+        "addr:full": "臺北市中山區八德路2段158號地下1至3層",
+        "ref:tpe": "TPE0120",
+        "charge": "30 TWD/hour",
+        "description": "【中山區】進安公園地下停車場｜費率：07-20 每小時 30 元；20-07 每小時 000 元｜機車：無機車位｜車位：151格（EV充電：3）｜限高：2.0m",
+        "capacity": "151",
+        "capacity:charging": "3",
+        "phone": "2502-3333"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5105,
+          25.0582
+        ]
+      },
+      "properties": {
+        "name": "大稻埕公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大同區",
+        "addr:full": "臺北市大同區歸綏街243號地下",
+        "ref:tpe": "TPE0122",
+        "charge": "40 TWD/hour",
+        "description": "【大同區】大稻埕公園地下停車場｜費率：08-19 每小時 10 元；08-19 每小時 10 元｜機車：無機車位｜車位：198格（EV充電：4）｜限高：2.0m",
+        "capacity": "198",
+        "capacity:charging": "4",
+        "phone": "2455-1299"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5583,
+          25.006
+        ]
+      },
+      "properties": {
+        "name": "辛亥國小地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區辛亥路4段103號地下共2層",
+        "ref:tpe": "TPE0128",
+        "charge": "20 TWD/hour",
+        "description": "【文山區】辛亥國小地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：無機車位｜車位：129格（EV充電：3）｜限高：2.0m",
+        "capacity": "129",
+        "capacity:charging": "3",
+        "phone": "2557-3722#0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5518,
+          25.0516
+        ]
+      },
+      "properties": {
+        "name": "臺北體育館地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區南京東路4段10號地下1至2層",
+        "ref:tpe": "TPE0151",
+        "charge": "40 TWD/hour",
+        "description": "【松山區】臺北體育館地下停車場｜費率：08-20 每小時 30 元；20-08 每小時 230 元｜機車：無機車位｜車位：151格（EV充電：1）｜限高：2.0m",
+        "capacity": "151",
+        "capacity:charging": "1",
+        "phone": "0225798373"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5518,
+          25.0018
+        ]
+      },
+      "properties": {
+        "name": "驛林交通股份有限公司興隆站",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區興隆路2段160號地下1、2層",
+        "ref:tpe": "TPE0153",
+        "charge": "30 TWD/hour",
+        "description": "【文山區】驛林交通股份有限公司興隆站｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：46格（EV充電：1）｜限高：2.0m",
+        "capacity": "46",
+        "capacity:charging": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5476,
+          25.0449
+        ]
+      },
+      "properties": {
+        "name": "市民大道復敦段停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區市民大道4段(復興南路至敦化南路)地下(地下共2層)",
+        "ref:tpe": "TPE0155",
+        "charge": "30 TWD/hour",
+        "description": "【松山區】市民大道復敦段停車場｜費率：08-12 每小時 40 元；12-23 每小時 20 元｜機車：無機車位｜車位：214格（EV充電：4）｜限高：2.0m",
+        "capacity": "214",
+        "capacity:charging": "4",
+        "phone": "2799-5657"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5203,
+          25.0603
+        ]
+      },
+      "properties": {
+        "name": "成淵高中地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大同區",
+        "addr:full": "臺北市大同區承德路2段235號之1地下",
+        "ref:tpe": "TPE0156",
+        "charge": "40 TWD/hour",
+        "description": "【大同區】成淵高中地下停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：無機車位｜車位：269格（EV充電：8）｜限高：2.0m",
+        "capacity": "269",
+        "capacity:charging": "8",
+        "phone": "2799-5657"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.586,
+          25.0458
+        ]
+      },
+      "properties": {
+        "name": "成德立體停車場",
+        "amenity": "parking",
+        "parking": "multi-storey",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "南港區",
+        "addr:full": "臺北市南港區成福路1號",
+        "ref:tpe": "TPE0157",
+        "charge": "30 TWD/hour",
+        "description": "【南港區】成德立體停車場｜費率：07-19 每小時 30 元；19-07 每小時 400 元｜機車：無機車位｜車位：180格（EV充電：0）｜限高：2.0m",
+        "capacity": "180",
+        "phone": "0222408767"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5391,
+          25.1545
+        ]
+      },
+      "properties": {
+        "name": "陽明山立體停車場",
+        "amenity": "parking",
+        "parking": "multi-storey",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "北投區",
+        "addr:full": "臺北市北投區湖山路(陽明山公園大門口旁)",
+        "ref:tpe": "TPE0160",
+        "charge": "20 TWD/hour",
+        "description": "【北投區】陽明山立體停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：20 元/日｜車位：209格（EV充電：6）｜限高：2.0m",
+        "capacity": "209",
+        "capacity:charging": "6",
+        "phone": "0227057716"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5507,
+          25.0447
+        ]
+      },
+      "properties": {
+        "name": "市民大道敦延段停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區市民大道4段(敦化南路至延吉街)地下(地下共2層)",
+        "ref:tpe": "TPE0163",
+        "charge": "30 TWD/hour",
+        "description": "【松山區】市民大道敦延段停車場｜費率：08-12 每小時 40 元；12-23 每小時 20 元｜機車：無機車位｜車位：217格（EV充電：4）｜限高：2.0m",
+        "capacity": "217",
+        "capacity:charging": "4",
+        "phone": "022799-5657"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5522,
+          25.0444
+        ]
+      },
+      "properties": {
+        "name": "市民大道延吉段停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區市民大道4段(延吉街兩側)地下(地下共1層)",
+        "ref:tpe": "TPE0164",
+        "charge": "30 TWD/hour",
+        "description": "【松山區】市民大道延吉段停車場｜費率：08-12 每小時 40 元；12-23 每小時 20 元｜機車：無機車位｜車位：79格（EV充電：2）｜限高：2.0m",
+        "capacity": "79",
+        "capacity:charging": "2",
+        "phone": "022799-5657"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5042,
+          25.131
+        ]
+      },
+      "properties": {
+        "name": "大豐公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "北投區",
+        "addr:full": "臺北市北投區大興街145號地下",
+        "ref:tpe": "TPE0169",
+        "charge": "40 TWD/hour",
+        "description": "【北投區】大豐公園地下停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：無機車位｜車位：234格（EV充電：6）｜限高：2.0m",
+        "capacity": "234",
+        "capacity:charging": "6",
+        "phone": "0228921209"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5335,
+          25.0641
+        ]
+      },
+      "properties": {
+        "name": "中山區行政中心停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中山區",
+        "addr:full": "臺北市中山區松江路367號地下2層",
+        "ref:tpe": "TPE0176",
+        "charge": "計時：洽公民眾30分鐘以下者免費，逾30分鐘至1小時，收費30元。逾1",
+        "description": "【中山區】中山區行政中心停車場｜費率：計時：洽公民眾30分鐘以下者免費，逾30分鐘至1小時，收費30元。逾1｜機車：10 元/時（當日上限 20 元）｜車位：63格（EV充電：1）｜限高：2.0m",
+        "capacity": "63",
+        "capacity:charging": "1",
+        "phone": "022503-1369#205"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5627,
+          25.056
+        ]
+      },
+      "properties": {
+        "name": "健康國小地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區延壽街168號地下層［地下2層］",
+        "ref:tpe": "TPE0177",
+        "charge": "30 TWD/hour",
+        "description": "【松山區】健康國小地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：193格（EV充電：4）｜限高：2.0m",
+        "capacity": "193",
+        "capacity:charging": "4",
+        "phone": "0226550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6069,
+          25.055
+        ]
+      },
+      "properties": {
+        "name": "南港區行政中心地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "南港區",
+        "addr:full": "臺北市南港區南港路1段360號地下1層",
+        "ref:tpe": "TPE0186",
+        "charge": "計時:洽公臨時停車前30分鐘免費，逾半小時未滿1小時30元，逾1小時部",
+        "description": "【南港區】南港區行政中心地下停車場｜費率：計時:洽公臨時停車前30分鐘免費，逾半小時未滿1小時30元，逾1小時部｜機車：無機車位｜車位：8格（EV充電：0）｜限高：2.0m",
+        "capacity": "8",
+        "phone": "27831343分機203"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4659,
+          25.1209
+        ]
+      },
+      "properties": {
+        "name": "臺北市立關渡醫院停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "北投區",
+        "addr:full": "臺北市北投區知行路225巷12號地下2層",
+        "ref:tpe": "TPE0194",
+        "charge": "30 TWD/hour",
+        "description": "【北投區】臺北市立關渡醫院停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：51格（EV充電：0）｜限高：2.0m",
+        "capacity": "51",
+        "phone": "(02)28587000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5181,
+          25.0486
+        ]
+      },
+      "properties": {
+        "name": "台北地下街停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中正區",
+        "addr:full": "臺北市中正區市民大道1段100號地下2層",
+        "ref:tpe": "TPE0220",
+        "charge": "50 TWD/hour",
+        "description": "【中正區】台北地下街停車場｜費率：全日每小時 50 元（全程半小時計）｜機車：無機車位｜車位：392格（EV充電：8）｜限高：2.0m",
+        "capacity": "392",
+        "capacity:charging": "8",
+        "phone": "25507513"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6066,
+          25.0561
+        ]
+      },
+      "properties": {
+        "name": "興中立體停車場",
+        "amenity": "parking",
+        "parking": "multi-storey",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "南港區",
+        "addr:full": "臺北市南港區興中路44巷1號",
+        "ref:tpe": "TPE0229",
+        "charge": "20 TWD/hour",
+        "description": "【南港區】興中立體停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：20 元/日｜車位：638格（EV充電：16）｜限高：2.0m",
+        "capacity": "638",
+        "capacity:charging": "16",
+        "phone": "0227832912"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5684,
+          25.0402
+        ]
+      },
+      "properties": {
+        "name": "忠信廣場地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區松仁路2號地下",
+        "ref:tpe": "TPE0230",
+        "charge": "50 TWD/hour",
+        "description": "【信義區】忠信廣場地下停車場｜費率：10時~22時 每小時 50 元；22時~10時 每小時 50 元｜機車：10 元/時（當日上限 20 元）｜車位：317格（EV充電：8）｜限高：2.0m",
+        "capacity": "317",
+        "capacity:charging": "8",
+        "phone": "0223459578"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5098,
+          25.0504
+        ]
+      },
+      "properties": {
+        "name": "市民大道塔城段停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大同區",
+        "addr:full": "臺北市大同區西寧北路至塔城街(地下)",
+        "ref:tpe": "TPE0231",
+        "charge": "30 TWD/hour",
+        "description": "【大同區】市民大道塔城段停車場｜費率：08-20 每小時 10 元；18-09 每小時 650 元｜機車：無機車位｜車位：254格（EV充電：8）｜限高：2.0m",
+        "capacity": "254",
+        "capacity:charging": "8",
+        "phone": "0226550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5196,
+          25.0503
+        ]
+      },
+      "properties": {
+        "name": "建成國中地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大同區",
+        "addr:full": "臺北市大同區長安西路37號之一地下",
+        "ref:tpe": "TPE0239",
+        "charge": "50 TWD/hour",
+        "description": "【大同區】建成國中地下停車場｜費率：08-22 每小時 10 元；22-08 每小時 10 元｜機車：10 元/時｜車位：326格（EV充電：8）｜限高：2.0m",
+        "capacity": "326",
+        "capacity:charging": "8",
+        "phone": "2759-0666"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5061,
+          25.0895
+        ]
+      },
+      "properties": {
+        "name": "社園立體停車場",
+        "amenity": "parking",
+        "parking": "multi-storey",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "士林區",
+        "addr:full": "臺北市士林區延平北路6段180號",
+        "ref:tpe": "TPE0242",
+        "charge": "20 TWD/hour",
+        "description": "【士林區】社園立體停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：無機車位｜車位：266格（EV充電：0）｜限高：2.0m",
+        "capacity": "266",
+        "phone": "0229942818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5524,
+          25.0146
+        ]
+      },
+      "properties": {
+        "name": "助安企業股份有限公司懷愛館地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大安區",
+        "addr:full": "臺北市大安區辛亥路3段330號",
+        "ref:tpe": "TPE0255",
+        "charge": "50 TWD/hour",
+        "description": "【大安區】助安企業股份有限公司懷愛館地下停車場｜費率：全日每小時 50 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：245格（EV充電：7）｜限高：2.0m",
+        "capacity": "245",
+        "capacity:charging": "7",
+        "phone": "27546661"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5575,
+          24.9997
+        ]
+      },
+      "properties": {
+        "name": "萬芳醫院附設停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區興隆路3段111號地下2、3層",
+        "ref:tpe": "TPE0270",
+        "charge": "50 TWD/hour",
+        "description": "【文山區】萬芳醫院附設停車場｜費率：全日每小時 50 元（全程半小時計）｜機車：20 元/日｜車位：255格（EV充電：6）｜限高：2.0m",
+        "capacity": "255",
+        "capacity:charging": "6",
+        "phone": "29307930"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4915,
+          25.0279
+        ]
+      },
+      "properties": {
+        "name": "雙園國中地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區西園路2段320巷55弄3號地下",
+        "ref:tpe": "TPE0288",
+        "charge": "30 TWD/hour",
+        "description": "【萬華區】雙園國中地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：321格（EV充電：8）｜限高：2.0m",
+        "capacity": "321",
+        "capacity:charging": "8",
+        "phone": "23016115"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5074,
+          25.025
+        ]
+      },
+      "properties": {
+        "name": "青年公園高爾夫球場地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區國興路5號地下共2層",
+        "ref:tpe": "TPE0305",
+        "charge": "30 TWD/hour",
+        "description": "【萬華區】青年公園高爾夫球場地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：20 元/日｜車位：331格（EV充電：8）｜限高：2.0m",
+        "capacity": "331",
+        "capacity:charging": "8",
+        "phone": "86631858"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5028,
+          25.0239
+        ]
+      },
+      "properties": {
+        "name": "青年公園棒球場地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區青年路69號地下",
+        "ref:tpe": "TPE0318",
+        "charge": "30 TWD/hour",
+        "description": "【萬華區】青年公園棒球場地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：20 元/日｜車位：276格（EV充電：7）｜限高：2.0m",
+        "capacity": "276",
+        "capacity:charging": "7",
+        "phone": "22408767"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5264,
+          25.0522
+        ]
+      },
+      "properties": {
+        "name": "林森公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中山區",
+        "addr:full": "臺北市中山區南京東路1段35號地下［地下1至3層］",
+        "ref:tpe": "TPE0330",
+        "charge": "10 TWD/hour",
+        "description": "【中山區】林森公園地下停車場｜費率：00-08 每小時 40 元；08-24 每小時 10 元｜機車：無機車位｜車位：851格（EV充電：27）｜限高：2.0m",
+        "capacity": "851",
+        "capacity:charging": "27",
+        "phone": "0226550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5664,
+          25.0329
+        ]
+      },
+      "properties": {
+        "name": "信義廣場地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區信義路5段11號地下(地下共2層)",
+        "ref:tpe": "TPE0334",
+        "charge": "50 TWD/hour",
+        "description": "【信義區】信義廣場地下停車場｜費率：08-22 每小時 60 元；22-08 每小時 10 元｜機車：20 元/日｜車位：369格（EV充電：9）｜限高：2.0m",
+        "capacity": "369",
+        "capacity:charging": "9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5137,
+          25.0562
+        ]
+      },
+      "properties": {
+        "name": "朝陽公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大同區",
+        "addr:full": "臺北市大同區重慶北路2段68號地下室［地下共3層］",
+        "ref:tpe": "TPE0354",
+        "charge": "40 TWD/hour",
+        "description": "【大同區】朝陽公園地下停車場｜費率：08-22 每小時 40 元；22-08 每小時 10 元｜機車：無機車位｜車位：244格（EV充電：10）｜限高：2.0m",
+        "capacity": "244",
+        "capacity:charging": "10",
+        "phone": "0225582638"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5614,
+          25.0502
+        ]
+      },
+      "properties": {
+        "name": "中崙高中地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區八德路4段101號地下室（地下2層）",
+        "ref:tpe": "TPE0355",
+        "charge": "30 TWD/hour",
+        "description": "【松山區】中崙高中地下停車場｜費率：07-19 每小時 30 元；19-08 每小時 400 元｜機車：無機車位｜車位：347格（EV充電：7）｜限高：2.0m",
+        "capacity": "347",
+        "capacity:charging": "7",
+        "phone": "0226550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5619,
+          25.0469
+        ]
+      },
+      "properties": {
+        "name": "偶戲博物館地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區市民大道5段99號地下1層",
+        "ref:tpe": "TPE0356",
+        "charge": "30 TWD/hour",
+        "description": "【松山區】偶戲博物館地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：20 元/日｜車位：69格（EV充電：2）｜限高：2.0m",
+        "capacity": "69",
+        "capacity:charging": "2",
+        "phone": "0226550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4906,
+          25.0279
+        ]
+      },
+      "properties": {
+        "name": "萬板地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區艋舺大道462號地下1至2層",
+        "ref:tpe": "TPE0357",
+        "charge": "30 TWD/hour",
+        "description": "【萬華區】萬板地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：180格（EV充電：6）｜限高：2.0m",
+        "capacity": "180",
+        "capacity:charging": "6",
+        "phone": "29441489"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6113,
+          25.067
+        ]
+      },
+      "properties": {
+        "name": "南湖高中運動中心停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區康寧路3段220號地下2層",
+        "ref:tpe": "TPE0358",
+        "charge": "30 TWD/hour",
+        "description": "【內湖區】南湖高中運動中心停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：162格（EV充電：4）｜限高：2.0m",
+        "capacity": "162",
+        "capacity:charging": "4",
+        "phone": "0226341717"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.522,
+          25.0992
+        ]
+      },
+      "properties": {
+        "name": "文昌國小地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "士林區",
+        "addr:full": "臺北市士林區文林路615巷20號地下1至2層",
+        "ref:tpe": "TPE0359",
+        "charge": "20 TWD/hour",
+        "description": "【士林區】文昌國小地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：20 元/日｜車位：222格（EV充電：4）｜限高：2.0m",
+        "capacity": "222",
+        "capacity:charging": "4",
+        "phone": "0228318671"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6161,
+          25.0683
+        ]
+      },
+      "properties": {
+        "name": "東湖國小地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區東湖路115號之1地下",
+        "ref:tpe": "TPE0360",
+        "charge": "40 TWD/hour",
+        "description": "【內湖區】東湖國小地下停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：20 元/日｜車位：359格（EV充電：10）｜限高：2.0m",
+        "capacity": "359",
+        "capacity:charging": "10",
+        "phone": "0226306731"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5156,
+          25.0962
+        ]
+      },
+      "properties": {
+        "name": "國立臺灣科學教育館地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "士林區",
+        "addr:full": "臺北市士林區士商路189號地下2至3層",
+        "ref:tpe": "TPE0373",
+        "charge": "30 TWD/hour",
+        "description": "【士林區】國立臺灣科學教育館地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：20 元/日｜車位：455格（EV充電：10）｜限高：2.0m",
+        "capacity": "455",
+        "capacity:charging": "10",
+        "phone": "0225023333"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.518,
+          25.0448
+        ]
+      },
+      "properties": {
+        "name": "臺大醫院兒童醫院停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中正區",
+        "addr:full": "臺北市中正區中山南路8號地上1及地下2至3層",
+        "ref:tpe": "TPE0387",
+        "charge": "50 TWD/hour",
+        "description": "【中正區】臺大醫院兒童醫院停車場｜費率：全日每小時 50 元（全程半小時計）｜機車：20 元/日｜車位：314格（EV充電：0）｜限高：2.0m",
+        "capacity": "314",
+        "phone": "0800208333"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.539828,
+          25.068994
+        ]
+      },
+      "properties": {
+        "name": "臺北農產運銷股份有限公司第二果菜批發市場地下三樓停車場(濱江市場地下停車場)",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.1",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中山區",
+        "addr:full": "臺北市中山區民族東路336號地下3層",
+        "ref:tpe": "TPE0389",
+        "charge": "30 TWD/hour",
+        "description": "【中山區】臺北農產運銷股份有限公司第二果菜批發市場地下三樓停車場(濱江市場地下停車場)｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：349格（EV充電：7）｜限高：2.1m",
+        "capacity": "349",
+        "capacity:charging": "7",
+        "phone": "0225162519#1122"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4998,
+          25.0345
+        ]
+      },
+      "properties": {
+        "name": "臺北市萬華區行政中心地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區和平西路3段120號地下1至5層",
+        "ref:tpe": "TPE0401",
+        "charge": "30 TWD/hour",
+        "description": "【萬華區】臺北市萬華區行政中心地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：20 元/日｜車位：205格（EV充電：4）｜限高：2.0m",
+        "capacity": "205",
+        "capacity:charging": "4",
+        "phone": "23064468"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.539481,
+          25.000672
+        ]
+      },
+      "properties": {
+        "name": "臺北花木批發市場地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區興隆路1段15號地下(地下共2層)",
+        "ref:tpe": "TPE0410",
+        "charge": "20 TWD/hour",
+        "description": "【文山區】臺北花木批發市場地下停車場｜費率：20 元/時（半小時 10 元）｜機車：10 元/時（當日上限 20 元）｜車位：411格（EV充電：12）｜限高：2.0m",
+        "capacity": "411",
+        "capacity:charging": "12",
+        "phone": "8663-1858"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5811,
+          25.0426
+        ]
+      },
+      "properties": {
+        "name": "春光公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區忠孝東路5段666號地下1至3層",
+        "ref:tpe": "TPE0421",
+        "charge": "30 TWD/hour",
+        "description": "【信義區】春光公園地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：214格（EV充電：5）｜限高：2.0m",
+        "capacity": "214",
+        "capacity:charging": "5",
+        "phone": "2944-1489"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5248,
+          25.0593
+        ]
+      },
+      "properties": {
+        "name": "永盛公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中山區",
+        "addr:full": "臺北市中山區中山北路2段93巷30號地下",
+        "ref:tpe": "TPE0425",
+        "charge": "50 TWD/hour",
+        "description": "【中山區】永盛公園地下停車場｜費率：全日每小時 50 元（全程半小時計）｜機車：20 元/日｜車位：224格（EV充電：6）｜限高：2.0m",
+        "capacity": "224",
+        "capacity:charging": "6",
+        "phone": "2759-0666"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5179,
+          25.0469
+        ]
+      },
+      "properties": {
+        "name": "台北車站K區地下街停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中正區",
+        "addr:full": "臺北市中正區忠孝西路1段47號地下2層",
+        "ref:tpe": "TPE0446",
+        "charge": "50 TWD/hour",
+        "description": "【中正區】台北車站K區地下街停車場｜費率：全日每小時 50 元（全程半小時計）｜機車：無機車位｜車位：188格（EV充電：4）｜限高：2.0m",
+        "capacity": "188",
+        "capacity:charging": "4",
+        "phone": "2314-1219"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5379,
+          25.0241
+        ]
+      },
+      "properties": {
+        "name": "龍門國中地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大安區",
+        "addr:full": "臺北市大安區建國南路2段269號地下",
+        "ref:tpe": "TPE0449",
+        "charge": "30 TWD/hour",
+        "description": "【大安區】龍門國中地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：20 元/日｜車位：730格（EV充電：19）｜限高：2.0m",
+        "capacity": "730",
+        "capacity:charging": "19",
+        "phone": "022732-6469"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4993,
+          25.0362
+        ]
+      },
+      "properties": {
+        "name": "艋舺公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區西園路1段145號地下室",
+        "ref:tpe": "TPE0450",
+        "charge": "30 TWD/hour",
+        "description": "【萬華區】艋舺公園地下停車場｜費率：08時~22時 每小時 40 元；22時~08時 每小時 10 元｜機車：10 元/時｜車位：518格（EV充電：10）｜限高：2.0m",
+        "capacity": "518",
+        "capacity:charging": "10",
+        "phone": "2799-5657"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.524,
+          25.0437
+        ]
+      },
+      "properties": {
+        "name": "台北市青島社區管理委員會停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中正區",
+        "addr:full": "臺北市中正區青島東路21號地下2層",
+        "ref:tpe": "TPE0458",
+        "charge": "40 TWD/hour",
+        "description": "【中正區】台北市青島社區管理委員會停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：無機車位｜車位：81格（EV充電：0）｜限高：2.0m",
+        "capacity": "81",
+        "phone": "2396-8175"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.522702,
+          25.105579
+        ]
+      },
+      "properties": {
+        "name": "基河路10號國宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "士林區",
+        "addr:full": "臺北市士林區基河路132號地下1、3層",
+        "ref:tpe": "TPE0469",
+        "charge": "小型車：",
+        "description": "【士林區】基河路10號國宅地下停車場｜費率：小型車：｜機車：無機車位｜車位：9格（EV充電：0）｜限高：2.0m",
+        "capacity": "9",
+        "phone": "0228826200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5493,
+          25.05
+        ]
+      },
+      "properties": {
+        "name": "嘟嘟房台北小巨蛋站停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區南京東路4段2號地下1至2層",
+        "ref:tpe": "TPE0476",
+        "charge": "40 TWD/hour",
+        "description": "【松山區】嘟嘟房台北小巨蛋站停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：20 元/日｜車位：476格（EV充電：10）｜限高：2.0m",
+        "capacity": "476",
+        "capacity:charging": "10",
+        "phone": "0226550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6017,
+          25.0733
+        ]
+      },
+      "properties": {
+        "name": "麗湖國小地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區金湖路363巷8號地下(地下共1層)",
+        "ref:tpe": "TPE0482",
+        "charge": "20 TWD/hour",
+        "description": "【內湖區】麗湖國小地下停車場｜費率：08-18 每小時 10 元；18-08 每小時 500 元｜機車：無機車位｜車位：229格（EV充電：5）｜限高：2.0m",
+        "capacity": "229",
+        "capacity:charging": "5",
+        "phone": "27661258"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5755,
+          25.0005
+        ]
+      },
+      "properties": {
+        "name": "博嘉運動公園停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區木柵路4段159巷16號地上1及地下2層",
+        "ref:tpe": "TPE0486",
+        "charge": "20 TWD/hour",
+        "description": "【文山區】博嘉運動公園停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：無機車位｜車位：36格（EV充電：0）｜限高：2.0m",
+        "capacity": "36",
+        "phone": "22395494"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5218,
+          25.0396
+        ]
+      },
+      "properties": {
+        "name": "宏達經營管理顧問有限公司徐州停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中正區",
+        "addr:full": "臺北市中正區徐州路2號地下2至3層",
+        "ref:tpe": "TPE0497",
+        "charge": "50 TWD/hour",
+        "description": "【中正區】宏達經營管理顧問有限公司徐州停車場｜費率：全日每小時 50 元（全程半小時計）｜機車：無機車位｜車位：83格（EV充電：0）｜限高：2.0m",
+        "capacity": "83",
+        "phone": "22835158"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.538796,
+          25.047002
+        ]
+      },
+      "properties": {
+        "name": "臺北市大安福邸公寓大廈社區中庭地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大安區",
+        "addr:full": "臺北市大安區信義路3段134巷40號地下1層",
+        "ref:tpe": "TPE0500",
+        "charge": "40 TWD/hour",
+        "description": "【大安區】臺北市大安福邸公寓大廈社區中庭地下停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：無機車位｜車位：204格（EV充電：4）｜限高：2.0m",
+        "capacity": "204",
+        "capacity:charging": "4",
+        "phone": "2601-6611"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.567,
+          25.0304
+        ]
+      },
+      "properties": {
+        "name": "三張里地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區松平路81號地下室(地下共3層)",
+        "ref:tpe": "TPE0505",
+        "charge": "30 TWD/hour",
+        "description": "【信義區】三張里地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：354格（EV充電：10）｜限高：2.0m",
+        "capacity": "354",
+        "capacity:charging": "10",
+        "phone": "0225573722"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.547147,
+          25.060678
+        ]
+      },
+      "properties": {
+        "name": "民有市場地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區民權東路3段140巷15號地下",
+        "ref:tpe": "TPE0534",
+        "charge": "30 TWD/hour",
+        "description": "【松山區】民有市場地下停車場｜費率：30 元/時（115/11/1起 40 元）｜機車：10 元/時（當日上限 20 元）｜車位：334格（EV充電：9）｜限高：2.0m",
+        "capacity": "334",
+        "capacity:charging": "9",
+        "phone": "0287125731"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5619,
+          25.0795
+        ]
+      },
+      "properties": {
+        "name": "濱江國中地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.1",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中山區",
+        "addr:full": "臺北市中山區樂群二路266巷1號地下",
+        "ref:tpe": "TPE0535",
+        "charge": "20 TWD/hour",
+        "description": "【中山區】濱江國中地下停車場｜費率：08時~18時 每小時 20 元；18時~08時 每小時 10 元｜機車：10 元/時｜車位：209格（EV充電：5）｜限高：2.1m",
+        "capacity": "209",
+        "capacity:charging": "5",
+        "phone": "2502-3333"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5131,
+          25.1145
+        ]
+      },
+      "properties": {
+        "name": "石牌國小地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "北投區",
+        "addr:full": "臺北市北投區致遠二路80號地下1至3層",
+        "ref:tpe": "TPE0537",
+        "charge": "30 TWD/hour",
+        "description": "【北投區】石牌國小地下停車場｜費率：07-19 每小時 30 元；19-08 每小時 000 元｜機車：20 元/日｜車位：461格（EV充電：10）｜限高：2.0m",
+        "capacity": "461",
+        "capacity:charging": "10",
+        "phone": "0228237886"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5085,
+          25.081
+        ]
+      },
+      "properties": {
+        "name": "海光公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "士林區",
+        "addr:full": "臺北市士林區葫蘆街83號地下",
+        "ref:tpe": "TPE0538",
+        "charge": "20 TWD/hour",
+        "description": "【士林區】海光公園地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：無機車位｜車位：105格（EV充電：4）｜限高：2.0m",
+        "capacity": "105",
+        "capacity:charging": "4",
+        "phone": "0228137344"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5783,
+          25.0806
+        ]
+      },
+      "properties": {
+        "name": "港富立體停車場",
+        "amenity": "parking",
+        "parking": "multi-storey",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區內湖路1段737巷50弄32號",
+        "ref:tpe": "TPE0540",
+        "charge": "30 TWD/hour",
+        "description": "【內湖區】港富立體停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：245格（EV充電：0）｜限高：2.0m",
+        "capacity": "245",
+        "phone": "0229942818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.549862,
+          25.003335
+        ]
+      },
+      "properties": {
+        "name": "國家考場地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區木柵路1段72號地下1-2層",
+        "ref:tpe": "TPE0544",
+        "charge": "30 TWD/hour",
+        "description": "【文山區】國家考場地下停車場｜費率：08-18 每小時 30 元；18-08 每小時 20 元｜機車：20 元/日｜車位：24格（EV充電：0）｜限高：2.0m",
+        "capacity": "24"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5108,
+          25.0822
+        ]
+      },
+      "properties": {
+        "name": "全之駐葫蘆堵停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "士林區",
+        "addr:full": "臺北市士林區延平北路5段136巷1號地下1至3層",
+        "ref:tpe": "TPE0559",
+        "charge": "30 TWD/hour",
+        "description": "【士林區】全之駐葫蘆堵停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：54格（EV充電：0）｜限高：2.0m",
+        "capacity": "54",
+        "phone": "062992256"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5659,
+          25.0286
+        ]
+      },
+      "properties": {
+        "name": "臺北市災害應變中心地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區莊敬路391巷11弄2號地下",
+        "ref:tpe": "TPE0567",
+        "charge": "30 TWD/hour",
+        "description": "【信義區】臺北市災害應變中心地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：169格（EV充電：4）｜限高：2.0m",
+        "capacity": "169",
+        "capacity:charging": "4",
+        "phone": "0223453859"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.496,
+          25.0287
+        ]
+      },
+      "properties": {
+        "name": "華江高中活動中心地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區西藏路213號地下1層",
+        "ref:tpe": "TPE0570",
+        "charge": "30 TWD/hour",
+        "description": "【萬華區】華江高中活動中心地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：38格（EV充電：1）｜限高：2.0m",
+        "capacity": "38",
+        "capacity:charging": "1",
+        "phone": "2339-6689"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4994,
+          25.0335
+        ]
+      },
+      "properties": {
+        "name": "萬華車站地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區康定路382號地下1至2層",
+        "ref:tpe": "TPE0575",
+        "charge": "30 TWD/hour",
+        "description": "【萬華區】萬華車站地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：297格（EV充電：6）｜限高：2.0m",
+        "capacity": "297",
+        "capacity:charging": "6",
+        "phone": "22408767"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5904,
+          25.0676
+        ]
+      },
+      "properties": {
+        "name": "湖興立體停車場",
+        "amenity": "parking",
+        "parking": "multi-storey",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區成功路2段322號",
+        "ref:tpe": "TPE0604",
+        "charge": "30 TWD/hour",
+        "description": "【內湖區】湖興立體停車場｜費率：07-22 每小時 30 元；22-07 每小時 10 元｜機車：無機車位｜車位：251格（EV充電：0）｜限高：2.0m",
+        "capacity": "251",
+        "phone": "0224551299"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5313,
+          25.0505
+        ]
+      },
+      "properties": {
+        "name": "長安國小地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中山區",
+        "addr:full": "臺北市中山區松江路90巷14號地下",
+        "ref:tpe": "TPE0606",
+        "charge": "40 TWD/hour",
+        "description": "【中山區】長安國小地下停車場｜費率：09時~18時 每小時 30 元；19時~08時 每小時 10 元｜機車：10 元/時｜車位：284格（EV充電：7）｜限高：2.0m",
+        "capacity": "284",
+        "capacity:charging": "7",
+        "phone": "2759-0666"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5383,
+          25.0643
+        ]
+      },
+      "properties": {
+        "name": "榮星花園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中山區",
+        "addr:full": "臺北市中山區建國北路3段39號地下1-2層",
+        "ref:tpe": "TPE0615",
+        "charge": "40 TWD/hour",
+        "description": "【中山區】榮星花園地下停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：10 元/時｜車位：242格（EV充電：5）｜限高：2.0m",
+        "capacity": "242",
+        "capacity:charging": "5",
+        "phone": "2502-3333"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.569153,
+          25.000861
+        ]
+      },
+      "properties": {
+        "name": "永安藝文館停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區木新路2段156-1號地上1層及地下1層",
+        "ref:tpe": "TPE0629",
+        "charge": "季租：戶外平面10,500元/季、室內平面13,500元/季、室內機械",
+        "description": "【文山區】永安藝文館停車場｜費率：季租：戶外平面10,500元/季、室內平面13,500元/季、室內機械｜機車：無機車位｜車位：57格（EV充電：0）｜限高：2.0m",
+        "capacity": "57",
+        "phone": "0229393088"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5566,
+          25.0407
+        ]
+      },
+      "properties": {
+        "name": "僑安地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大安區",
+        "addr:full": "臺北市大安區忠孝東路4段306號地下1至3層",
+        "ref:tpe": "TPE0645",
+        "charge": "40 TWD/hour",
+        "description": "【大安區】僑安地下停車場｜費率：08-22 每小時 30 元；22-08 每小時 60 元｜機車：無機車位｜車位：422格（EV充電：8）｜限高：2.0m",
+        "capacity": "422",
+        "capacity:charging": "8",
+        "phone": "2655-0818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5547,
+          25.044
+        ]
+      },
+      "properties": {
+        "name": "嘟嘟房大安全聯站停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大安區",
+        "addr:full": "臺北市大安區市民大道4段190號地下1層",
+        "ref:tpe": "TPE0647",
+        "charge": "40 TWD/hour",
+        "description": "【大安區】嘟嘟房大安全聯站停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：無機車位｜車位：10格（EV充電：0）｜限高：2.0m",
+        "capacity": "10",
+        "phone": "2655-0818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5229,
+          25.1133
+        ]
+      },
+      "properties": {
+        "name": "北台國際開發股份有限公司石牌停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "北投區",
+        "addr:full": "臺北市北投區明德路208巷5號地下1至2層",
+        "ref:tpe": "TPE0653",
+        "charge": "40 TWD/hour",
+        "description": "【北投區】北台國際開發股份有限公司石牌停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：29格（EV充電：0）｜限高：2.0m",
+        "capacity": "29",
+        "phone": "0277152938"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5694,
+          25.0797
+        ]
+      },
+      "properties": {
+        "name": "洲子立體停車場",
+        "amenity": "parking",
+        "parking": "multi-storey",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區瑞光路513巷22弄2號",
+        "ref:tpe": "TPE0654",
+        "charge": "40 TWD/hour",
+        "description": "【內湖區】洲子立體停車場｜費率：08-20 每小時 10 元；20-08 每小時 20 元｜機車：無機車位｜車位：382格（EV充電：10）｜限高：2.0m",
+        "capacity": "382",
+        "capacity:charging": "10",
+        "phone": "0287511380"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5608,
+          25.029
+        ]
+      },
+      "properties": {
+        "name": "台灣聯通三興停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區吳興街156巷6號地下1至2層",
+        "ref:tpe": "TPE0671",
+        "charge": "40 TWD/hour",
+        "description": "【信義區】台灣聯通三興停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：10 元/時｜車位：64格（EV充電：0）｜限高：2.0m",
+        "capacity": "64",
+        "phone": "2523-5000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5022,
+          25.1368
+        ]
+      },
+      "properties": {
+        "name": "七星公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "北投區",
+        "addr:full": "臺北市北投區七星街3號地下(地下共2層)",
+        "ref:tpe": "TPE0680",
+        "charge": "30 TWD/hour",
+        "description": "【北投區】七星公園地下停車場｜費率：07-20 每小時 750 元；19-08 每小時 500 元｜機車：10 元/時｜車位：328格（EV充電：6）｜限高：2.0m",
+        "capacity": "328",
+        "capacity:charging": "6",
+        "phone": "0226550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4995,
+          25.0293
+        ]
+      },
+      "properties": {
+        "name": "萬華國中地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區西藏路201號地下",
+        "ref:tpe": "TPE0690",
+        "charge": "20 TWD/hour",
+        "description": "【萬華區】萬華國中地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：20 元/日｜車位：508格（EV充電：13）｜限高：2.0m",
+        "capacity": "508",
+        "capacity:charging": "13",
+        "phone": "23078457"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5507,
+          25.0489
+        ]
+      },
+      "properties": {
+        "name": "Times 松山運動中心",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區敦化北路1號(松山運動中心地下1層)",
+        "ref:tpe": "TPE0706",
+        "charge": "40 TWD/hour",
+        "description": "【松山區】Times 松山運動中心｜費率：全日每小時 40 元（全程半小時計）｜機車：無機車位｜車位：57格（EV充電：2）｜限高：2.0m",
+        "capacity": "57",
+        "capacity:charging": "2",
+        "phone": "0809008924"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5361,
+          25.1165
+        ]
+      },
+      "properties": {
+        "name": "臺北市立大學天母校區教學、行政科資大樓地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "士林區",
+        "addr:full": "臺北市士林區忠誠路2段101號地下2至3層",
+        "ref:tpe": "TPE0709",
+        "charge": "30 TWD/hour",
+        "description": "【士林區】臺北市立大學天母校區教學、行政科資大樓地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：472格（EV充電：12）｜限高：2.0m",
+        "capacity": "472",
+        "capacity:charging": "12",
+        "phone": "0228726018"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5636,
+          25.0848
+        ]
+      },
+      "properties": {
+        "name": "西康地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區內湖路1段203巷25號地下室（地下1層）",
+        "ref:tpe": "TPE0710",
+        "charge": "30 TWD/hour",
+        "description": "【內湖區】西康地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：86格（EV充電：2）｜限高：2.0m",
+        "capacity": "86",
+        "capacity:charging": "2",
+        "phone": "0226588208"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5507,
+          25.0489
+        ]
+      },
+      "properties": {
+        "name": "臺北田徑場平面、地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區敦化北路3號地上1層C門外及地下1層",
+        "ref:tpe": "TPE0712",
+        "charge": "40 TWD/hour",
+        "description": "【松山區】臺北田徑場平面、地下停車場｜費率：08-20 每小時 40 元；20-08 每小時 230 元｜機車：10 元/時（當日上限 20 元）｜車位：269格（EV充電：1）｜限高：2.0m",
+        "capacity": "269",
+        "capacity:charging": "1",
+        "phone": "0225798520"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5716,
+          25.0475
+        ]
+      },
+      "properties": {
+        "name": "雅祥公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區松隆路123巷7號地下(地下共3層)",
+        "ref:tpe": "TPE0714",
+        "charge": "40 TWD/hour",
+        "description": "【信義區】雅祥公園地下停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：無機車位｜車位：204格（EV充電：5）｜限高：2.0m",
+        "capacity": "204",
+        "capacity:charging": "5",
+        "phone": "2766-1258"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5512,
+          25.0007
+        ]
+      },
+      "properties": {
+        "name": "興隆公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區仙岩路128號地下",
+        "ref:tpe": "TPE0715",
+        "charge": "20 TWD/hour",
+        "description": "【文山區】興隆公園地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：20 元/日｜車位：259格（EV充電：7）｜限高：2.0m",
+        "capacity": "259",
+        "capacity:charging": "7",
+        "phone": "2759-0666"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5403,
+          24.9884
+        ]
+      },
+      "properties": {
+        "name": "景美國小地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區景文街142巷2號地下(共3層)",
+        "ref:tpe": "TPE0716",
+        "charge": "11-21 每小時 30 元；21-11 每小時 20 元",
+        "description": "【文山區】景美國小地下停車場｜費率：11-21 每小時 30 元；21-11 每小時 20 元｜機車：10 元/時（當日上限 20 元）｜車位：253格（EV充電：5）｜限高：2.0m",
+        "capacity": "253",
+        "capacity:charging": "5",
+        "phone": "022240-8767"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5161,
+          25.0656
+        ]
+      },
+      "properties": {
+        "name": "臺北市大同運動中心地下平面停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大同區",
+        "addr:full": "臺北市大同區大龍街51號地下3層",
+        "ref:tpe": "TPE0721",
+        "charge": "40 TWD/hour",
+        "description": "【大同區】臺北市大同運動中心地下平面停車場｜費率：06-22 每小時 40 元；22-06 每小時 20 元｜機車：無機車位｜車位：46格（EV充電：1）｜限高：2.0m",
+        "capacity": "46",
+        "capacity:charging": "1",
+        "phone": "2592-0055"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5926,
+          25.0532
+        ]
+      },
+      "properties": {
+        "name": "玉成國小地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "南港區",
+        "addr:full": "臺北市南港區昆陽街23號地下(地下共2層)",
+        "ref:tpe": "TPE0722",
+        "charge": "30 TWD/hour",
+        "description": "【南港區】玉成國小地下停車場｜費率：08-18 每小時 20 元；18-08 每小時 10 元｜機車：10 元/時（當日上限 20 元）｜車位：293格（EV充電：6）｜限高：2.0m",
+        "capacity": "293",
+        "capacity:charging": "6",
+        "phone": "022655-0818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.503,
+          25.1184
+        ]
+      },
+      "properties": {
+        "name": "立農公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "北投區",
+        "addr:full": "臺北市北投區承德路7段372號地下層",
+        "ref:tpe": "TPE0723",
+        "charge": "30 TWD/hour",
+        "description": "【北投區】立農公園地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：204格（EV充電：5）｜限高：2.0m",
+        "capacity": "204",
+        "capacity:charging": "5",
+        "phone": "0227233628"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.553864,
+          25.071256
+        ]
+      },
+      "properties": {
+        "name": "龍城市場停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區光復北路190巷39號地下2至3層",
+        "ref:tpe": "TPE0731",
+        "charge": "小型車：",
+        "description": "【松山區】龍城市場停車場｜費率：小型車：｜機車：無機車位｜車位：47格（EV充電：0）｜限高：2.0m",
+        "capacity": "47",
+        "phone": "(02)28919113"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5021,
+          25.0914
+        ]
+      },
+      "properties": {
+        "name": "社子國小地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "士林區",
+        "addr:full": "臺北市士林區延平北路6段308號地下1至3層",
+        "ref:tpe": "TPE0734",
+        "charge": "20 TWD/hour",
+        "description": "【士林區】社子國小地下停車場｜費率：08-18 每小時 20 元；19-08 每小時 800 元｜機車：20 元/日｜車位：464格（EV充電：10）｜限高：2.0m",
+        "capacity": "464",
+        "capacity:charging": "10",
+        "phone": "0228162810"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5364,
+          25.0681
+        ]
+      },
+      "properties": {
+        "name": "臺北農產運銷股份有限公司第二果菜批發市場停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中山區",
+        "addr:full": "臺北市中山區民族東路336號地下1至2層及地上4至RF層",
+        "ref:tpe": "TPE0738",
+        "charge": "30 TWD/hour",
+        "description": "【中山區】臺北農產運銷股份有限公司第二果菜批發市場停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：606格（EV充電：12）｜限高：2.0m",
+        "capacity": "606",
+        "capacity:charging": "12",
+        "phone": "0225162519#1122"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5791,
+          24.9975
+        ]
+      },
+      "properties": {
+        "name": "嘟嘟房動物園站停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區新光路2段28號地下1至2層",
+        "ref:tpe": "TPE0739",
+        "charge": "10 TWD/hour",
+        "description": "【文山區】嘟嘟房動物園站停車場｜費率：06-22 每小時 10 元；22-06 每小時 20 元｜機車：20 元/日｜車位：150格（EV充電：3）｜限高：2.0m",
+        "capacity": "150",
+        "capacity:charging": "3",
+        "phone": "0226550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5225,
+          25.09
+        ]
+      },
+      "properties": {
+        "name": "承德公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "士林區",
+        "addr:full": "臺北市士林區基河路150號地下（地下共2層）",
+        "ref:tpe": "TPE0742",
+        "charge": "10 TWD/hour",
+        "description": "【士林區】承德公園地下停車場｜費率：00-08 每小時 30 元；08-12 每小時 50 元｜機車：10 元/時（當日上限 20 元）｜車位：176格（EV充電：4）｜限高：2.0m",
+        "capacity": "176",
+        "capacity:charging": "4",
+        "phone": "0226550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6112,
+          25.0564
+        ]
+      },
+      "properties": {
+        "name": "南港國小地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "南港區",
+        "addr:full": "臺北市南港區興東街59號（地下1至2層）",
+        "ref:tpe": "TPE0752",
+        "charge": "30 TWD/hour",
+        "description": "【南港區】南港國小地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：20 元/日｜車位：313格（EV充電：8）｜限高：2.0m",
+        "capacity": "313",
+        "capacity:charging": "8",
+        "phone": "0800021111"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5156,
+          25.0555
+        ]
+      },
+      "properties": {
+        "name": "蓬萊國小地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大同區",
+        "addr:full": "臺北市大同區寧夏路35號地下(地下共2層)",
+        "ref:tpe": "TPE0758",
+        "charge": "30 TWD/hour",
+        "description": "【大同區】蓬萊國小地下停車場｜費率：16時~22時 每小時 40 元；22時~16時 每小時 30 元｜機車：10 元/時（當日上限 20 元）｜車位：286格（EV充電：6）｜限高：2.0m",
+        "capacity": "286",
+        "capacity:charging": "6",
+        "phone": "02-25573722"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4941,
+          25.0336
+        ]
+      },
+      "properties": {
+        "name": "臺北製糖所文化園區地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區大理街160巷2號地下",
+        "ref:tpe": "TPE0759",
+        "charge": "20 TWD/hour",
+        "description": "【萬華區】臺北製糖所文化園區地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：無機車位｜車位：70格（EV充電：1）｜限高：2.0m",
+        "capacity": "70",
+        "capacity:charging": "1",
+        "phone": "23026296"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5875,
+          25.045
+        ]
+      },
+      "properties": {
+        "name": "成德國中運動中心停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "南港區",
+        "addr:full": "臺北市南港區東新街108巷23號地下1層",
+        "ref:tpe": "TPE0763",
+        "charge": "30 TWD/hour",
+        "description": "【南港區】成德國中運動中心停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：25格（EV充電：1）｜限高：2.0m",
+        "capacity": "25",
+        "capacity:charging": "1",
+        "phone": "022782-5000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5635,
+          24.9847
+        ]
+      },
+      "properties": {
+        "name": "嘟嘟房文山忠順站停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區忠順街2段22號地下1層",
+        "ref:tpe": "TPE0770",
+        "charge": "20 TWD/hour",
+        "description": "【文山區】嘟嘟房文山忠順站停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：無機車位｜車位：19格（EV充電：0）｜限高：2.0m",
+        "capacity": "19",
+        "phone": "022655-0818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5872,
+          25.0423
+        ]
+      },
+      "properties": {
+        "name": "玉成公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "南港區",
+        "addr:full": "臺北市南港區成福路118號地下",
+        "ref:tpe": "TPE0775",
+        "charge": "20 TWD/hour",
+        "description": "【南港區】玉成公園地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：20 元/日｜車位：412格（EV充電：10）｜限高：2.0m",
+        "capacity": "412",
+        "capacity:charging": "10",
+        "phone": "0226517459"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5704,
+          25.0843
+        ]
+      },
+      "properties": {
+        "name": "西湖公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區內湖路1段387巷38號地下",
+        "ref:tpe": "TPE0783",
+        "charge": "30 TWD/hour",
+        "description": "【內湖區】西湖公園地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：175格（EV充電：4）｜限高：2.0m",
+        "capacity": "175",
+        "capacity:charging": "4",
+        "phone": "0226587429"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.619,
+          25.0554
+        ]
+      },
+      "properties": {
+        "name": "嘟嘟房捷運南港展覽館站停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "南港區",
+        "addr:full": "臺北市南港區研究院路1段1號地下1層",
+        "ref:tpe": "TPE0791",
+        "charge": "計次：平日20元/次，假日30元/次，隔日另計(以凌晨2時為基準)。季",
+        "description": "【南港區】嘟嘟房捷運南港展覽館站停車場｜費率：計次：平日20元/次，假日30元/次，隔日另計(以凌晨2時為基準)。季｜機車：20 元/日｜車位：0格（EV充電：0）｜限高：2.0m",
+        "phone": "(02)26550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.533,
+          25.1233
+        ]
+      },
+      "properties": {
+        "name": "嘟嘟房天母全聯2站停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "士林區",
+        "addr:full": "臺北市士林區中山北路7段154巷6號地下1層",
+        "ref:tpe": "TPE0803",
+        "charge": "40 TWD/hour",
+        "description": "【士林區】嘟嘟房天母全聯2站停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：無機車位｜車位：20格（EV充電：0）｜限高：2.0m",
+        "capacity": "20",
+        "phone": "0226550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5625,
+          25.032
+        ]
+      },
+      "properties": {
+        "name": "信義國小地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區松勤街60號地下1層",
+        "ref:tpe": "TPE0816",
+        "charge": "40 TWD/hour",
+        "description": "【信義區】信義國小地下停車場｜費率：08-22 每小時 40 元；22-08 每小時 20 元｜機車：20 元/日｜車位：230格（EV充電：6）｜限高：2.0m",
+        "capacity": "230",
+        "capacity:charging": "6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5294,
+          25.1096
+        ]
+      },
+      "properties": {
+        "name": "蘭雅公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "士林區",
+        "addr:full": "臺北市士林區德行東路129巷31號地下",
+        "ref:tpe": "TPE0819",
+        "charge": "30 TWD/hour",
+        "description": "【士林區】蘭雅公園地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：155格（EV充電：4）｜限高：2.0m",
+        "capacity": "155",
+        "capacity:charging": "4",
+        "phone": "0228318004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.518,
+          25.054
+        ]
+      },
+      "properties": {
+        "name": "建成公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大同區",
+        "addr:full": "臺北市大同區承德路2段31號地下",
+        "ref:tpe": "TPE0824",
+        "charge": "50 TWD/hour",
+        "description": "【大同區】建成公園地下停車場｜費率：全日每小時 50 元（全程半小時計）｜機車：10 元/時（當日上限 30 元）｜車位：238格（EV充電：6）｜限高：2.0m",
+        "capacity": "238",
+        "capacity:charging": "6",
+        "phone": "0226550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6145,
+          25.0577
+        ]
+      },
+      "properties": {
+        "name": "世貿公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "南港區",
+        "addr:full": "臺北市南港區經貿二路88巷1號地下",
+        "ref:tpe": "TPE0827",
+        "charge": "30 TWD/hour",
+        "description": "【南港區】世貿公園地下停車場｜費率：08-20 每小時 20 元；20-08 每小時 60 元｜機車：20 元/日｜車位：400格（EV充電：14）｜限高：2.0m",
+        "capacity": "400",
+        "capacity:charging": "14",
+        "phone": "0227886271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5173,
+          25.0741
+        ]
+      },
+      "properties": {
+        "name": "大龍國小地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.1",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大同區",
+        "addr:full": "臺北市大同區哈密街47號地下1層",
+        "ref:tpe": "TPE0828",
+        "charge": "30 TWD/hour",
+        "description": "【大同區】大龍國小地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：20 元/日｜車位：266格（EV充電：7）｜限高：2.1m",
+        "capacity": "266",
+        "capacity:charging": "7",
+        "phone": "2759-0666"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5661,
+          25.0559
+        ]
+      },
+      "properties": {
+        "name": "西松高中地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區健康路325巷19弄1號地下",
+        "ref:tpe": "TPE0832",
+        "charge": "30 TWD/hour",
+        "description": "【松山區】西松高中地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：341格（EV充電：8）｜限高：2.0m",
+        "capacity": "341",
+        "capacity:charging": "8",
+        "phone": "0225284554"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5768,
+          24.9895
+        ]
+      },
+      "properties": {
+        "name": "萬興國小地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區秀明路2段116號地下",
+        "ref:tpe": "TPE0835",
+        "charge": "20 TWD/hour",
+        "description": "【文山區】萬興國小地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：20 元/日｜車位：233格（EV充電：6）｜限高：2.0m",
+        "capacity": "233",
+        "capacity:charging": "6",
+        "phone": "2759-0666"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6197,
+          25.0414
+        ]
+      },
+      "properties": {
+        "name": "北台國際開發股份有限公司舊莊停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "南港區",
+        "addr:full": "臺北市南港區舊莊街1段91巷11號地下1-2層",
+        "ref:tpe": "TPE0838",
+        "charge": "30 TWD/hour",
+        "description": "【南港區】北台國際開發股份有限公司舊莊停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：20 元/日｜車位：23格（EV充電：0）｜限高：2.0m",
+        "capacity": "23",
+        "phone": "0277152938#688"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5731,
+          24.998
+        ]
+      },
+      "properties": {
+        "name": "歐特儀股份有限公司捷運木柵站轉乘停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區木柵路4段135號地下1-2層",
+        "ref:tpe": "TPE0840",
+        "charge": "20 TWD/hour",
+        "description": "【文山區】歐特儀股份有限公司捷運木柵站轉乘停車場｜費率：06-22 每小時 10 元；22-06 每小時 20 元｜機車：20 元/日｜車位：146格（EV充電：3）｜限高：2.0m",
+        "capacity": "146",
+        "capacity:charging": "3",
+        "phone": "022705-7716"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.567686,
+          25.059975
+        ]
+      },
+      "properties": {
+        "name": "松興大樓地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區松隆路36號地下2層",
+        "ref:tpe": "TPE0846",
+        "charge": "小型車：",
+        "description": "【信義區】松興大樓地下停車場｜費率：小型車：｜機車：無機車位｜車位：21格（EV充電：0）｜限高：2.0m",
+        "capacity": "21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5725,
+          25.039
+        ]
+      },
+      "properties": {
+        "name": "松山工農地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區忠孝東路5段236巷15號地下",
+        "ref:tpe": "TPE0848",
+        "charge": "30 TWD/hour",
+        "description": "【信義區】松山工農地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：239格（EV充電：6）｜限高：2.0m",
+        "capacity": "239",
+        "capacity:charging": "6",
+        "phone": "0223450672"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5784,
+          25.0481
+        ]
+      },
+      "properties": {
+        "name": "松山車站地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區松山路11號(南廣場B1)",
+        "ref:tpe": "TPE0851",
+        "charge": "40 TWD/hour",
+        "description": "【信義區】松山車站地下停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：無機車位｜車位：430格（EV充電：11）｜限高：2.0m",
+        "capacity": "430",
+        "capacity:charging": "11",
+        "phone": "0227676549"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5306,
+          25.0962
+        ]
+      },
+      "properties": {
+        "name": "福林公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "士林區",
+        "addr:full": "臺北市士林區中正路17號地下",
+        "ref:tpe": "TPE0852",
+        "charge": "30 TWD/hour",
+        "description": "【士林區】福林公園地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：20 元/日｜車位：229格（EV充電：6）｜限高：2.0m",
+        "capacity": "229",
+        "capacity:charging": "6",
+        "phone": "0228830481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.503687,
+          25.05818
+        ]
+      },
+      "properties": {
+        "name": "臺大醫院北護分院地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區內江街87號地下1層",
+        "ref:tpe": "TPE0881",
+        "charge": "50 TWD/hour",
+        "description": "【萬華區】臺大醫院北護分院地下停車場｜費率：全日每小時 50 元（全程半小時計）｜機車：無機車位｜車位：31格（EV充電：0）｜限高：2.0m",
+        "capacity": "31",
+        "phone": "25185299"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5785,
+          25.0501
+        ]
+      },
+      "properties": {
+        "name": "松山國小地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區八德路4段746號地下(地下共3層)",
+        "ref:tpe": "TPE0884",
+        "charge": "50 TWD/hour",
+        "description": "【松山區】松山國小地下停車場｜費率：週一至週四 40 元/時；週五至週日 50 元/時｜機車：20 元/日｜車位：286格（EV充電：7）｜限高：2.0m",
+        "capacity": "286",
+        "capacity:charging": "7",
+        "phone": "0227995657"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6021,
+          25.0833
+        ]
+      },
+      "properties": {
+        "name": "大湖公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區成功路5段7號地下室(地下共2層)",
+        "ref:tpe": "TPE0888",
+        "charge": "20 TWD/hour",
+        "description": "【內湖區】大湖公園地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：221格（EV充電：4）｜限高：2.0m",
+        "capacity": "221",
+        "capacity:charging": "4",
+        "phone": "0227661258"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5172,
+          25.069
+        ]
+      },
+      "properties": {
+        "name": "168停車聯盟-大龍場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.1",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大同區",
+        "addr:full": "臺北市大同區民族西路105號地下1至2層",
+        "ref:tpe": "TPE0896",
+        "charge": "50 TWD/hour",
+        "description": "【大同區】168停車聯盟-大龍場｜費率：全日每小時 50 元（全程半小時計）｜機車：20 元/日｜車位：43格（EV充電：1）｜限高：2.1m",
+        "capacity": "43",
+        "capacity:charging": "1",
+        "phone": "022754-6661"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5034,
+          25.0312
+        ]
+      },
+      "properties": {
+        "name": "莒光立體停車場",
+        "amenity": "parking",
+        "parking": "multi-storey",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區莒光路137號",
+        "ref:tpe": "TPE0918",
+        "charge": "30 TWD/hour",
+        "description": "【萬華區】莒光立體停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：108格（EV充電：0）｜限高：2.0m",
+        "capacity": "108",
+        "phone": "0222408767"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5519,
+          25.0218
+        ]
+      },
+      "properties": {
+        "name": "嘉興公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大安區",
+        "addr:full": "臺北市大安區嘉興街373號地下室(共3層)",
+        "ref:tpe": "TPE0926",
+        "charge": "30 TWD/hour",
+        "description": "【大安區】嘉興公園地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：20 元/日｜車位：194格（EV充電：5）｜限高：2.0m",
+        "capacity": "194",
+        "capacity:charging": "5",
+        "phone": "2557-3722#0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5115,
+          25.0744
+        ]
+      },
+      "properties": {
+        "name": "啟聰學校地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大同區",
+        "addr:full": "臺北市大同區延平北路4段205號地下1層",
+        "ref:tpe": "TPE0930",
+        "charge": "30 TWD/hour",
+        "description": "【大同區】啟聰學校地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：20 元/日｜車位：175格（EV充電：4）｜限高：2.0m",
+        "capacity": "175",
+        "capacity:charging": "4",
+        "phone": "2759-0666"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5035,
+          25.1374
+        ]
+      },
+      "properties": {
+        "name": "台北國際醫旅停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "北投區",
+        "addr:full": "臺北市北投區中和街2號地下1至2層",
+        "ref:tpe": "TPE0937",
+        "charge": "30 TWD/hour",
+        "description": "【北投區】台北國際醫旅停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：34格（EV充電：2）｜限高：2.0m",
+        "capacity": "34",
+        "capacity:charging": "2",
+        "phone": "0228988686"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.503,
+          25.1375
+        ]
+      },
+      "properties": {
+        "name": "大業立體停車場",
+        "amenity": "parking",
+        "parking": "multi-storey",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "北投區",
+        "addr:full": "臺北市北投區大業路745號",
+        "ref:tpe": "TPE0973",
+        "charge": "30 TWD/hour",
+        "description": "【北投區】大業立體停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：122格（EV充電：0）｜限高：2.0m",
+        "capacity": "122",
+        "phone": "0224551299"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5159,
+          25.0675
+        ]
+      },
+      "properties": {
+        "name": "揚雅立體停車場",
+        "amenity": "parking",
+        "parking": "multi-storey",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大同區",
+        "addr:full": "臺北市大同區大龍街136號",
+        "ref:tpe": "TPE0975",
+        "charge": "20 TWD/hour",
+        "description": "【大同區】揚雅立體停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：無機車位｜車位：204格（EV充電：0）｜限高：2.0m",
+        "capacity": "204",
+        "phone": "0229942818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6191,
+          25.0719
+        ]
+      },
+      "properties": {
+        "name": "康樂立體停車場",
+        "amenity": "parking",
+        "parking": "multi-storey",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區康樂街138號",
+        "ref:tpe": "TPE0978",
+        "charge": "30 TWD/hour",
+        "description": "【內湖區】康樂立體停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：153格（EV充電：0）｜限高：2.0m",
+        "capacity": "153",
+        "phone": "0226335786"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5746,
+          25.0324
+        ]
+      },
+      "properties": {
+        "name": "松德大樓地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區松德路300號地下2層",
+        "ref:tpe": "TPE1004",
+        "charge": "40 TWD/hour",
+        "description": "【信義區】松德大樓地下停車場｜費率：08-19 每小時 40 元；19-08 每小時 20 元｜機車：無機車位｜車位：111格（EV充電：2）｜限高：2.0m",
+        "capacity": "111",
+        "capacity:charging": "2",
+        "phone": "0227274168"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5274,
+          25.0613
+        ]
+      },
+      "properties": {
+        "name": "新興大樓地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中山區",
+        "addr:full": "臺北市中山區林森北路487號地下1層",
+        "ref:tpe": "TPE1005",
+        "charge": "40 TWD/hour",
+        "description": "【中山區】新興大樓地下停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：無機車位｜車位：13格（EV充電：0）｜限高：2.0m",
+        "capacity": "13",
+        "phone": "2940-7436"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5233,
+          25.1188
+        ]
+      },
+      "properties": {
+        "name": "振興公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "北投區",
+        "addr:full": "臺北市北投區天母西路112號地下(地下共3層)",
+        "ref:tpe": "TPE1027",
+        "charge": "50 TWD/hour",
+        "description": "【北投區】振興公園地下停車場｜費率：08-23 每小時 20 元；23-08 每小時 10 元｜機車：10 元/時（當日上限 20 元）｜車位：210格（EV充電：6）｜限高：2.0m",
+        "capacity": "210",
+        "capacity:charging": "6",
+        "phone": "0289193669"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5936,
+          25.0843
+        ]
+      },
+      "properties": {
+        "name": "嘟嘟房捷運內湖(機車)站停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區成功路4段186號地下1層",
+        "ref:tpe": "TPE1050",
+        "charge": "計次：20元/次，隔日另計(以凌晨2時為基準)。季租：全日900元/季",
+        "description": "【內湖區】嘟嘟房捷運內湖(機車)站停車場｜費率：計次：20元/次，隔日另計(以凌晨2時為基準)。季租：全日900元/季｜機車：20 元/日｜車位：0格（EV充電：0）｜限高：2.0m",
+        "phone": "(02)26550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4836,
+          25.1344
+        ]
+      },
+      "properties": {
+        "name": "嘟嘟房捷運北投機廠站停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "北投區",
+        "addr:full": "臺北市北投區大業路527巷88號地上1層及地下層",
+        "ref:tpe": "TPE1055",
+        "charge": "20 TWD/hour",
+        "description": "【北投區】嘟嘟房捷運北投機廠站停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：無機車位｜車位：72格（EV充電：2）｜限高：2.0m",
+        "capacity": "72",
+        "capacity:charging": "2",
+        "phone": "0226550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4675,
+          25.1255
+        ]
+      },
+      "properties": {
+        "name": "嘟嘟房捷運關渡站停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "北投區",
+        "addr:full": "臺北市北投區大度路3段270巷67號地下1層",
+        "ref:tpe": "TPE1092",
+        "charge": "小型車：季租10,500元，逾限時定期票停車時段以30元/時計。機車：",
+        "description": "【北投區】嘟嘟房捷運關渡站停車場｜費率：小型車：季租10,500元，逾限時定期票停車時段以30元/時計。機車：｜機車：10 元/時（當日上限 20 元）｜車位：53格（EV充電：2）｜限高：2.0m",
+        "capacity": "53",
+        "capacity:charging": "2",
+        "phone": "0226550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5195,
+          25.1032
+        ]
+      },
+      "properties": {
+        "name": "臺灣戲曲中心地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "士林區",
+        "addr:full": "臺北市士林區文林路751號地下1至2層",
+        "ref:tpe": "TPE1095",
+        "charge": "40 TWD/hour",
+        "description": "【士林區】臺灣戲曲中心地下停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：無機車位｜車位：172格（EV充電：4）｜限高：2.0m",
+        "capacity": "172",
+        "capacity:charging": "4",
+        "phone": "0228342411"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.619,
+          25.0724
+        ]
+      },
+      "properties": {
+        "name": "康樂合署大樓地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區康樂街150號地下（地下共3層）",
+        "ref:tpe": "TPE1102",
+        "charge": "30 TWD/hour",
+        "description": "【內湖區】康樂合署大樓地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：53格（EV充電：1）｜限高：2.0m",
+        "capacity": "53",
+        "capacity:charging": "1",
+        "phone": "0226337997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.561292,
+          25.096182
+        ]
+      },
+      "properties": {
+        "name": "臺北市濱江實驗國民中學B1停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.1",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中山區",
+        "addr:full": "臺北市中山區樂群二路262號地下1層",
+        "ref:tpe": "TPE1120",
+        "charge": "每季7,500元。",
+        "description": "【中山區】臺北市濱江實驗國民中學B1停車場｜費率：每季7,500元。｜機車：無機車位｜車位：58格（EV充電：0）｜限高：2.1m",
+        "capacity": "58",
+        "phone": "8502-0126"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5561,
+          24.9893
+        ]
+      },
+      "properties": {
+        "name": "永建國小地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區木柵路1段311巷1號地下1至2層",
+        "ref:tpe": "TPE1148",
+        "charge": "20 TWD/hour",
+        "description": "【文山區】永建國小地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：212格（EV充電：4）｜限高：2.0m",
+        "capacity": "212",
+        "capacity:charging": "4",
+        "phone": "22347883"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5401,
+          24.9957
+        ]
+      },
+      "properties": {
+        "name": "財政大樓地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區羅斯福路6段142巷1號地下1至2層",
+        "ref:tpe": "TPE1162",
+        "charge": "20 TWD/hour",
+        "description": "【文山區】財政大樓地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：135格（EV充電：5）｜限高：2.0m",
+        "capacity": "135",
+        "capacity:charging": "5",
+        "phone": "29353147"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5625,
+          24.9884
+        ]
+      },
+      "properties": {
+        "name": "興隆D2社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區興隆路4段105巷45號地下1至5層",
+        "ref:tpe": "TPE1164",
+        "charge": "20 TWD/hour",
+        "description": "【文山區】興隆D2社會住宅地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：349格（EV充電：7）｜限高：2.0m",
+        "capacity": "349",
+        "capacity:charging": "7",
+        "phone": "8661-7601"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6146,
+          25.057
+        ]
+      },
+      "properties": {
+        "name": "嘟嘟房南港展覽館2站停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "南港區",
+        "addr:full": "臺北市南港區經貿二路2號地下1至3層",
+        "ref:tpe": "TPE1183",
+        "charge": "40 TWD/hour",
+        "description": "【南港區】嘟嘟房南港展覽館2站停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：1290格（EV充電：27）｜限高：2.0m",
+        "capacity": "1290",
+        "capacity:charging": "27",
+        "phone": "0226550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5437,
+          25.0147
+        ]
+      },
+      "properties": {
+        "name": "臺大癌醫中心分院地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大安區",
+        "addr:full": "臺北市大安區基隆路3段155巷57號地下1至3層",
+        "ref:tpe": "TPE1195",
+        "charge": "50 TWD/hour",
+        "description": "【大安區】臺大癌醫中心分院地下停車場｜費率：全日每小時 50 元（全程半小時計）｜機車：20 元/日｜車位：404格（EV充電：8）｜限高：2.0m",
+        "capacity": "404",
+        "capacity:charging": "8",
+        "phone": "2732-1156"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5122,
+          25.0633
+        ]
+      },
+      "properties": {
+        "name": "嘟嘟房捷運大橋頭站停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大同區",
+        "addr:full": "臺北市大同區延平北路3段與民權西路口地下1層",
+        "ref:tpe": "TPE1239",
+        "charge": "計次:20元/次(隔日另計，以凌晨2時為跨日基準)。",
+        "description": "【大同區】嘟嘟房捷運大橋頭站停車場｜費率：計次:20元/次(隔日另計，以凌晨2時為跨日基準)。｜機車：20 元/日｜車位：0格（EV充電：0）｜限高：2.0m",
+        "phone": "2655-0818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5584,
+          25.026
+        ]
+      },
+      "properties": {
+        "name": "景勤二號公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區信安街49號地下室(地下共2層)",
+        "ref:tpe": "TPE1243",
+        "charge": "30 TWD/hour",
+        "description": "【信義區】景勤二號公園地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：217格（EV充電：5）｜限高：2.0m",
+        "capacity": "217",
+        "capacity:charging": "5",
+        "phone": "2944-1489"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4891,
+          25.029
+        ]
+      },
+      "properties": {
+        "name": "環南市場停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.1",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區環河南路2段245號地下1、地上2至R層",
+        "ref:tpe": "TPE1277",
+        "charge": "30 TWD/hour",
+        "description": "【萬華區】環南市場停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時｜車位：1256格（EV充電：36）｜限高：2.1m",
+        "capacity": "1256",
+        "capacity:charging": "36",
+        "phone": "0903927353"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5424,
+          25.0159
+        ]
+      },
+      "properties": {
+        "name": "國立臺灣大學立體機車停車場",
+        "amenity": "parking",
+        "parking": "multi-storey",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大安區",
+        "addr:full": "臺北市大安區羅斯福路4段1號",
+        "ref:tpe": "TPE1280",
+        "charge": "機車：20元/次，隔日另計；",
+        "description": "【大安區】國立臺灣大學立體機車停車場｜費率：機車：20元/次，隔日另計；｜機車：20 元/日｜車位：0格（EV充電：0）｜限高：2.0m",
+        "phone": "3366-3366"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5198,
+          25.0727
+        ]
+      },
+      "properties": {
+        "name": "明倫社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大同區",
+        "addr:full": "臺北市大同區承德路3段285號地下1至2層",
+        "ref:tpe": "TPE1333",
+        "charge": "30 TWD/hour",
+        "description": "【大同區】明倫社會住宅地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：20 元/日｜車位：239格（EV充電：5）｜限高：2.0m",
+        "capacity": "239",
+        "capacity:charging": "5",
+        "phone": "0226550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5119,
+          25.0672
+        ]
+      },
+      "properties": {
+        "name": "延平國小地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大同區",
+        "addr:full": "臺北市大同區昌吉街97號地下層",
+        "ref:tpe": "TPE1334",
+        "charge": "40 TWD/hour",
+        "description": "【大同區】延平國小地下停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：309格（EV充電：6）｜限高：2.0m",
+        "capacity": "309",
+        "capacity:charging": "6",
+        "phone": "2705-7716#0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5666,
+          24.9894
+        ]
+      },
+      "properties": {
+        "name": "木柵社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區久康街24巷36號地下1至4層",
+        "ref:tpe": "TPE1336",
+        "charge": "20 TWD/hour",
+        "description": "【文山區】木柵社會住宅地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：94格（EV充電：2）｜限高：2.0m",
+        "capacity": "94",
+        "capacity:charging": "2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5788,
+          25.073
+        ]
+      },
+      "properties": {
+        "name": "瑞光社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區瑞光路160號地下1-4層",
+        "ref:tpe": "TPE1365",
+        "charge": "40 TWD/hour",
+        "description": "【內湖區】瑞光社會住宅地下停車場｜費率：08時~20時 每小時 20 元；20時~08時 每小時 20 元｜機車：10 元/時（當日上限 20 元）｜車位：194格（EV充電：4）｜限高：2.0m",
+        "capacity": "194",
+        "capacity:charging": "4",
+        "phone": "0226276775"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6187,
+          25.0428
+        ]
+      },
+      "properties": {
+        "name": "中南社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "南港區",
+        "addr:full": "臺北市南港區舊莊街1段3巷42號地下1至3層",
+        "ref:tpe": "TPE1376",
+        "charge": "20 TWD/hour",
+        "description": "【南港區】中南社會住宅地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：73格（EV充電：2）｜限高：2.0m",
+        "capacity": "73",
+        "capacity:charging": "2",
+        "phone": "0226534967"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.522509,
+          25.105921
+        ]
+      },
+      "properties": {
+        "name": "臺北市士林社會福利服務中心基河馨園國宅附設停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "士林區",
+        "addr:full": "臺北市士林區基河路140號地下3層",
+        "ref:tpe": "TPE1377",
+        "charge": "公有平價計時",
+        "description": "【士林區】臺北市士林社會福利服務中心基河馨園國宅附設停車場｜費率：公有平價計時｜機車：無機車位｜車位：4格（EV充電：0）｜限高：2.0m",
+        "capacity": "4",
+        "phone": "0228350247"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5035,
+          25.1237
+        ]
+      },
+      "properties": {
+        "name": "新奇岩社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "北投區",
+        "addr:full": "臺北市北投區磺港路261號地下層（共三層）",
+        "ref:tpe": "TPE1380",
+        "charge": "30 TWD/hour",
+        "description": "【北投區】新奇岩社會住宅地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：20 元/日｜車位：170格（EV充電：4）｜限高：2.0m",
+        "capacity": "170",
+        "capacity:charging": "4",
+        "phone": "0228988375"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5746,
+          25.0786
+        ]
+      },
+      "properties": {
+        "name": "大港墘公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區洲子街18號地下1至2層",
+        "ref:tpe": "TPE1388",
+        "charge": "40 TWD/hour",
+        "description": "【內湖區】大港墘公園地下停車場｜費率：08-20 每小時 20 元；20-08 每小時 20 元｜機車：10 元/時（當日上限 30 元）｜車位：258格（EV充電：6）｜限高：2.0m",
+        "capacity": "258",
+        "capacity:charging": "6",
+        "phone": "0227995657"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6041,
+          25.0543
+        ]
+      },
+      "properties": {
+        "name": "東明甲區社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "南港區",
+        "addr:full": "臺北市南港區南港路2段60巷12、16、18號地下1至3層",
+        "ref:tpe": "TPE1399",
+        "charge": "20 TWD/hour",
+        "description": "【南港區】東明甲區社會住宅地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：65格（EV充電：1）｜限高：2.0m",
+        "capacity": "65",
+        "capacity:charging": "1",
+        "phone": "0226510865"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.604,
+          25.0544
+        ]
+      },
+      "properties": {
+        "name": "東明乙區社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "南港區",
+        "addr:full": "臺北市南港區南港路2段38巷6號(含之1~3)及60巷13號地下1至4層",
+        "ref:tpe": "TPE1400",
+        "charge": "20 TWD/hour",
+        "description": "【南港區】東明乙區社會住宅地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：323格（EV充電：6）｜限高：2.0m",
+        "capacity": "323",
+        "capacity:charging": "6",
+        "phone": "0228318671"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5036,
+          25.0204
+        ]
+      },
+      "properties": {
+        "name": "青年一期社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區青年路188號地下1至2層",
+        "ref:tpe": "TPE1401",
+        "charge": "30 TWD/hour",
+        "description": "【萬華區】青年一期社會住宅地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：133格（EV充電：3）｜限高：2.0m",
+        "capacity": "133",
+        "capacity:charging": "3",
+        "phone": "0800076080"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5642,
+          25.0546
+        ]
+      },
+      "properties": {
+        "name": "健康1區社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區健康路285號(地下1至3層)",
+        "ref:tpe": "TPE1402",
+        "charge": "30 TWD/hour",
+        "description": "【松山區】健康1區社會住宅地下停車場｜費率：07-20 每小時 20 元；18-09 每小時 450 元｜機車：10 元/時（當日上限 20 元）｜車位：135格（EV充電：3）｜限高：2.0m",
+        "capacity": "135",
+        "capacity:charging": "3",
+        "phone": "0277518097"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5656,
+          25.0546
+        ]
+      },
+      "properties": {
+        "name": "健康2區社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區健康路309號(地下1至3層)",
+        "ref:tpe": "TPE1403",
+        "charge": "30 TWD/hour",
+        "description": "【松山區】健康2區社會住宅地下停車場｜費率：07-20 每小時 20 元；18-09 每小時 450 元｜機車：10 元/時（當日上限 20 元）｜車位：149格（EV充電：4）｜限高：2.0m",
+        "capacity": "149",
+        "capacity:charging": "4",
+        "phone": "027751-8097"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.558,
+          24.9884
+        ]
+      },
+      "properties": {
+        "name": "興隆D1社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區木柵路2段2巷12-50號地下1至3層",
+        "ref:tpe": "TPE1411",
+        "charge": "20 TWD/hour",
+        "description": "【文山區】興隆D1社會住宅地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：128格（EV充電：3）｜限高：2.0m",
+        "capacity": "128",
+        "capacity:charging": "3",
+        "phone": "2939-8930"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6116,
+          25.0474
+        ]
+      },
+      "properties": {
+        "name": "國家生技研究園區停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "南港區",
+        "addr:full": "臺北市南港區研究院路1段130巷99號地下1至2層",
+        "ref:tpe": "TPE1446",
+        "charge": "40 TWD/hour",
+        "description": "【南港區】國家生技研究園區停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：20 元/日｜車位：316格（EV充電：7）｜限高：2.0m",
+        "capacity": "316",
+        "capacity:charging": "7",
+        "phone": "0226548471"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5934,
+          25.0571
+        ]
+      },
+      "properties": {
+        "name": "小彎社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "南港區",
+        "addr:full": "臺北市南港區向陽路246-256號地下1至3層",
+        "ref:tpe": "TPE1455",
+        "charge": "30 TWD/hour",
+        "description": "【南港區】小彎社會住宅地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：237格（EV充電：5）｜限高：2.0m",
+        "capacity": "237",
+        "capacity:charging": "5",
+        "phone": "0224551299"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5408,
+          24.992
+        ]
+      },
+      "properties": {
+        "name": "景行綜合大樓地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區羅斯福路6段393號地下1層",
+        "ref:tpe": "TPE1465",
+        "charge": "公有平價計時",
+        "description": "【文山區】景行綜合大樓地下停車場｜費率：公有平價計時｜機車：無機車位｜車位：7格（EV充電：0）｜限高：2.0m",
+        "capacity": "7",
+        "phone": "89315334"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.583,
+          25.0393
+        ]
+      },
+      "properties": {
+        "name": "廣慈1區社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區大道路108、110號（地下1至4層）",
+        "ref:tpe": "TPE1472",
+        "charge": "30 TWD/hour",
+        "description": "【信義區】廣慈1區社會住宅地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：370格（EV充電：8）｜限高：2.0m",
+        "capacity": "370",
+        "capacity:charging": "8",
+        "phone": "0225023333"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5064,
+          25.0483
+        ]
+      },
+      "properties": {
+        "name": "168停車聯盟-西寧市場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區西寧南路4號地下1層",
+        "ref:tpe": "TPE1481",
+        "charge": "40 TWD/hour",
+        "description": "【萬華區】168停車聯盟-西寧市場｜費率：全日每小時 40 元（全程半小時計）｜機車：無機車位｜車位：17格（EV充電：0）｜限高：2.0m",
+        "capacity": "17",
+        "phone": "2754-6661"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5346,
+          25.0415
+        ]
+      },
+      "properties": {
+        "name": "北科先鋒停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大安區",
+        "addr:full": "臺北市大安區忠孝東路3段46號地下1至4層",
+        "ref:tpe": "TPE1486",
+        "charge": "50 TWD/hour",
+        "description": "【大安區】北科先鋒停車場｜費率：全日每小時 50 元（全程半小時計）｜機車：無機車位｜車位：78格（EV充電：2）｜限高：2.0m",
+        "capacity": "78",
+        "capacity:charging": "2",
+        "phone": "0800021111"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5811,
+          25.0385
+        ]
+      },
+      "properties": {
+        "name": "廣慈2區社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區福德街84巷50、56號（地下1至4層）",
+        "ref:tpe": "TPE1488",
+        "charge": "30 TWD/hour",
+        "description": "【信義區】廣慈2區社會住宅地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：270格（EV充電：6）｜限高：2.0m",
+        "capacity": "270",
+        "capacity:charging": "6",
+        "phone": "0225023333"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5395,
+          25.0346
+        ]
+      },
+      "properties": {
+        "name": "國立臺灣師範大學附屬高級中學體育教學館地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大安區",
+        "addr:full": "臺北市大安區信義路3段143號地下1層",
+        "ref:tpe": "TPE1505",
+        "charge": "30 TWD/hour",
+        "description": "【大安區】國立臺灣師範大學附屬高級中學體育教學館地下停車場｜費率：07-22 每小時 20 元；22-07 每小時 50 元｜機車：無機車位｜車位：53格（EV充電：1）｜限高：2.0m",
+        "capacity": "53",
+        "capacity:charging": "1",
+        "phone": "2708-6000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5822,
+          25.0613
+        ]
+      },
+      "properties": {
+        "name": "行善社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區行善路266、268號地下2至3層",
+        "ref:tpe": "TPE1515",
+        "charge": "30 TWD/hour",
+        "description": "【內湖區】行善社會住宅地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：400格（EV充電：8）｜限高：2.0m",
+        "capacity": "400",
+        "capacity:charging": "8",
+        "phone": "022455-1299"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5835,
+          25.0388
+        ]
+      },
+      "properties": {
+        "name": "廣慈衛福大樓地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區大道路116號地下1至4層",
+        "ref:tpe": "TPE1519",
+        "charge": "30 TWD/hour",
+        "description": "【信義區】廣慈衛福大樓地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：701格（EV充電：17）｜限高：2.0m",
+        "capacity": "701",
+        "capacity:charging": "17",
+        "phone": "0225573722"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5813,
+          25.0377
+        ]
+      },
+      "properties": {
+        "name": "信義區行政中心地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區福德街86號地下1至4層",
+        "ref:tpe": "TPE1520",
+        "charge": "30 TWD/hour",
+        "description": "【信義區】信義區行政中心地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：96格（EV充電：2）｜限高：2.0m",
+        "capacity": "96",
+        "capacity:charging": "2",
+        "phone": "0225573722"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4997,
+          25.0319
+        ]
+      },
+      "properties": {
+        "name": "莒光社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區萬大路地下1至4層",
+        "ref:tpe": "TPE1550",
+        "charge": "30 TWD/hour",
+        "description": "【萬華區】莒光社會住宅地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：145格（EV充電：4）｜限高：2.0m",
+        "capacity": "145",
+        "capacity:charging": "4",
+        "phone": "2944-1489"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5467,
+          25.0607
+        ]
+      },
+      "properties": {
+        "name": "中山國中地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區復興北路361巷7號地下(地下共2層)",
+        "ref:tpe": "TPE1578",
+        "charge": "30 TWD/hour",
+        "description": "【松山區】中山國中地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：288格（EV充電：6）｜限高：2.0m",
+        "capacity": "288",
+        "capacity:charging": "6",
+        "phone": "2655-0818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5234,
+          25.0435
+        ]
+      },
+      "properties": {
+        "name": "臺北市立成功高級中學綜合大樓地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中正區",
+        "addr:full": "臺北市中正區濟南路1段71號地下2層",
+        "ref:tpe": "TPE1585",
+        "charge": "40 TWD/hour",
+        "description": "【中正區】臺北市立成功高級中學綜合大樓地下停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：無機車位｜車位：93格（EV充電：2）｜限高：2.0m",
+        "capacity": "93",
+        "capacity:charging": "2",
+        "phone": "2321-8222"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5568,
+          24.9821
+        ]
+      },
+      "properties": {
+        "name": "景美女中地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區木新路3段210巷9號地下(地下共2層)",
+        "ref:tpe": "TPE1589",
+        "charge": "20 TWD/hour",
+        "description": "【文山區】景美女中地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：10 元/時｜車位：268格（EV充電：6）｜限高：2.0m",
+        "capacity": "268",
+        "capacity:charging": "6",
+        "phone": "6603-9014"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5028,
+          25.0267
+        ]
+      },
+      "properties": {
+        "name": "新和國小地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區西藏路125巷31號地下1至3層",
+        "ref:tpe": "TPE1602",
+        "charge": "30 TWD/hour",
+        "description": "【萬華區】新和國小地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時｜車位：304格（EV充電：6）｜限高：2.0m",
+        "capacity": "304",
+        "capacity:charging": "6",
+        "phone": "2799-5657"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6124,
+          25.0698
+        ]
+      },
+      "properties": {
+        "name": "東湖立體停車場",
+        "amenity": "parking",
+        "parking": "multi-storey",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區東湖路3號(地下共2層、地上1層及3至8層)",
+        "ref:tpe": "TPE1604",
+        "charge": "40 TWD/hour",
+        "description": "【內湖區】東湖立體停車場｜費率：8-21 每小時 20 元；21-8 每小時 10 元｜機車：10 元/時｜車位：228格（EV充電：15）｜限高：2.0m",
+        "capacity": "228",
+        "capacity:charging": "15",
+        "phone": "(02)27995657"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5246,
+          25.0208
+        ]
+      },
+      "properties": {
+        "name": "臺北市客家文化中心附設地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中正區",
+        "addr:full": "臺北市中正區汀州路3段2號",
+        "ref:tpe": "TPE1624",
+        "charge": "40 TWD/hour",
+        "description": "【中正區】臺北市客家文化中心附設地下停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：63格（EV充電：1）｜限高：2.0m",
+        "capacity": "63",
+        "capacity:charging": "1",
+        "phone": "2369-1198"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.489435,
+          25.045253
+        ]
+      },
+      "properties": {
+        "name": "臺北市環南綜合市場自治會",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.1",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區環河南路2段245號地下1至2、地上1層",
+        "ref:tpe": "TPE1639",
+        "charge": "30 TWD/hour",
+        "description": "【萬華區】臺北市環南綜合市場自治會｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：483格（EV充電：0）｜限高：2.1m",
+        "capacity": "483",
+        "phone": "23621685"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5589,
+          24.997
+        ]
+      },
+      "properties": {
+        "name": "臺北市文山運動中心停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區興隆路3段222號地上1層及地下1至2層",
+        "ref:tpe": "TPE1676",
+        "charge": "30 TWD/hour",
+        "description": "【文山區】臺北市文山運動中心停車場｜費率：08-22 每小時 15 元；22-08 每小時 20 元｜機車：20 元/日｜車位：79格（EV充電：2）｜限高：2.0m",
+        "capacity": "79",
+        "capacity:charging": "2",
+        "phone": "0222308268#221"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.575798,
+          25.00665
+        ]
+      },
+      "properties": {
+        "name": "國際學人暨學生會館(I-House)收費停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區秀明路2段112巷17號地下2層",
+        "ref:tpe": "TPE1696",
+        "charge": "小型車：",
+        "description": "【文山區】國際學人暨學生會館(I-House)收費停車場｜費率：小型車：｜機車：無機車位｜車位：20格（EV充電：0）｜限高：2.0m",
+        "capacity": "20",
+        "phone": "29393091"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.506,
+          25.0473
+        ]
+      },
+      "properties": {
+        "name": "福星社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區開封街2段37號地下1至4層",
+        "ref:tpe": "TPE1726",
+        "charge": "50 TWD/hour",
+        "description": "【萬華區】福星社會住宅地下停車場｜費率：10-22 每小時 10 元；22-10 每小時 60 元｜機車：10 元/時｜車位：165格（EV充電：6）｜限高：2.0m",
+        "capacity": "165",
+        "capacity:charging": "6",
+        "phone": "29441489#0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5494,
+          24.9853
+        ]
+      },
+      "properties": {
+        "name": "和興水岸社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區和興路88號地下1至2層",
+        "ref:tpe": "TPE1767",
+        "charge": "20 TWD/hour",
+        "description": "【文山區】和興水岸社會住宅地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：10 元/時｜車位：113格（EV充電：3）｜限高：2.0m",
+        "capacity": "113",
+        "capacity:charging": "3",
+        "phone": "25573722"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5034,
+          25.0206
+        ]
+      },
+      "properties": {
+        "name": "青年二期社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區青年路180、182號地下1至3層",
+        "ref:tpe": "TPE1769",
+        "charge": "30 TWD/hour",
+        "description": "【萬華區】青年二期社會住宅地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：20 元/日｜車位：296格（EV充電：6）｜限高：2.0m",
+        "capacity": "296",
+        "capacity:charging": "6",
+        "phone": "25573722"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5883,
+          25.069
+        ]
+      },
+      "properties": {
+        "name": "臺北市內湖區新湖國民小學活動中心地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區民權東路6段138號",
+        "ref:tpe": "TPE1773",
+        "charge": "小型車：",
+        "description": "【內湖區】臺北市內湖區新湖國民小學活動中心地下停車場｜費率：小型車：｜機車：無機車位｜車位：21格（EV充電：3）｜限高：2.0m",
+        "capacity": "21",
+        "capacity:charging": "3",
+        "phone": "0227963721#121"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5811,
+          25.0386
+        ]
+      },
+      "properties": {
+        "name": "廣慈3區社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區福德街84巷80、82號(地下共4層)",
+        "ref:tpe": "TPE1785",
+        "charge": "30 TWD/hour",
+        "description": "【信義區】廣慈3區社會住宅地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：269格（EV充電：6）｜限高：2.0m",
+        "capacity": "269",
+        "capacity:charging": "6",
+        "phone": "0225573722"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.546,
+          25.0299
+        ]
+      },
+      "properties": {
+        "name": "大安國中地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大安區",
+        "addr:full": "臺北市大安區大安路2段63號地下1至2層",
+        "ref:tpe": "TPE1793",
+        "charge": "50 TWD/hour",
+        "description": "【大安區】大安國中地下停車場｜費率：08-21 每小時 50 元；21-08 每小時 10 元｜機車：10 元/時（當日上限 30 元）｜車位：223格（EV充電：5）｜限高：2.0m",
+        "capacity": "223",
+        "capacity:charging": "5",
+        "phone": "2799-5657"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.555124,
+          25.017345
+        ]
+      },
+      "properties": {
+        "name": "興隆A區社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區興隆路4段42巷1號地下1至3層",
+        "ref:tpe": "TPE1807",
+        "charge": "20 TWD/hour",
+        "description": "【文山區】興隆A區社會住宅地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：272格（EV充電：5）｜限高：2.0m",
+        "capacity": "272",
+        "capacity:charging": "5",
+        "phone": "2939-8935"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5892,
+          25.0773
+        ]
+      },
+      "properties": {
+        "name": "內湖國中地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區陽光街1號(地下共2層)",
+        "ref:tpe": "TPE1824",
+        "charge": "20 TWD/hour",
+        "description": "【內湖區】內湖國中地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：10 元/時｜車位：119格（EV充電：3）｜限高：2.0m",
+        "capacity": "119",
+        "capacity:charging": "3",
+        "phone": "0227949119"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.557815,
+          25.070548
+        ]
+      },
+      "properties": {
+        "name": "三軍總醫院松山分院附設民眾停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區健康路131號地下1至地上5層",
+        "ref:tpe": "TPE1831",
+        "charge": "40 TWD/hour",
+        "description": "【松山區】三軍總醫院松山分院附設民眾停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：20 元/日｜車位：113格（EV充電：4）｜限高：2.0m",
+        "capacity": "113",
+        "capacity:charging": "4",
+        "phone": "0227642151#9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.518046,
+          25.087607
+        ]
+      },
+      "properties": {
+        "name": "大龍峒社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.1",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大同區",
+        "addr:full": "臺北市大同區承德路3段212、212-2號地上1層及地下1至3層",
+        "ref:tpe": "TPE1861",
+        "charge": "30 TWD/hour",
+        "description": "【大同區】大龍峒社會住宅地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：84格（EV充電：2）｜限高：2.1m",
+        "capacity": "84",
+        "capacity:charging": "2",
+        "phone": "0227546661"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.518048,
+          25.132291
+        ]
+      },
+      "properties": {
+        "name": "振華公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "北投區",
+        "addr:full": "臺北市北投區振華街15號地下共2層",
+        "ref:tpe": "TPE1864",
+        "charge": "40 TWD/hour",
+        "description": "【北投區】振華公園地下停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：405格（EV充電：13）｜限高：2.0m",
+        "capacity": "405",
+        "capacity:charging": "13",
+        "phone": "0227995657"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5569,
+          24.993996
+        ]
+      },
+      "properties": {
+        "name": "樟新水岸社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區樟新街65號（地下1-3層）",
+        "ref:tpe": "TPE1870",
+        "charge": "20 TWD/hour",
+        "description": "【文山區】樟新水岸社會住宅地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：154格（EV充電：3）｜限高：2.0m",
+        "capacity": "154",
+        "capacity:charging": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.559106,
+          25.04399
+        ]
+      },
+      "properties": {
+        "name": "六張犁1區社宅停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區信安街25、29號、信安街15巷20弄2、6號地下1至3層",
+        "ref:tpe": "TPE1875",
+        "charge": "30 TWD/hour",
+        "description": "【信義區】六張犁1區社宅停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：230格（EV充電：5）｜限高：2.0m",
+        "capacity": "230",
+        "capacity:charging": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.559515,
+          25.044241
+        ]
+      },
+      "properties": {
+        "name": "六張犁2區社宅停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:full": "臺北市信義區信安街15巷36號、信安街15巷20弄1、3號、信安街15巷46弄2、6號、信安街47巷26、37、39號地下1至3層",
+        "ref:tpe": "TPE1876",
+        "charge": "30 TWD/hour",
+        "description": "【信義區】六張犁2區社宅停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：340格（EV充電：7）｜限高：2.0m",
+        "capacity": "340",
+        "capacity:charging": "7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.610394,
+          25.073026
+        ]
+      },
+      "properties": {
+        "name": "經貿社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "南港區",
+        "addr:full": "臺北市南港區興東街28、30、32號地下1至3層",
+        "ref:tpe": "TPE1884",
+        "charge": "30 TWD/hour",
+        "description": "【南港區】經貿社會住宅地下停車場｜費率：08-20 每小時 30 元；20-08 每小時 20 元｜機車：20 元/日｜車位：108格（EV充電：5）｜限高：2.0m",
+        "capacity": "108",
+        "capacity:charging": "5",
+        "phone": "0800021111"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.543496,
+          25.042531
+        ]
+      },
+      "properties": {
+        "name": "科技大樓地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大安區",
+        "addr:full": "臺北市大安區復興南路2段228-230號地上2至地下4層",
+        "ref:tpe": "TPE1888",
+        "charge": "50 TWD/hour",
+        "description": "【大安區】科技大樓地下停車場｜費率：09-21 每小時 10 元；21-09 每小時 10 元｜機車：10 元/時（當日上限 30 元）｜車位：113格（EV充電：4）｜限高：2.0m",
+        "capacity": "113",
+        "capacity:charging": "4",
+        "phone": "27995657"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.512444,
+          25.124026
+        ]
+      },
+      "properties": {
+        "name": "福星公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "北投區",
+        "addr:full": "臺北市北投區北科路220號〔地下共2層〕",
+        "ref:tpe": "TPE1889",
+        "charge": "40 TWD/hour",
+        "description": "【北投區】福星公園地下停車場｜費率：全日每小時 40 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：425格（EV充電：21）｜限高：2.0m",
+        "capacity": "425",
+        "capacity:charging": "21",
+        "phone": "0228233418"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.620548,
+          25.086675
+        ]
+      },
+      "properties": {
+        "name": "樂活公園地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區康樂街85巷57號地下（地下共2層）",
+        "ref:tpe": "TPE1897",
+        "charge": "40 TWD/hour",
+        "description": "【內湖區】樂活公園地下停車場｜費率：08-21 每小時 20 元；21-08 每小時 10 元｜機車：10 元/時（當日上限 20 元）｜車位：207格（EV充電：21）｜限高：2.0m",
+        "capacity": "207",
+        "capacity:charging": "21",
+        "phone": "0226550818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.577909,
+          25.079219
+        ]
+      },
+      "properties": {
+        "name": "舊宗社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區舊宗路1段185號地下1至3層",
+        "ref:tpe": "TPE1908",
+        "charge": "30 TWD/hour",
+        "description": "【內湖區】舊宗社會住宅地下停車場｜費率：全日每小時 30 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：62格（EV充電：1）｜限高：2.0m",
+        "capacity": "62",
+        "capacity:charging": "1",
+        "phone": "0227546661"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.503242,
+          25.105421
+        ]
+      },
+      "properties": {
+        "name": "永平社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "士林區",
+        "addr:full": "臺北市士林區延平北路6段261巷2號地上1層及地下1至2層",
+        "ref:tpe": "TPE1916",
+        "charge": "公有平價計時",
+        "description": "【士林區】永平社會住宅地下停車場｜費率：公有平價計時｜機車：10 元/時（當日上限 20 元）｜車位：61格（EV充電：1）｜限高：2.0m",
+        "capacity": "61",
+        "capacity:charging": "1",
+        "phone": "0227546661"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.568945,
+          25.071204
+        ]
+      },
+      "properties": {
+        "name": "Times全聯松山鵬程店",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "松山區",
+        "addr:full": "臺北市松山區健康路399號地下2層",
+        "ref:tpe": "TPE1932",
+        "charge": "30 TWD/hour",
+        "description": "【松山區】Times全聯松山鵬程店｜費率：全日每小時 30 元（全程半小時計）｜機車：無機車位｜車位：17格（EV充電：0）｜限高：2.0m",
+        "capacity": "17",
+        "phone": "0809228924"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.559304,
+          25.004604
+        ]
+      },
+      "properties": {
+        "name": "興隆E區社會住宅地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區興隆路4段42巷11號地下1至4層",
+        "ref:tpe": "TPE1940",
+        "charge": "20 TWD/hour",
+        "description": "【文山區】興隆E區社會住宅地下停車場｜費率：全日每小時 20 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：163格（EV充電：4）｜限高：2.0m",
+        "capacity": "163",
+        "capacity:charging": "4",
+        "phone": "0229599991"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51882,
+          25.060294
+        ]
+      },
+      "properties": {
+        "name": "臺大醫院健康大樓停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "中正區",
+        "addr:full": "臺北市中正區中山南路12號地下2至3層",
+        "ref:tpe": "TPE1946",
+        "charge": "50 TWD/hour",
+        "description": "【中正區】臺大醫院健康大樓停車場｜費率：全日每小時 50 元（全程半小時計）｜機車：10 元/時（當日上限 20 元）｜車位：195格（EV充電：0）｜限高：2.0m",
+        "capacity": "195",
+        "phone": "23123456"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53377,
+          25.040636
+        ]
+      },
+      "properties": {
+        "name": "歐特儀溫州街停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "大安區",
+        "addr:full": "臺北市大安區溫州街35號地下2層",
+        "ref:tpe": "TPE1950",
+        "charge": "公有平價計時",
+        "description": "【大安區】歐特儀溫州街停車場｜費率：公有平價計時｜機車：無機車位｜車位：24格（EV充電：0）｜限高：2.0m",
+        "capacity": "24",
+        "phone": "27057716"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.562793,
+          25.099768
+        ]
+      },
+      "properties": {
+        "name": "七星大樓地下停車場",
+        "amenity": "parking",
+        "parking": "underground",
+        "access": "yes",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "maxheight": "2.0",
+        "operator": "臺北市停車管理工程處",
+        "operator:type": "government",
+        "addr:city": "臺北市",
+        "addr:district": "內湖區",
+        "addr:full": "臺北市內湖區內湖路1段98號地下1至3層",
+        "ref:tpe": "TPE1953",
+        "charge": "50 TWD/hour",
+        "description": "【內湖區】七星大樓地下停車場｜費率：全日每小時 50 元（全程半小時計）｜機車：無機車位｜車位：34格（EV充電：2）｜限高：2.0m",
+        "capacity": "34",
+        "capacity:charging": "2"
+      }
+    }
+  ]
+}

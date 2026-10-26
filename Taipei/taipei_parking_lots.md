@@ -3,9 +3,11 @@
 本指南彙整臺北市各行政區內符合「室內地下坡道平面」、「24 小時全日營運」、「公有平價費率」且「配備電動車充電樁與友善車位」之公有停車場名冊。  
 全篇採用**統一表格結構**編排，提供各場站之精確費率、限高、車位數與 Google 地圖即時搜尋導航連結。
 
-* 📥 **地圖圖層匯入檔案（可直接匯入至個人 Google 地圖帳號）**：
-  * **KML 檔**：[taipei_parking_lots.kml](./taipei_parking_lots.kml)（含地圖自訂停車圖標與導航卡片）
+* 📥 **地圖圖層與書籤匯入檔案（可直接匯入至 Google 地圖或 CoMaps / Organic Maps）**：
+  * **KMZ 離線書籤檔（CoMaps / Organic Maps 一鍵匯入推薦）**：[taipei_parking_lots.kmz](./taipei_parking_lots.kmz)（手機點擊即開，內建停車圖標與完整離線導航）
+  * **KML 檔（Google 我的地圖）**：[taipei_parking_lots.kml](./taipei_parking_lots.kml)（含地圖自訂停車圖標與導航卡片）
   * **CSV 檔**：[taipei_parking_lots.csv](./taipei_parking_lots.csv)（含官方經緯度座標與詳細規格）
+  * **GeoJSON 檔 (OpenStreetMap / uMap)**：[taipei_parking_lots.geojson](./taipei_parking_lots.geojson)（符合標準 OSM 標籤架構）
 
 ---
 

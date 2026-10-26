@@ -25,6 +25,7 @@ import re
 import ssl
 import sys
 import urllib.request
+import zipfile
 
 # Ensure UTF-8 output even in Windows cmd/PowerShell cp950 environments
 if sys.stdout.encoding != 'utf-8':
@@ -314,15 +315,20 @@ def export_csv(lots, filename):
 
 def export_kml(lots, filename):
     """
-    Exports lots to OGC standard KML (XML) with custom pin styles and rich HTML descriptions.
+    Exports lots to OGC standard KML 2.2 (XML) compliant with both:
+      1. Google My Maps (<Style id="placemark-blue">, HTML CDATA <description>)
+      2. CoMaps / Organic Maps C++ KmlParser (libs/kml/serdes.cpp & types.hpp):
+         - <styleUrl>#placemark-blue</styleUrl> -> PredefinedColor::Blue
+         - <ExtendedData xmlns:mwm="https://comaps.app">
+         - <mwm:icon>Parking</mwm:icon> (exact PascalCase match for BookmarkIcon::Parking)
+         - <mwm:name>/<mwm:description>/<mwm:annotation> wrapped in <mwm:lang code="default">
+    Returns the raw KML string so it can also be packaged as KMZ.
     """
     kml = []
     kml.append('<?xml version="1.0" encoding="UTF-8"?>')
-    kml.append('<kml xmlns="http://www.opengis.net/kml/2.2">')
+    kml.append('<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">')
     kml.append('  <Document>')
-    kml.append('    <name>臺北市公有地下優質停車場名冊 (Taipei Parking Jäger)</name>')
-    kml.append('    <description>臺北市政府停管處官方 Single Source of Truth (SSOT) 即時篩選成果：24H、公有自營/委外、室內地下平面、平價計時與EV充電設施。</description>')
-    kml.append('    <Style id="parking-blue">')
+    kml.append('    <Style id="placemark-blue">')
     kml.append('      <IconStyle>')
     kml.append('        <color>ffd18800</color>')
     kml.append('        <scale>1.2</scale>')
@@ -331,8 +337,36 @@ def export_kml(lots, filename):
     kml.append('        </Icon>')
     kml.append('      </IconStyle>')
     kml.append('    </Style>')
+    kml.append('    <name>臺北市公有地下優質停車場名冊 (Taipei Parking Jäger)</name>')
+    kml.append('    <description>臺北市政府停管處官方 Single Source of Truth (SSOT) 即時篩選成果：24H、公有自營/委外、室內地下平面、平價計時與EV充電設施。</description>')
+    kml.append('    <visibility>1</visibility>')
+    kml.append('    <ExtendedData xmlns:mwm="https://comaps.app">')
+    kml.append('      <mwm:name>')
+    kml.append('        <mwm:lang code="default">臺北市公有地下優質停車場 (Taipei Parking Jäger)</mwm:lang>')
+    kml.append('      </mwm:name>')
+    kml.append('      <mwm:annotation>')
+    kml.append('        <mwm:lang code="default">臺北市政府停管處官方 SSOT 篩選：24H、公有平面、平價計時與EV充電</mwm:lang>')
+    kml.append('      </mwm:annotation>')
+    kml.append('      <mwm:description>')
+    kml.append('        <mwm:lang code="default">臺北市政府停管處官方 Single Source of Truth (SSOT) 即時篩選成果：24H、公有自營/委外、室內地下平面、平價計時與EV充電設施。</mwm:lang>')
+    kml.append('      </mwm:description>')
+    kml.append('      <mwm:accessRules>Local</mwm:accessRules>')
+    kml.append('    </ExtendedData>')
 
     for l in lots:
+        rate_car = format_md_rate_car(l['payex'], l['hourly_rate'], l['name'])
+        rate_moto = format_md_rate_moto(l['payex'], l['total_moto'])
+        height = format_md_height(l['name'])
+        desc_plain = (
+            f"費率：{rate_car}\n"
+            f"機車：{rate_moto}\n"
+            f"限高：{height}\n"
+            f"小型車位：{l['total_car']} 格（EV 充電樁：{l['charging_stalls']} 格）\n"
+            f"地址：{l['address']}\n"
+            f"管轄：{l['type_name']}\n"
+            f"完整收費：{l['payex']}"
+        )
+
         desc_html = f"""<![CDATA[
 <h3>{html.escape(l['name'])}</h3>
 <table border="0" cellpadding="3" cellspacing="0" style="font-family:sans-serif; font-size:13px; line-height:1.5;">
@@ -341,6 +375,7 @@ def export_kml(lots, filename):
   <tr><td><b>管　轄：</b></td><td>{html.escape(l['type_name'])}</td></tr>
   <tr><td><b>小型車：</b></td><td>{html.escape(str(l['total_car']))} 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>{html.escape(str(l['charging_stalls']))} 格</td></tr>
+  <tr><td><b>限　高：</b></td><td>{html.escape(height)}</td></tr>
   <tr><td><b>費　率：</b></td><td>{html.escape(l['payex'])}</td></tr>
   <tr><td><b>電　話：</b></td><td>{html.escape(l['tel'] if l['tel'] else '洽現場服務處')}</td></tr>
 </table>
@@ -351,20 +386,112 @@ def export_kml(lots, filename):
         kml.append('    <Placemark>')
         kml.append(f'      <name>{html.escape(l["name"])}</name>')
         kml.append(f'      <description>{desc_html}</description>')
-        kml.append('      <styleUrl>#parking-blue</styleUrl>')
-        kml.append(f'      <address>{html.escape(l["address"])}</address>')
+        kml.append('      <styleUrl>#placemark-blue</styleUrl>')
         if l['lat'] and l['lng']:
             kml.append('      <Point>')
             kml.append(f'        <coordinates>{l["lng"]},{l["lat"]},0</coordinates>')
             kml.append('      </Point>')
+        # CoMaps / Organic Maps native bookmark ExtendedData (matches libs/kml/serdes.cpp)
+        kml.append('      <ExtendedData xmlns:mwm="https://comaps.app">')
+        kml.append('        <mwm:name>')
+        kml.append(f'          <mwm:lang code="default">{html.escape(l["name"])}</mwm:lang>')
+        kml.append('        </mwm:name>')
+        kml.append('        <mwm:description>')
+        kml.append(f'          <mwm:lang code="default">{html.escape(desc_plain)}</mwm:lang>')
+        kml.append('        </mwm:description>')
+        kml.append('        <mwm:icon>Parking</mwm:icon>')
+        kml.append('        <mwm:visibility>1</mwm:visibility>')
+        kml.append('      </ExtendedData>')
         kml.append('    </Placemark>')
 
     kml.append('  </Document>')
     kml.append('</kml>')
 
+    kml_str = '\n'.join(kml)
     with open(filename, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(kml))
+        f.write(kml_str)
     print(f"[+] Successfully generated KML: {filename} ({len(lots)} pins)")
+    return kml_str
+
+
+def export_kmz(kml_content, filename):
+    """
+    Exports compressed KMZ (doc.kml inside a zip archive).
+    This is the official native 1-tap import format for CoMaps and Organic Maps on mobile.
+    """
+    with zipfile.ZipFile(filename, 'w', zipfile.ZIP_DEFLATED) as zf:
+        zf.writestr('doc.kml', kml_content.encode('utf-8'))
+    size_kb = os.path.getsize(filename) / 1024
+    print(f"[+] Successfully generated KMZ (CoMaps / Organic Maps 1-Tap Ready): {filename} ({size_kb:.1f} KB)")
+
+
+def export_geojson(lots, filename):
+    """
+    Exports lots to strict IETF RFC 7946 GeoJSON with official OpenStreetMap (OSM) tags.
+    - No deprecated 'crs' object (strict RFC 7946 compliance)
+    - All OSM tag values formatted as clean strings without null values (JOSM / iD ready)
+    - Compatible with uMap, Leaflet, QGIS, and GitHub's interactive map viewer.
+    """
+    features = []
+    for l in lots:
+        if not l.get('lat') or not l.get('lng'):
+            continue
+
+        lat = float(l['lat'])
+        lng = float(l['lng'])
+        name = l['name']
+        height = format_md_height(name)
+        rate_car = format_md_rate_car(l['payex'], l['hourly_rate'], name)
+        rate_moto = format_md_rate_moto(l['payex'], l['total_moto'])
+        parking_type = 'multi-storey' if '立體' in name else 'underground'
+
+        props = {
+            "name": name,
+            "amenity": "parking",
+            "parking": parking_type,
+            "access": "yes",
+            "fee": "yes",
+            "opening_hours": "24/7",
+            "maxheight": height.replace('m', ''),
+            "operator": "臺北市停車管理工程處",
+            "operator:type": "government",
+            "addr:city": "臺北市",
+            "addr:district": l['district'],
+            "addr:full": l['address'],
+            "ref:tpe": str(l['id']),
+            "charge": f"{l['hourly_rate']} TWD/hour" if str(l['hourly_rate']).isdigit() else rate_car,
+            "description": f"【{l['district']}】{name}｜費率：{rate_car}｜機車：{rate_moto}｜車位：{l['total_car']}格（EV充電：{l['charging_stalls']}）｜限高：{height}",
+        }
+
+        if str(l['total_car']).isdigit() and int(l['total_car']) > 0:
+            props["capacity"] = str(l['total_car'])
+
+        if str(l['charging_stalls']).isdigit() and int(l['charging_stalls']) > 0:
+            props["capacity:charging"] = str(l['charging_stalls'])
+        elif l['charging_stalls'] == '有':
+            props["capacity:charging"] = "yes"
+
+        if l.get('tel'):
+            props["phone"] = str(l['tel'])
+
+        feat = {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [lng, lat]  # RFC 7946 standard order: [Longitude, Latitude]
+            },
+            "properties": props
+        }
+        features.append(feat)
+
+    geojson_data = {
+        "type": "FeatureCollection",
+        "features": features
+    }
+
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(geojson_data, f, ensure_ascii=False, indent=2)
+    print(f"[+] Successfully generated GeoJSON (RFC 7946 & OSM Ready): {filename} ({len(features)} features)")
 
 
 def format_md_rate_car(payex, hourly_rate, name):
@@ -471,9 +598,11 @@ def export_markdown(lots, filename):
     md.append('# 臺北市平價公有地下平面停車場指南\n')
     md.append('本指南彙整臺北市各行政區內符合「室內地下坡道平面」、「24 小時全日營運」、「公有平價費率」且「配備電動車充電樁與友善車位」之公有停車場名冊。  ')
     md.append('全篇採用**統一表格結構**編排，提供各場站之精確費率、限高、車位數與 Google 地圖即時搜尋導航連結。\n')
-    md.append('* 📥 **地圖圖層匯入檔案（可直接匯入至個人 Google 地圖帳號）**：')
-    md.append('  * **KML 檔**：[taipei_parking_lots.kml](./taipei_parking_lots.kml)（含地圖自訂停車圖標與導航卡片）')
-    md.append('  * **CSV 檔**：[taipei_parking_lots.csv](./taipei_parking_lots.csv)（含官方經緯度座標與詳細規格）\n')
+    md.append('* 📥 **地圖圖層與書籤匯入檔案（可直接匯入至 Google 地圖或 CoMaps / Organic Maps）**：')
+    md.append('  * **KMZ 離線書籤檔（CoMaps / Organic Maps 一鍵匯入推薦）**：[taipei_parking_lots.kmz](./taipei_parking_lots.kmz)（手機點擊即開，內建停車圖標與完整離線導航）')
+    md.append('  * **KML 檔（Google 我的地圖）**：[taipei_parking_lots.kml](./taipei_parking_lots.kml)（含地圖自訂停車圖標與導航卡片）')
+    md.append('  * **CSV 檔**：[taipei_parking_lots.csv](./taipei_parking_lots.csv)（含官方經緯度座標與詳細規格）')
+    md.append('  * **GeoJSON 檔 (OpenStreetMap / uMap)**：[taipei_parking_lots.geojson](./taipei_parking_lots.geojson)（符合標準 OSM 標籤架構）\n')
     md.append('---\n')
     md.append('## 一、 規格與服務條件說明\n')
     md.append('名冊內收錄之公有地下停車場均符合以下營運標準：\n')
@@ -538,11 +667,13 @@ def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     default_csv = os.path.join(script_dir, 'taipei_parking_lots.csv')
     default_kml = os.path.join(script_dir, 'taipei_parking_lots.kml')
+    default_kmz = os.path.join(script_dir, 'taipei_parking_lots.kmz')
+    default_geojson = os.path.join(script_dir, 'taipei_parking_lots.geojson')
     default_md = os.path.join(script_dir, 'taipei_parking_lots.md')
     default_cache = os.path.join(script_dir, 'alldesc_cache.json')
 
     parser = argparse.ArgumentParser(
-        description="Fetch Taipei parking lots from official SSOT API and generate Google My Maps CSV/KML and Markdown Guide."
+        description="Fetch Taipei parking lots from official SSOT API and generate Google My Maps / CoMaps / OpenStreetMap outputs."
     )
     parser.add_argument('--no-cache', action='store_true', help='Force re-fetching latest live JSON from Azure Blob SSOT')
     parser.add_argument('--cache-file', default=default_cache, help='Local path for dataset cache')
@@ -555,6 +686,8 @@ def main():
     parser.add_argument('--hours-24', action='store_true', default=True, help='Require 24-hour continuous service')
     parser.add_argument('--output-csv', default=default_csv, help='Output CSV path')
     parser.add_argument('--output-kml', default=default_kml, help='Output KML path')
+    parser.add_argument('--output-kmz', default=default_kmz, help='Output KMZ (CoMaps / Organic Maps) path')
+    parser.add_argument('--output-geojson', default=default_geojson, help='Output GeoJSON (OpenStreetMap) path')
     parser.add_argument('--output-md', default=default_md, help='Output Markdown handbook path')
 
     args = parser.parse_args()
@@ -584,9 +717,15 @@ def main():
 
     # Step 3: Export
     export_csv(filtered_lots, args.output_csv)
-    export_kml(filtered_lots, args.output_kml)
+    kml_str = export_kml(filtered_lots, args.output_kml)
+    export_kmz(kml_str, args.output_kmz)
+    export_geojson(filtered_lots, args.output_geojson)
     export_markdown(filtered_lots, args.output_md)
-    print(f"[✓] All files generated successfully! You can import '{args.output_kml}' or '{args.output_csv}' into https://mymaps.google.com")
+    print(f"[✓] All files generated successfully!")
+    print(f"    - CoMaps / Organic Maps (1-Tap) : '{args.output_kmz}'")
+    print(f"    - Google My Maps                : '{args.output_kml}' / '{args.output_csv}'")
+    print(f"    - OpenStreetMap (OSM / uMap)    : '{args.output_geojson}'")
+    print(f"    - Markdown Handbook             : '{args.output_md}'")
 
 
 if __name__ == '__main__':
