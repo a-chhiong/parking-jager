@@ -35,7 +35,7 @@
   <tr><td><b>管　轄：</b></td><td>本處自營停車場</td></tr>
   <tr><td><b>小型車：</b></td><td>457 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>12 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>1.7m</td></tr>
+  <tr><td><b>限　高：</b></td><td>1.8m</td></tr>
   <tr><td><b>費　率：</b></td><td>小型車：計時 30元/時，全程以半小時計，全日雙月票11,520元。</td></tr>
   <tr><td><b>電　話：</b></td><td>0227608303</td></tr>
 </table>
@@ -52,9 +52,9 @@
           <mwm:lang code="default">民生立體停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 30元/時，全程以半小時計，全日雙月票11,520元
 機車：無機車位
-限高：1.7m
+限高：1.8m
 小型車位：457 格（EV 充電樁：12 格）
 地址：臺北市松山區民生東路5段84號
 管轄：本處自營停車場
@@ -74,7 +74,7 @@
   <tr><td><b>管　轄：</b></td><td>本處委外停車場</td></tr>
   <tr><td><b>小型車：</b></td><td>518 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>10 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
+  <tr><td><b>限　高：</b></td><td>1.8m</td></tr>
   <tr><td><b>費　率：</b></td><td>小型車：計時 週一~週五(10時~22時)50元/時，(22時~10時)10元/時，週六、週日、行政機關放假之紀念日與民俗日(10時~24時)60元/時，(24時~10時)10元/時，全程以半小時計;月租 全日4,800元，日間4,000元(10時~22時)，夜間500元(21時~09時)。機車：機車收費20元/次;機車月租300元/月</td></tr>
   <tr><td><b>電　話：</b></td><td>洽現場服務處</td></tr>
 </table>
@@ -91,9 +91,9 @@
           <mwm:lang code="default">峨眉立體停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：10時~22時 每小時 50 元；22時~10時 每小時 10 元
+          <mwm:lang code="default">費率：50元/時，(22時~10時)10元/時
 機車：20 元/日
-限高：2.0m
+限高：1.8m
 小型車位：518 格（EV 充電樁：10 格）
 地址：臺北市萬華區峨眉街83號地下1層及地上7層
 管轄：本處委外停車場
@@ -130,7 +130,7 @@
           <mwm:lang code="default">花博公園圓山地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-22 每小時 20 元；22-08 每小時 10 元
+          <mwm:lang code="default">費率：10元/時，依設備自動判斷未充電者再加收10元/時（未充電者合計加收20元/時）
 機車：無機車位
 限高：2.0m
 小型車位：105 格（EV 充電樁：2 格）
@@ -157,19 +157,19 @@
   <tr><td><b>電　話：</b></td><td>0227995657</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.065611,121.552658" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.049081,121.552542" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.552658,25.065611,0</coordinates>
+        <coordinates>121.552542,25.049081,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">北寧路地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：09-21 每小時 40 元；21-09 每小時 30 元
+          <mwm:lang code="default">費率：40元/時(09-21)，30元/時(21-09)
 機車：無機車位
 限高：2.0m
 小型車位：76 格（EV 充電樁：2 格）
@@ -191,7 +191,7 @@
   <tr><td><b>管　轄：</b></td><td>本處自營停車場</td></tr>
   <tr><td><b>小型車：</b></td><td>1295 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>46 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
+  <tr><td><b>限　高：</b></td><td>1.8m</td></tr>
   <tr><td><b>費　率：</b></td><td>計時：小型車(含大型重型機車)週一至週五20元/時(08-22)、10元/時(22-08)，週六至週日及政府行政機關放假之紀念日、民俗節日20元/時(08-10)、30元/時(10-22)、10元/時(22-08)，停車全程以半小時計。月租：小型車全日4,000元/月，日間(07-20)2,400元/月，夜間(20-07)900元/月。</td></tr>
   <tr><td><b>電　話：</b></td><td>2381-2484</td></tr>
 </table>
@@ -208,9 +208,9 @@
           <mwm:lang code="default">洛陽綜合立體停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-22 每小時 10 元；22-08 每小時 20 元
+          <mwm:lang code="default">費率：20元/時(08-10)、30元/時(10-22)、10元/時(22-08)
 機車：無機車位
-限高：2.0m
+限高：1.8m
 小型車位：1295 格（EV 充電樁：46 格）
 地址：臺北市萬華區環河南路1段1號
 管轄：本處自營停車場
@@ -247,7 +247,7 @@
           <mwm:lang code="default">中山堂地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-20 每小時 10 元；20-08 每小時 60 元
+          <mwm:lang code="default">費率：週五50元/時(08-20)，10元/時(20-08)
 機車：無機車位
 限高：2.0m
 小型車位：441 格（EV 充電樁：9 格）
@@ -269,7 +269,7 @@
   <tr><td><b>管　轄：</b></td><td>本處委外停車場</td></tr>
   <tr><td><b>小型車：</b></td><td>310 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>7 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
+  <tr><td><b>限　高：</b></td><td>1.8m</td></tr>
   <tr><td><b>費　率：</b></td><td>小型車、大型重型機車：計時40元/時(週一至週四)，50元/時(週五至週日、行政機關放假之紀念日與民俗日)，全程以半小時計；小型車全日4,800元/月，大型重機2,400元/月。機車10元/時，當日單次最高收費上限20元/次，隔日另計(以0時為基準)；月租300元/月。</td></tr>
   <tr><td><b>電　話：</b></td><td>0226550818</td></tr>
 </table>
@@ -288,7 +288,7 @@
         <mwm:description>
           <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
 機車：10 元/時（當日上限 20 元）
-限高：2.0m
+限高：1.8m
 小型車位：310 格（EV 充電樁：7 格）
 地址：臺北市松山區八德路4段580號(地下1層及地上10層)
 管轄：本處委外停車場
@@ -325,7 +325,7 @@
           <mwm:lang code="default">民生社區中心地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 30元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：151 格（EV 充電樁：3 格）
@@ -364,7 +364,7 @@
           <mwm:lang code="default">塔城公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：157 格（EV 充電樁：4 格）
@@ -403,7 +403,7 @@
           <mwm:lang code="default">百齡高中地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：00-09 每小時 40 元；09-22 每小時 10 元
+          <mwm:lang code="default">費率：週四10元/時(00-09)、40元/時(09-22)、10元/時(22-00)
 機車：無機車位
 限高：2.0m
 小型車位：231 格（EV 充電樁：5 格）
@@ -430,19 +430,19 @@
   <tr><td><b>電　話：</b></td><td>23123456</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.056712,121.518749" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.04032,121.518604" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.518749,25.056712,0</coordinates>
+        <coordinates>121.518604,25.04032,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">台大醫院停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 50 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 50元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：196 格（EV 充電樁：0 格）
@@ -481,7 +481,7 @@
           <mwm:lang code="default">前港公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：30元/時(02時~19時)，40元/時(19時~02時)
 機車：無機車位
 限高：2.0m
 小型車位：528 格（EV 充電樁：14 格）
@@ -520,7 +520,7 @@
           <mwm:lang code="default">松壽廣場地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：09-22 每小時 10 元；22-09 每小時 60 元
+          <mwm:lang code="default">費率：週五30元/時(09-22)，10元/時(22-09)
 機車：無機車位
 限高：2.0m
 小型車位：446 格（EV 充電樁：8 格）
@@ -559,7 +559,7 @@
           <mwm:lang code="default">松山高中地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-20 每小時 10 元；20-08 每小時 30 元
+          <mwm:lang code="default">費率：週五30元/時(08-20)，10元/時(20-08)
 機車：無機車位
 限高：2.0m
 小型車位：226 格（EV 充電樁：6 格）
@@ -598,7 +598,7 @@
           <mwm:lang code="default">五分埔公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：週四40元/時，週四、週六~週日、行政機關放假之紀念日與民俗日50元/時
 機車：無機車位
 限高：2.0m
 小型車位：209 格（EV 充電樁：5 格）
@@ -625,19 +625,19 @@
   <tr><td><b>電　話：</b></td><td>0227676903</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.061732,121.558364" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.0622,121.5587" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.558364,25.061732,0</coordinates>
+        <coordinates>121.5587,25.0622,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">民權公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-22 每小時 30 元；22-08 每小時 10 元
+          <mwm:lang code="default">費率：小型車及大型重型，10元/時(22-08)，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：716 格（EV 充電樁：14 格）
@@ -676,7 +676,7 @@
           <mwm:lang code="default">金華公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08:00–22:00 每小時 50 元；22:00–08:00 每小時 10 元
+          <mwm:lang code="default">費率：50元/時(08時~22時)，10元/時(22時~08時)
 機車：無機車位
 限高：2.0m
 小型車位：193 格（EV 充電樁：5 格）
@@ -715,7 +715,7 @@
           <mwm:lang code="default">兩廳院地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 50 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車50元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：695 格（EV 充電樁：14 格）
@@ -754,7 +754,7 @@
           <mwm:lang code="default">古亭國中地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：260 格（EV 充電樁：7 格）
@@ -793,7 +793,7 @@
           <mwm:lang code="default">景華公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車20元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：750 格（EV 充電樁：20 格）
@@ -832,7 +832,7 @@
           <mwm:lang code="default">大安森林公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08時~23時 每小時 10 元；23時~08時 每小時 40 元
+          <mwm:lang code="default">費率：週五20元/時(08時~23時)，10元/時(23時~08時)
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：1360 格（EV 充電樁：37 格）
@@ -871,7 +871,7 @@
           <mwm:lang code="default">府前廣場地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：09-18 每小時 10 元；19-08 每小時 10 元
+          <mwm:lang code="default">費率：30元/時(09-18)，10元/時(18-09)
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：1998 格（EV 充電樁：40 格）
@@ -910,7 +910,7 @@
           <mwm:lang code="default">大安高工地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：09-21 每小時 50 元；21-09 每小時 10 元
+          <mwm:lang code="default">費率：小型車及大型重型，10元/時(21-09)，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：522 格（EV 充電樁：14 格）
@@ -949,7 +949,7 @@
           <mwm:lang code="default">市民大道公中段停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-18 每小時 40 元；18-08 每小時 10 元
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：186 格（EV 充電樁：8 格）
@@ -988,7 +988,7 @@
           <mwm:lang code="default">市民大道中林段停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：09-18 每小時 20 元；18-09 每小時 20 元
+          <mwm:lang code="default">費率：20元/時(18-09)，週六、週日、行政機關放假之紀念日與民俗日20元/時
 機車：無機車位
 限高：2.0m
 小型車位：496 格（EV 充電樁：10 格）
@@ -1027,7 +1027,7 @@
           <mwm:lang code="default">附中公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-21 每小時 50 元；21-08 每小時 10 元
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：115 格（EV 充電樁：2 格）
@@ -1066,7 +1066,7 @@
           <mwm:lang code="default">興雅國中地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 30元/時，全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：447 格（EV 充電樁：11 格）
@@ -1105,7 +1105,7 @@
           <mwm:lang code="default">市民大道建復段停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-12 每小時 40 元；12-23 每小時 20 元
+          <mwm:lang code="default">費率：40元/時(08-12)、50元/時(12-23)、20元/時(23-08)
 機車：無機車位
 限高：2.0m
 小型車位：178 格（EV 充電樁：4 格）
@@ -1144,7 +1144,7 @@
           <mwm:lang code="default">市民大道林金段停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：09-18 每小時 20 元；18-09 每小時 20 元
+          <mwm:lang code="default">費率：20元/時(18-09)，週六、週日、行政機關放假之紀念日與民俗日20元/時
 機車：無機車位
 限高：2.0m
 小型車位：973 格（EV 充電樁：19 格）
@@ -1183,7 +1183,7 @@
           <mwm:lang code="default">進安公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：07-20 每小時 30 元；20-07 每小時 000 元
+          <mwm:lang code="default">費率：30元/時，全程以半小時計費
 機車：無機車位
 限高：2.0m
 小型車位：151 格（EV 充電樁：3 格）
@@ -1222,7 +1222,7 @@
           <mwm:lang code="default">大稻埕公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-19 每小時 10 元；08-19 每小時 10 元
+          <mwm:lang code="default">費率：40元/時(08-19)，10元/時(19-翌日08)
 機車：無機車位
 限高：2.0m
 小型車位：198 格（EV 充電樁：4 格）
@@ -1261,7 +1261,7 @@
           <mwm:lang code="default">辛亥國小地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：20元/時(08時~18時)，10元/時(18時~08時)
 機車：無機車位
 限高：2.0m
 小型車位：129 格（EV 充電樁：3 格）
@@ -1300,7 +1300,7 @@
           <mwm:lang code="default">臺北體育館地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-20 每小時 30 元；20-08 每小時 230 元
+          <mwm:lang code="default">費率：40元/時(08-20)，30元/時(20-08)
 機車：無機車位
 限高：2.0m
 小型車位：151 格（EV 充電樁：1 格）
@@ -1339,7 +1339,7 @@
           <mwm:lang code="default">驛林交通股份有限公司興隆站</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 30元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：46 格（EV 充電樁：1 格）
@@ -1378,7 +1378,7 @@
           <mwm:lang code="default">市民大道復敦段停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-12 每小時 40 元；12-23 每小時 20 元
+          <mwm:lang code="default">費率：週四40元/時(12-23)，週一至週四20元/時(23-08)
 機車：無機車位
 限高：2.0m
 小型車位：214 格（EV 充電樁：4 格）
@@ -1417,7 +1417,7 @@
           <mwm:lang code="default">成淵高中地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，30元/時(21時~09時)，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：269 格（EV 充電樁：8 格）
@@ -1439,7 +1439,7 @@
   <tr><td><b>管　轄：</b></td><td>本處委外停車場</td></tr>
   <tr><td><b>小型車：</b></td><td>180 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>0 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
+  <tr><td><b>限　高：</b></td><td>1.8m</td></tr>
   <tr><td><b>費　率：</b></td><td>小型車：計時 30元/時，停車全程以半小時計；月租 全日4,500元，日間2,500元(07-19)，夜間2,400元(19-07)。</td></tr>
   <tr><td><b>電　話：</b></td><td>0222408767</td></tr>
 </table>
@@ -1456,9 +1456,9 @@
           <mwm:lang code="default">成德立體停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：07-19 每小時 30 元；19-07 每小時 400 元
+          <mwm:lang code="default">費率：計時 30元/時，停車全程以半小時計
 機車：無機車位
-限高：2.0m
+限高：1.8m
 小型車位：180 格（EV 充電樁：0 格）
 地址：臺北市南港區成福路1號
 管轄：本處委外停車場
@@ -1478,7 +1478,7 @@
   <tr><td><b>管　轄：</b></td><td>本處委外停車場</td></tr>
   <tr><td><b>小型車：</b></td><td>209 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>6 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
+  <tr><td><b>限　高：</b></td><td>1.8m</td></tr>
   <tr><td><b>費　率：</b></td><td>計時：小型車(含大型重型機車)週一至週五20元/時，週六至週日及政府行政機關放假之紀念日、民俗節日30元/時，停車全程以半小時計，收費時段為每日7時至19時（其餘時段開放免費停車）。計次：機車20元/次。</td></tr>
   <tr><td><b>電　話：</b></td><td>0227057716</td></tr>
 </table>
@@ -1497,7 +1497,7 @@
         <mwm:description>
           <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
 機車：20 元/日
-限高：2.0m
+限高：1.8m
 小型車位：209 格（EV 充電樁：6 格）
 地址：臺北市北投區湖山路(陽明山公園大門口旁)
 管轄：本處委外停車場
@@ -1534,7 +1534,7 @@
           <mwm:lang code="default">市民大道敦延段停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-12 每小時 40 元；12-23 每小時 20 元
+          <mwm:lang code="default">費率：週四30元/時(08-12)、40元/時(12-23)、20元/時(23-08)
 機車：無機車位
 限高：2.0m
 小型車位：217 格（EV 充電樁：4 格）
@@ -1573,7 +1573,7 @@
           <mwm:lang code="default">市民大道延吉段停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-12 每小時 40 元；12-23 每小時 20 元
+          <mwm:lang code="default">費率：週四30元/時(08-12)、40元/時(12-23)、20元/時(23-08)
 機車：無機車位
 限高：2.0m
 小型車位：79 格（EV 充電樁：2 格）
@@ -1612,7 +1612,7 @@
           <mwm:lang code="default">大豐公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：40元/時(07時~22時)，10元/時(22時~07時)
 機車：無機車位
 限高：2.0m
 小型車位：234 格（EV 充電樁：6 格）
@@ -1651,7 +1651,7 @@
           <mwm:lang code="default">中山區行政中心停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：計時：洽公民眾30分鐘以下者免費，逾30分鐘至1小時，收費30元。逾1
+          <mwm:lang code="default">費率：洽公民眾30分鐘以下者免費，逾30分鐘至1小時，收費30元。逾1小時每30分鐘4
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：63 格（EV 充電樁：1 格）
@@ -1690,7 +1690,7 @@
           <mwm:lang code="default">健康國小地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車30元/時，大型重型，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：193 格（EV 充電樁：4 格）
@@ -1729,7 +1729,7 @@
           <mwm:lang code="default">南港區行政中心地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：計時:洽公臨時停車前30分鐘免費，逾半小時未滿1小時30元，逾1小時部
+          <mwm:lang code="default">費率：洽公臨時停車前30分鐘免費，逾半小時未滿1小時30元，逾1小時部分，以半小時計，
 機車：無機車位
 限高：2.0m
 小型車位：8 格（EV 充電樁：0 格）
@@ -1768,7 +1768,7 @@
           <mwm:lang code="default">臺北市立關渡醫院停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：30元/時，全程以半小時計費，入場前30分鐘免費
 機車：無機車位
 限高：2.0m
 小型車位：51 格（EV 充電樁：0 格）
@@ -1807,7 +1807,7 @@
           <mwm:lang code="default">台北地下街停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 50 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車50元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：392 格（EV 充電樁：8 格）
@@ -1829,7 +1829,7 @@
   <tr><td><b>管　轄：</b></td><td>本處自營停車場</td></tr>
   <tr><td><b>小型車：</b></td><td>638 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>16 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
+  <tr><td><b>限　高：</b></td><td>1.8m</td></tr>
   <tr><td><b>費　率：</b></td><td>小型車(含大型重型機車)：計時 20元/時，停車全程以半小時計；月租 全日3,000元，大型重機1,500元/月。機車：20元/次，隔日另計；月租300元/月。</td></tr>
   <tr><td><b>電　話：</b></td><td>0227832912</td></tr>
 </table>
@@ -1846,9 +1846,9 @@
           <mwm:lang code="default">興中立體停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
 機車：20 元/日
-限高：2.0m
+限高：1.8m
 小型車位：638 格（EV 充電樁：16 格）
 地址：臺北市南港區興中路44巷1號
 管轄：本處自營停車場
@@ -1885,7 +1885,7 @@
           <mwm:lang code="default">忠信廣場地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：10時~22時 每小時 50 元；22時~10時 每小時 50 元
+          <mwm:lang code="default">費率：60元/時(10時~22時)，50元/時(22時~10時)
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：317 格（EV 充電樁：8 格）
@@ -1924,7 +1924,7 @@
           <mwm:lang code="default">市民大道塔城段停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-20 每小時 10 元；18-09 每小時 650 元
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：254 格（EV 充電樁：8 格）
@@ -1963,7 +1963,7 @@
           <mwm:lang code="default">建成國中地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-22 每小時 10 元；22-08 每小時 10 元
+          <mwm:lang code="default">費率：50元/時(08-22)，10元/時(22-08)
 機車：10 元/時
 限高：2.0m
 小型車位：326 格（EV 充電樁：8 格）
@@ -1985,7 +1985,7 @@
   <tr><td><b>管　轄：</b></td><td>本處委外停車場</td></tr>
   <tr><td><b>小型車：</b></td><td>266 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>0 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
+  <tr><td><b>限　高：</b></td><td>1.8m</td></tr>
   <tr><td><b>費　率：</b></td><td>小型車：計時 20元/時，停車全程以半小時計；月租 全日3,600元，夜間1,800元(18-08)。</td></tr>
   <tr><td><b>電　話：</b></td><td>0229942818</td></tr>
 </table>
@@ -2002,9 +2002,9 @@
           <mwm:lang code="default">社園立體停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 20元/時，停車全程以半小時計
 機車：無機車位
-限高：2.0m
+限高：1.8m
 小型車位：266 格（EV 充電樁：0 格）
 地址：臺北市士林區延平北路6段180號
 管轄：本處委外停車場
@@ -2080,7 +2080,7 @@
           <mwm:lang code="default">萬芳醫院附設停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 50 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計，前30分鐘免費。計次：，隔日另計，以00時為基準
 機車：20 元/日
 限高：2.0m
 小型車位：255 格（EV 充電樁：6 格）
@@ -2119,7 +2119,7 @@
           <mwm:lang code="default">雙園國中地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，10元/時(22時~08時)，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：321 格（EV 充電樁：8 格）
@@ -2158,7 +2158,7 @@
           <mwm:lang code="default">青年公園高爾夫球場地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計。計次：，隔日另計，以00時為基準
 機車：20 元/日
 限高：2.0m
 小型車位：331 格（EV 充電樁：8 格）
@@ -2197,7 +2197,7 @@
           <mwm:lang code="default">青年公園棒球場地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計。計次：，隔日另計，以00時為基準
 機車：20 元/日
 限高：2.0m
 小型車位：276 格（EV 充電樁：7 格）
@@ -2236,7 +2236,7 @@
           <mwm:lang code="default">林森公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：00-08 每小時 40 元；08-24 每小時 10 元
+          <mwm:lang code="default">費率：10元/時(00-08)、40元/時(08-12)、50元/時(12-24)
 機車：無機車位
 限高：2.0m
 小型車位：851 格（EV 充電樁：27 格）
@@ -2275,7 +2275,7 @@
           <mwm:lang code="default">信義廣場地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-22 每小時 60 元；22-08 每小時 10 元
+          <mwm:lang code="default">費率：全日每小時 50 元（全程半小時計）
 機車：20 元/日
 限高：2.0m
 小型車位：369 格（EV 充電樁：9 格）
@@ -2314,7 +2314,7 @@
           <mwm:lang code="default">朝陽公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-22 每小時 40 元；22-08 每小時 10 元
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：244 格（EV 充電樁：10 格）
@@ -2353,7 +2353,7 @@
           <mwm:lang code="default">中崙高中地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：07-19 每小時 30 元；19-08 每小時 400 元
+          <mwm:lang code="default">費率：小型車(含大型重型，週六、週日、行政機關放假之紀念日與民俗日40元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：347 格（EV 充電樁：7 格）
@@ -2392,8 +2392,8 @@
           <mwm:lang code="default">偶戲博物館地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
-機車：20 元/日
+          <mwm:lang code="default">費率：週五30元/時，週六、週日、行政機關放假之紀念日與民俗日40元/時
+機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：69 格（EV 充電樁：2 格）
 地址：臺北市松山區市民大道5段99號地下1層
@@ -2431,7 +2431,7 @@
           <mwm:lang code="default">萬板地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：180 格（EV 充電樁：6 格）
@@ -2470,7 +2470,7 @@
           <mwm:lang code="default">南湖高中運動中心停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：30元/時，假日40元/時
 機車：無機車位
 限高：2.0m
 小型車位：162 格（EV 充電樁：4 格）
@@ -2509,8 +2509,8 @@
           <mwm:lang code="default">文昌國小地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
-機車：20 元/日
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
+機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：222 格（EV 充電樁：4 格）
 地址：臺北市士林區文林路615巷20號地下1至2層
@@ -2548,7 +2548,7 @@
           <mwm:lang code="default">東湖國小地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：40元/時(08時~21時)，20元/時(21時~08時)
 機車：20 元/日
 限高：2.0m
 小型車位：359 格（EV 充電樁：10 格）
@@ -2626,7 +2626,7 @@
           <mwm:lang code="default">臺大醫院兒童醫院停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 50 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車50元/時，停車全程以半小時計。計次：，隔日另計，以00時為基準
 機車：20 元/日
 限高：2.0m
 小型車位：314 格（EV 充電樁：0 格）
@@ -2648,26 +2648,26 @@
   <tr><td><b>管　轄：</b></td><td>市屬機關學校委外</td></tr>
   <tr><td><b>小型車：</b></td><td>349 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>7 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.1m</td></tr>
+  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
   <tr><td><b>費　率：</b></td><td>計時：小型車30元/時，停車全程以半小時計。月租：小型車全日4,800元/月，夜間(18-08)2,000元/月。</td></tr>
   <tr><td><b>電　話：</b></td><td>0225162519#1122</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.068994,121.539828" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.0671,121.5381" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.539828,25.068994,0</coordinates>
+        <coordinates>121.5381,25.0671,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">臺北農產運銷股份有限公司第二果菜批發市場地下三樓停車場(濱江市場地下停車場)</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車30元/時，停車全程以半小時計
 機車：無機車位
-限高：2.1m
+限高：2.0m
 小型車位：349 格（EV 充電樁：7 格）
 地址：臺北市中山區民族東路336號地下3層
 管轄：市屬機關學校委外
@@ -2704,7 +2704,7 @@
           <mwm:lang code="default">臺北市萬華區行政中心地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 30元/時，停車全程以半小時計
 機車：20 元/日
 限高：2.0m
 小型車位：205 格（EV 充電樁：4 格）
@@ -2731,19 +2731,19 @@
   <tr><td><b>電　話：</b></td><td>8663-1858</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.000672,121.539481" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.0041,121.5406" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.539481,25.000672,0</coordinates>
+        <coordinates>121.5406,25.0041,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">臺北花木批發市場地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：20 元/時（半小時 10 元）
+          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：411 格（EV 充電樁：12 格）
@@ -2821,7 +2821,7 @@
           <mwm:lang code="default">永盛公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 50 元（全程半小時計）
+          <mwm:lang code="default">費率：50元/時(08時~24時)，30元/時
 機車：20 元/日
 限高：2.0m
 小型車位：224 格（EV 充電樁：6 格）
@@ -2860,7 +2860,7 @@
           <mwm:lang code="default">台北車站K區地下街停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 50 元（全程半小時計）
+          <mwm:lang code="default">費率：50元/時，假日60元/時
 機車：無機車位
 限高：2.0m
 小型車位：188 格（EV 充電樁：4 格）
@@ -2899,7 +2899,7 @@
           <mwm:lang code="default">龍門國中地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
 機車：20 元/日
 限高：2.0m
 小型車位：730 格（EV 充電樁：19 格）
@@ -2938,7 +2938,7 @@
           <mwm:lang code="default">艋舺公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08時~22時 每小時 40 元；22時~08時 每小時 10 元
+          <mwm:lang code="default">費率：40元/時，(22時~08時)10元/時
 機車：10 元/時
 限高：2.0m
 小型車位：518 格（EV 充電樁：10 格）
@@ -2977,7 +2977,7 @@
           <mwm:lang code="default">台北市青島社區管理委員會停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 40元/時，停車未滿1小時以1小時計，逾1小時以上，未滿半小時以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：81 格（EV 充電樁：0 格）
@@ -3004,19 +3004,19 @@
   <tr><td><b>電　話：</b></td><td>0228826200</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.105579,121.522702" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.089084,121.522762" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.522702,25.105579,0</coordinates>
+        <coordinates>121.522762,25.089084,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">基河路10號國宅地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：小型車：
+          <mwm:lang code="default">費率：公有平價計時
 機車：無機車位
 限高：2.0m
 小型車位：9 格（EV 充電樁：0 格）
@@ -3055,7 +3055,7 @@
           <mwm:lang code="default">嘟嘟房台北小巨蛋站停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：40元/時，假日60元/時
 機車：20 元/日
 限高：2.0m
 小型車位：476 格（EV 充電樁：10 格）
@@ -3094,7 +3094,7 @@
           <mwm:lang code="default">麗湖國小地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-18 每小時 10 元；18-08 每小時 500 元
+          <mwm:lang code="default">費率：20元/時(08-18)、10元/時(18-08)
 機車：無機車位
 限高：2.0m
 小型車位：229 格（EV 充電樁：5 格）
@@ -3133,7 +3133,7 @@
           <mwm:lang code="default">博嘉運動公園停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：20元/時，全程以半小時計費
 機車：無機車位
 限高：2.0m
 小型車位：36 格（EV 充電樁：0 格）
@@ -3172,7 +3172,7 @@
           <mwm:lang code="default">宏達經營管理顧問有限公司徐州停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 50 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車50元/時，停車未滿1小時以1小時計，逾1小時以上，未滿半小時以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：83 格（EV 充電樁：0 格）
@@ -3199,19 +3199,19 @@
   <tr><td><b>電　話：</b></td><td>2601-6611</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.047002,121.538796" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.030557,121.538602" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.538796,25.047002,0</coordinates>
+        <coordinates>121.538602,25.030557,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">臺北市大安福邸公寓大廈社區中庭地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 40元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：204 格（EV 充電樁：4 格）
@@ -3250,7 +3250,7 @@
           <mwm:lang code="default">三張里地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 30元/時，停車全程以半小時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：354 格（EV 充電樁：10 格）
@@ -3277,19 +3277,19 @@
   <tr><td><b>電　話：</b></td><td>0287125731</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.060678,121.547147" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.0608,121.5467" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.547147,25.060678,0</coordinates>
+        <coordinates>121.5467,25.0608,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">民有市場地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：30 元/時（115/11/1起 40 元）
+          <mwm:lang code="default">費率：計時 30元/時，停車全程以半小時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：334 格（EV 充電樁：9 格）
@@ -3311,7 +3311,7 @@
   <tr><td><b>管　轄：</b></td><td>本處委外停車場</td></tr>
   <tr><td><b>小型車：</b></td><td>209 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>5 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.1m</td></tr>
+  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
   <tr><td><b>費　率：</b></td><td>小型車：計時 (08時~18時)20元/時，(18時~08時)10元/時，最高上限30元/日，隔日另計，全程以半小時計;月租 全日2,500元，日間1,500元(07時~20時)，夜間500元(18時~08時)。機車：機車收費10元/時，隔日另計，以24時為基準;機車月租300元/月</td></tr>
   <tr><td><b>電　話：</b></td><td>2502-3333</td></tr>
 </table>
@@ -3328,9 +3328,9 @@
           <mwm:lang code="default">濱江國中地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08時~18時 每小時 20 元；18時~08時 每小時 10 元
+          <mwm:lang code="default">費率：20元/時，(18時~08時)10元/時
 機車：10 元/時
-限高：2.1m
+限高：2.0m
 小型車位：209 格（EV 充電樁：5 格）
 地址：臺北市中山區樂群二路266巷1號地下
 管轄：本處委外停車場
@@ -3367,8 +3367,8 @@
           <mwm:lang code="default">石牌國小地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：07-19 每小時 30 元；19-08 每小時 000 元
-機車：20 元/日
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
+機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：461 格（EV 充電樁：10 格）
 地址：臺北市北投區致遠二路80號地下1至3層
@@ -3406,7 +3406,7 @@
           <mwm:lang code="default">海光公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 20元/時，全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：105 格（EV 充電樁：4 格）
@@ -3428,7 +3428,7 @@
   <tr><td><b>管　轄：</b></td><td>本處委外停車場</td></tr>
   <tr><td><b>小型車：</b></td><td>245 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>0 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
+  <tr><td><b>限　高：</b></td><td>1.8m</td></tr>
   <tr><td><b>費　率：</b></td><td>小型車：計時 30元/時，停車全程以半小時計；月租 全日3,600元，夜間2,000元(20-08)。</td></tr>
   <tr><td><b>電　話：</b></td><td>0229942818</td></tr>
 </table>
@@ -3445,9 +3445,9 @@
           <mwm:lang code="default">港富立體停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 30元/時，停車全程以半小時計
 機車：無機車位
-限高：2.0m
+限高：1.8m
 小型車位：245 格（EV 充電樁：0 格）
 地址：臺北市內湖區內湖路1段737巷50弄32號
 管轄：本處委外停車場
@@ -3472,19 +3472,19 @@
   <tr><td><b>電　話：</b></td><td>洽現場服務處</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.003335,121.549862" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=24.98693,121.54947" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.549862,25.003335,0</coordinates>
+        <coordinates>121.54947,24.98693,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">國家考場地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-18 每小時 30 元；18-08 每小時 20 元
+          <mwm:lang code="default">費率：30元/時(08-18)、20元/時(18-08)
 機車：20 元/日
 限高：2.0m
 小型車位：24 格（EV 充電樁：0 格）
@@ -3523,7 +3523,7 @@
           <mwm:lang code="default">全之駐葫蘆堵停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：週五30元/時，週六至週日及政府行政機關放假之紀念日、民俗節日40元/時
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：54 格（EV 充電樁：0 格）
@@ -3562,7 +3562,7 @@
           <mwm:lang code="default">臺北市災害應變中心地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 30元/時，停車未滿1小時以1小時計，逾1小時以上，未滿半小時以半小時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：169 格（EV 充電樁：4 格）
@@ -3601,7 +3601,7 @@
           <mwm:lang code="default">華江高中活動中心地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 30元/時，全程以半小時計，季租：14400元/季
 機車：無機車位
 限高：2.0m
 小型車位：38 格（EV 充電樁：1 格）
@@ -3640,7 +3640,7 @@
           <mwm:lang code="default">萬華車站地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：週五30元/時，週六、週日、行政機關放假之紀念日與民俗日40元/時
 機車：無機車位
 限高：2.0m
 小型車位：297 格（EV 充電樁：6 格）
@@ -3662,7 +3662,7 @@
   <tr><td><b>管　轄：</b></td><td>本處委外停車場</td></tr>
   <tr><td><b>小型車：</b></td><td>251 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>0 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
+  <tr><td><b>限　高：</b></td><td>1.8m</td></tr>
   <tr><td><b>費　率：</b></td><td>小型車：計時 30元/時(07-22)，10元/時(22-07)，停車全程以半小時計；月租 全日3,800元，夜間1,800元(19-08)。</td></tr>
   <tr><td><b>電　話：</b></td><td>0224551299</td></tr>
 </table>
@@ -3679,9 +3679,9 @@
           <mwm:lang code="default">湖興立體停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：07-22 每小時 30 元；22-07 每小時 10 元
+          <mwm:lang code="default">費率：30元/時(07-22)，10元/時(22-07)
 機車：無機車位
-限高：2.0m
+限高：1.8m
 小型車位：251 格（EV 充電樁：0 格）
 地址：臺北市內湖區成功路2段322號
 管轄：本處委外停車場
@@ -3718,7 +3718,7 @@
           <mwm:lang code="default">長安國小地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：09時~18時 每小時 30 元；19時~08時 每小時 10 元
+          <mwm:lang code="default">費率：40元/時(09時~18時)，30元/時(18時~09時)
 機車：10 元/時
 限高：2.0m
 小型車位：284 格（EV 充電樁：7 格）
@@ -3757,7 +3757,7 @@
           <mwm:lang code="default">榮星花園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 40元/時，全程以半小時計
 機車：10 元/時
 限高：2.0m
 小型車位：242 格（EV 充電樁：5 格）
@@ -3784,19 +3784,19 @@
   <tr><td><b>電　話：</b></td><td>0229393088</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.000861,121.569153" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=24.984388,121.568735" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.569153,25.000861,0</coordinates>
+        <coordinates>121.568735,24.984388,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">永安藝文館停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：季租：戶外平面10,500元/季、室內平面13,500元/季、室內機械
+          <mwm:lang code="default">費率：季租：戶外平面10,500元/季、室內平面13,500元/季、室內機械11,400元/季
 機車：無機車位
 限高：2.0m
 小型車位：57 格（EV 充電樁：0 格）
@@ -3835,7 +3835,7 @@
           <mwm:lang code="default">僑安地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-22 每小時 30 元；22-08 每小時 60 元
+          <mwm:lang code="default">費率：週五40元/時(08-22)、30元/時(22-08)
 機車：無機車位
 限高：2.0m
 小型車位：422 格（EV 充電樁：8 格）
@@ -3874,7 +3874,7 @@
           <mwm:lang code="default">嘟嘟房大安全聯站停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車40元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：10 格（EV 充電樁：0 格）
@@ -3913,7 +3913,7 @@
           <mwm:lang code="default">北台國際開發股份有限公司石牌停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 40元/時，停車全程以半小時計； 計次 300元/次，隔日另計，以0時為基準
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：29 格（EV 充電樁：0 格）
@@ -3935,7 +3935,7 @@
   <tr><td><b>管　轄：</b></td><td>本處自營停車場</td></tr>
   <tr><td><b>小型車：</b></td><td>382 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>10 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
+  <tr><td><b>限　高：</b></td><td>1.8m</td></tr>
   <tr><td><b>費　率：</b></td><td>小型車：計時 週一至週五、行政機關補行上班日40元/時(08-20)，10元/時(20-08)，週六至週日、行政機關放假之紀念日與民俗日20元/時(隔日另計)，停車全程以半小時計；月租 全日月票4,500元，日間月票3,000元(08-21)，夜間月票(一)1,800元(週一至週五19-08及週六、日及政府行政機關放假之紀念日、民俗節日之全日)，夜間月票(二)1,500元/月(週一至週五15-01及週六、日與行政機關放假之紀念日、民俗日使用)。</td></tr>
   <tr><td><b>電　話：</b></td><td>0287511380</td></tr>
 </table>
@@ -3952,9 +3952,9 @@
           <mwm:lang code="default">洲子立體停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-20 每小時 10 元；20-08 每小時 20 元
+          <mwm:lang code="default">費率：40元/時(08-20)，10元/時(20-08)
 機車：無機車位
-限高：2.0m
+限高：1.8m
 小型車位：382 格（EV 充電樁：10 格）
 地址：臺北市內湖區瑞光路513巷22弄2號
 管轄：本處自營停車場
@@ -3991,7 +3991,7 @@
           <mwm:lang code="default">台灣聯通三興停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車40元/時，停車未滿1小時以1小時計，逾1小時以上，未滿半小時以半小時計
 機車：10 元/時
 限高：2.0m
 小型車位：64 格（EV 充電樁：0 格）
@@ -4030,7 +4030,7 @@
           <mwm:lang code="default">七星公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：07-20 每小時 750 元；19-08 每小時 500 元
+          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
 機車：10 元/時
 限高：2.0m
 小型車位：328 格（EV 充電樁：6 格）
@@ -4069,7 +4069,7 @@
           <mwm:lang code="default">萬華國中地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
 機車：20 元/日
 限高：2.0m
 小型車位：508 格（EV 充電樁：13 格）
@@ -4108,7 +4108,7 @@
           <mwm:lang code="default">Times 松山運動中心</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：40元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：57 格（EV 充電樁：2 格）
@@ -4147,7 +4147,7 @@
           <mwm:lang code="default">臺北市立大學天母校區教學、行政科資大樓地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：週五30元/時，週六~週日、行政機關放假之紀念日與民俗日50元/時
 機車：無機車位
 限高：2.0m
 小型車位：472 格（EV 充電樁：12 格）
@@ -4186,7 +4186,7 @@
           <mwm:lang code="default">西康地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：86 格（EV 充電樁：2 格）
@@ -4225,7 +4225,7 @@
           <mwm:lang code="default">臺北田徑場平面、地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-20 每小時 40 元；20-08 每小時 230 元
+          <mwm:lang code="default">費率：全日每小時 10 元（全程半小時計）
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：269 格（EV 充電樁：1 格）
@@ -4303,7 +4303,7 @@
           <mwm:lang code="default">興隆公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 20元/時，全程以半小時計
 機車：20 元/日
 限高：2.0m
 小型車位：259 格（EV 充電樁：7 格）
@@ -4342,7 +4342,7 @@
           <mwm:lang code="default">景美國小地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：11-21 每小時 30 元；21-11 每小時 20 元
+          <mwm:lang code="default">費率：20元/時，週五至週日(11-21)40元/時
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：253 格（EV 充電樁：5 格）
@@ -4381,7 +4381,7 @@
           <mwm:lang code="default">臺北市大同運動中心地下平面停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：06-22 每小時 40 元；22-06 每小時 20 元
+          <mwm:lang code="default">費率：40元/時(06-22)，夜間20元/時(22-06)
 機車：無機車位
 限高：2.0m
 小型車位：46 格（EV 充電樁：1 格）
@@ -4420,7 +4420,7 @@
           <mwm:lang code="default">玉成國小地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-18 每小時 20 元；18-08 每小時 10 元
+          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：293 格（EV 充電樁：6 格）
@@ -4459,7 +4459,7 @@
           <mwm:lang code="default">立農公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 30元/時，全程以半小時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：204 格（EV 充電樁：5 格）
@@ -4486,19 +4486,19 @@
   <tr><td><b>電　話：</b></td><td>(02)28919113</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.071256,121.553864" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.054712,121.553773" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.553864,25.071256,0</coordinates>
+        <coordinates>121.553773,25.054712,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">龍城市場停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：小型車：
+          <mwm:lang code="default">費率：公有平價計時
 機車：無機車位
 限高：2.0m
 小型車位：47 格（EV 充電樁：0 格）
@@ -4537,8 +4537,8 @@
           <mwm:lang code="default">社子國小地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-18 每小時 20 元；19-08 每小時 800 元
-機車：20 元/日
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
+機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：464 格（EV 充電樁：10 格）
 地址：臺北市士林區延平北路6段308號地下1至3層
@@ -4576,7 +4576,7 @@
           <mwm:lang code="default">臺北農產運銷股份有限公司第二果菜批發市場停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車30元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：606 格（EV 充電樁：12 格）
@@ -4615,7 +4615,7 @@
           <mwm:lang code="default">嘟嘟房動物園站停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：06-22 每小時 10 元；22-06 每小時 20 元
+          <mwm:lang code="default">費率：全日每小時 10 元（全程半小時計）
 機車：20 元/日
 限高：2.0m
 小型車位：150 格（EV 充電樁：3 格）
@@ -4654,7 +4654,7 @@
           <mwm:lang code="default">承德公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：00-08 每小時 30 元；08-12 每小時 50 元
+          <mwm:lang code="default">費率：週四10元/時(00-09)、40元/時(09-22)、10元/時(22-24)
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：176 格（EV 充電樁：4 格）
@@ -4693,7 +4693,7 @@
           <mwm:lang code="default">南港國小地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：30元/時(08時~20時)，20元/時(20時~08時)
 機車：20 元/日
 限高：2.0m
 小型車位：313 格（EV 充電樁：8 格）
@@ -4732,7 +4732,7 @@
           <mwm:lang code="default">蓬萊國小地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：16時~22時 每小時 40 元；22時~16時 每小時 30 元
+          <mwm:lang code="default">費率：40元/時，(22時~16時)30元/時
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：286 格（EV 充電樁：6 格）
@@ -4771,7 +4771,7 @@
           <mwm:lang code="default">臺北製糖所文化園區地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：70 格（EV 充電樁：1 格）
@@ -4810,7 +4810,7 @@
           <mwm:lang code="default">成德國中運動中心停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 30元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：25 格（EV 充電樁：1 格）
@@ -4849,7 +4849,7 @@
           <mwm:lang code="default">嘟嘟房文山忠順站停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車20元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：19 格（EV 充電樁：0 格）
@@ -4888,7 +4888,7 @@
           <mwm:lang code="default">玉成公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 20元/時，全程以半小時計
 機車：20 元/日
 限高：2.0m
 小型車位：412 格（EV 充電樁：10 格）
@@ -4927,52 +4927,13 @@
           <mwm:lang code="default">西湖公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：175 格（EV 充電樁：4 格）
 地址：臺北市內湖區內湖路1段387巷38號地下
 管轄：本處委外停車場
 完整收費：計時：小型車(含大型重型機車)30元/時，停車全程以半小時計。月租：小型車全日4,000元/月。</mwm:lang>
-        </mwm:description>
-        <mwm:icon>Parking</mwm:icon>
-        <mwm:visibility>1</mwm:visibility>
-      </ExtendedData>
-    </Placemark>
-    <Placemark>
-      <name>嘟嘟房捷運南港展覽館站停車場</name>
-      <description><![CDATA[
-<h3>嘟嘟房捷運南港展覽館站停車場</h3>
-<table border="0" cellpadding="3" cellspacing="0" style="font-family:sans-serif; font-size:13px; line-height:1.5;">
-  <tr><td><b>行政區：</b></td><td>南港區</td></tr>
-  <tr><td><b>地　址：</b></td><td>臺北市南港區研究院路1段1號地下1層</td></tr>
-  <tr><td><b>管　轄：</b></td><td>市屬機關學校委外</td></tr>
-  <tr><td><b>小型車：</b></td><td>0 格</td></tr>
-  <tr><td><b>充電樁：</b></td><td>0 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
-  <tr><td><b>費　率：</b></td><td>計次：平日20元/次，假日30元/次，隔日另計(以凌晨2時為基準)。季租：全日1,200元/季。</td></tr>
-  <tr><td><b>電　話：</b></td><td>(02)26550818</td></tr>
-</table>
-<div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.0554,121.619" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
-</div>
-]]></description>
-      <styleUrl>#placemark-blue</styleUrl>
-      <Point>
-        <coordinates>121.619,25.0554,0</coordinates>
-      </Point>
-      <ExtendedData xmlns:mwm="https://comaps.app">
-        <mwm:name>
-          <mwm:lang code="default">嘟嘟房捷運南港展覽館站停車場</mwm:lang>
-        </mwm:name>
-        <mwm:description>
-          <mwm:lang code="default">費率：計次：平日20元/次，假日30元/次，隔日另計(以凌晨2時為基準)。季
-機車：20 元/日
-限高：2.0m
-小型車位：0 格（EV 充電樁：0 格）
-地址：臺北市南港區研究院路1段1號地下1層
-管轄：市屬機關學校委外
-完整收費：計次：平日20元/次，假日30元/次，隔日另計(以凌晨2時為基準)。季租：全日1,200元/季。</mwm:lang>
         </mwm:description>
         <mwm:icon>Parking</mwm:icon>
         <mwm:visibility>1</mwm:visibility>
@@ -5005,7 +4966,7 @@
           <mwm:lang code="default">嘟嘟房天母全聯2站停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 40元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：20 格（EV 充電樁：0 格）
@@ -5044,7 +5005,7 @@
           <mwm:lang code="default">信義國小地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-22 每小時 40 元；22-08 每小時 20 元
+          <mwm:lang code="default">費率：60元/時(08-22)、40元/時(22-08)
 機車：20 元/日
 限高：2.0m
 小型車位：230 格（EV 充電樁：6 格）
@@ -5083,7 +5044,7 @@
           <mwm:lang code="default">蘭雅公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：40元/時，週一~週五30元/時
 機車：無機車位
 限高：2.0m
 小型車位：155 格（EV 充電樁：4 格）
@@ -5122,7 +5083,7 @@
           <mwm:lang code="default">建成公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 50 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，30元/時(22時~10時)，停車全程以半小時計
 機車：10 元/時（當日上限 30 元）
 限高：2.0m
 小型車位：238 格（EV 充電樁：6 格）
@@ -5161,7 +5122,7 @@
           <mwm:lang code="default">世貿公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-20 每小時 20 元；20-08 每小時 60 元
+          <mwm:lang code="default">費率：30元/時(08-20)，20元/時(20-08)
 機車：20 元/日
 限高：2.0m
 小型車位：400 格（EV 充電樁：14 格）
@@ -5183,7 +5144,7 @@
   <tr><td><b>管　轄：</b></td><td>本處自營停車場</td></tr>
   <tr><td><b>小型車：</b></td><td>266 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>7 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.1m</td></tr>
+  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
   <tr><td><b>費　率：</b></td><td>計時：小型車週一~週五30元/時，週六、週日、行政機關放假之紀念日與民俗日40元/時，全程以半小時計；月租：小型車全日4,800元，日間2,000元(07時~19時)，夜間2,400元(19時~08時)。計次：機車20元/次，隔日另計。</td></tr>
   <tr><td><b>電　話：</b></td><td>2759-0666</td></tr>
 </table>
@@ -5200,9 +5161,9 @@
           <mwm:lang code="default">大龍國小地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：週五30元/時，週六、週日、行政機關放假之紀念日與民俗日40元/時
 機車：20 元/日
-限高：2.1m
+限高：2.0m
 小型車位：266 格（EV 充電樁：7 格）
 地址：臺北市大同區哈密街47號地下1層
 管轄：本處自營停車場
@@ -5239,7 +5200,7 @@
           <mwm:lang code="default">西松高中地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：30元/時(08時~22時)，10元/時(22時~08時)
 機車：無機車位
 限高：2.0m
 小型車位：341 格（EV 充電樁：8 格）
@@ -5278,7 +5239,7 @@
           <mwm:lang code="default">萬興國小地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：週五20元/時，週六、週日、行政機關放假之紀念日與民俗日30元/時(08時~20時)
 機車：20 元/日
 限高：2.0m
 小型車位：233 格（EV 充電樁：6 格）
@@ -5317,7 +5278,7 @@
           <mwm:lang code="default">北台國際開發股份有限公司舊莊停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 30元/時，停車全程以半小時計
 機車：20 元/日
 限高：2.0m
 小型車位：23 格（EV 充電樁：0 格）
@@ -5356,7 +5317,7 @@
           <mwm:lang code="default">歐特儀股份有限公司捷運木柵站轉乘停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：06-22 每小時 10 元；22-06 每小時 20 元
+          <mwm:lang code="default">費率：20元/時(06-22)、10元/時(22-06)
 機車：20 元/日
 限高：2.0m
 小型車位：146 格（EV 充電樁：3 格）
@@ -5383,19 +5344,19 @@
   <tr><td><b>電　話：</b></td><td>洽現場服務處</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.059975,121.567686" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.043399,121.56754" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.567686,25.059975,0</coordinates>
+        <coordinates>121.56754,25.043399,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">松興大樓地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：小型車：
+          <mwm:lang code="default">費率：公有平價計時
 機車：無機車位
 限高：2.0m
 小型車位：21 格（EV 充電樁：0 格）
@@ -5434,7 +5395,7 @@
           <mwm:lang code="default">松山工農地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：週五30元/時，週六、週日、行政機關放假之紀念日與民俗日40元/時
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：239 格（EV 充電樁：6 格）
@@ -5473,7 +5434,7 @@
           <mwm:lang code="default">松山車站地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：週四40元/時，週五至週日、行政機關放假之紀念日與民俗日50元/時
 機車：無機車位
 限高：2.0m
 小型車位：430 格（EV 充電樁：11 格）
@@ -5512,7 +5473,7 @@
           <mwm:lang code="default">福林公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：40元/時(09時~21時)，30元/時(21時~09時)
 機車：20 元/日
 限高：2.0m
 小型車位：229 格（EV 充電樁：6 格）
@@ -5539,19 +5500,19 @@
   <tr><td><b>電　話：</b></td><td>25185299</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.05818,121.503687" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.041838,121.503552" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.503687,25.05818,0</coordinates>
+        <coordinates>121.503552,25.041838,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">臺大醫院北護分院地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 50 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 50元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：31 格（EV 充電樁：0 格）
@@ -5590,7 +5551,7 @@
           <mwm:lang code="default">松山國小地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：週一至週四 40 元/時；週五至週日 50 元/時
+          <mwm:lang code="default">費率：全日每小時 50 元（全程半小時計）
 機車：20 元/日
 限高：2.0m
 小型車位：286 格（EV 充電樁：7 格）
@@ -5651,7 +5612,7 @@
   <tr><td><b>管　轄：</b></td><td>市屬機關學校委外</td></tr>
   <tr><td><b>小型車：</b></td><td>43 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>1 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.1m</td></tr>
+  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
   <tr><td><b>費　率：</b></td><td>小型車：計時 50元/時，停車全程以半小時計；月租 全日8,000元。機車：20元/次；月租2,400元/月。</td></tr>
   <tr><td><b>電　話：</b></td><td>022754-6661</td></tr>
 </table>
@@ -5668,9 +5629,9 @@
           <mwm:lang code="default">168停車聯盟-大龍場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 50 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 50元/時，停車全程以半小時計
 機車：20 元/日
-限高：2.1m
+限高：2.0m
 小型車位：43 格（EV 充電樁：1 格）
 地址：臺北市大同區民族西路105號地下1至2層
 管轄：市屬機關學校委外
@@ -5690,7 +5651,7 @@
   <tr><td><b>管　轄：</b></td><td>本處委外停車場</td></tr>
   <tr><td><b>小型車：</b></td><td>108 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>0 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
+  <tr><td><b>限　高：</b></td><td>1.8m</td></tr>
   <tr><td><b>費　率：</b></td><td>小型車：計時 30元/時，停車全程以半小時計；月租 全日4,000元。</td></tr>
   <tr><td><b>電　話：</b></td><td>0222408767</td></tr>
 </table>
@@ -5707,9 +5668,9 @@
           <mwm:lang code="default">莒光立體停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 30元/時，停車全程以半小時計
 機車：無機車位
-限高：2.0m
+限高：1.8m
 小型車位：108 格（EV 充電樁：0 格）
 地址：臺北市萬華區莒光路137號
 管轄：本處委外停車場
@@ -5746,7 +5707,7 @@
           <mwm:lang code="default">嘉興公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 30元/時，全程以半小時計
 機車：20 元/日
 限高：2.0m
 小型車位：194 格（EV 充電樁：5 格）
@@ -5785,7 +5746,7 @@
           <mwm:lang code="default">啟聰學校地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車30元/時，全程半小時計費
 機車：20 元/日
 限高：2.0m
 小型車位：175 格（EV 充電樁：4 格）
@@ -5824,7 +5785,7 @@
           <mwm:lang code="default">台北國際醫旅停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車30元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：34 格（EV 充電樁：2 格）
@@ -5846,7 +5807,7 @@
   <tr><td><b>管　轄：</b></td><td>本處委外停車場</td></tr>
   <tr><td><b>小型車：</b></td><td>122 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>0 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
+  <tr><td><b>限　高：</b></td><td>1.8m</td></tr>
   <tr><td><b>費　率：</b></td><td>小型車：計時 30元/時，停車全程以半小時計；月租 全日3,750元。</td></tr>
   <tr><td><b>電　話：</b></td><td>0224551299</td></tr>
 </table>
@@ -5863,9 +5824,9 @@
           <mwm:lang code="default">大業立體停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 30元/時，停車全程以半小時計
 機車：無機車位
-限高：2.0m
+限高：1.8m
 小型車位：122 格（EV 充電樁：0 格）
 地址：臺北市北投區大業路745號
 管轄：本處委外停車場
@@ -5885,7 +5846,7 @@
   <tr><td><b>管　轄：</b></td><td>本處委外停車場</td></tr>
   <tr><td><b>小型車：</b></td><td>204 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>0 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
+  <tr><td><b>限　高：</b></td><td>1.8m</td></tr>
   <tr><td><b>費　率：</b></td><td>小型車：計時 20元/時，停車全程以半小時計；月租 全日3,840元。</td></tr>
   <tr><td><b>電　話：</b></td><td>0229942818</td></tr>
 </table>
@@ -5902,9 +5863,9 @@
           <mwm:lang code="default">揚雅立體停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 20元/時，停車全程以半小時計
 機車：無機車位
-限高：2.0m
+限高：1.8m
 小型車位：204 格（EV 充電樁：0 格）
 地址：臺北市大同區大龍街136號
 管轄：本處委外停車場
@@ -5924,7 +5885,7 @@
   <tr><td><b>管　轄：</b></td><td>本處委外停車場</td></tr>
   <tr><td><b>小型車：</b></td><td>153 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>0 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
+  <tr><td><b>限　高：</b></td><td>1.8m</td></tr>
   <tr><td><b>費　率：</b></td><td>計時：30元/時，停車全程以半小時計。月租：全日4,000元/月。</td></tr>
   <tr><td><b>電　話：</b></td><td>0226335786</td></tr>
 </table>
@@ -5941,9 +5902,9 @@
           <mwm:lang code="default">康樂立體停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：30元/時，停車全程以半小時計
 機車：無機車位
-限高：2.0m
+限高：1.8m
 小型車位：153 格（EV 充電樁：0 格）
 地址：臺北市內湖區康樂街138號
 管轄：本處委外停車場
@@ -5980,7 +5941,7 @@
           <mwm:lang code="default">松德大樓地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-19 每小時 40 元；19-08 每小時 20 元
+          <mwm:lang code="default">費率：40元/時(08-19)，20元/時(19-08)
 機車：無機車位
 限高：2.0m
 小型車位：111 格（EV 充電樁：2 格）
@@ -6019,7 +5980,7 @@
           <mwm:lang code="default">新興大樓地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 40元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：13 格（EV 充電樁：0 格）
@@ -6058,52 +6019,13 @@
           <mwm:lang code="default">振興公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-23 每小時 20 元；23-08 每小時 10 元
+          <mwm:lang code="default">費率：全日每小時 50 元（全程半小時計）
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：210 格（EV 充電樁：6 格）
 地址：臺北市北投區天母西路112號地下(地下共3層)
 管轄：本處委外停車場
 完整收費：計時：小型車(含大型重型機車)50元/時(08-23)、20元/時(23-08)，機車10元/時，當日單次停車最高收費上限20元/日，隔日另計，以00時為基準，停車全程以半小時計。月租：小型車全日4,200元/月，夜間(19-08)2,000元/月，機車全日300元/月。</mwm:lang>
-        </mwm:description>
-        <mwm:icon>Parking</mwm:icon>
-        <mwm:visibility>1</mwm:visibility>
-      </ExtendedData>
-    </Placemark>
-    <Placemark>
-      <name>嘟嘟房捷運內湖(機車)站停車場</name>
-      <description><![CDATA[
-<h3>嘟嘟房捷運內湖(機車)站停車場</h3>
-<table border="0" cellpadding="3" cellspacing="0" style="font-family:sans-serif; font-size:13px; line-height:1.5;">
-  <tr><td><b>行政區：</b></td><td>內湖區</td></tr>
-  <tr><td><b>地　址：</b></td><td>臺北市內湖區成功路4段186號地下1層</td></tr>
-  <tr><td><b>管　轄：</b></td><td>市屬機關學校委外</td></tr>
-  <tr><td><b>小型車：</b></td><td>0 格</td></tr>
-  <tr><td><b>充電樁：</b></td><td>0 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
-  <tr><td><b>費　率：</b></td><td>計次：20元/次，隔日另計(以凌晨2時為基準)。季租：全日900元/季。</td></tr>
-  <tr><td><b>電　話：</b></td><td>(02)26550818</td></tr>
-</table>
-<div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.0843,121.5936" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
-</div>
-]]></description>
-      <styleUrl>#placemark-blue</styleUrl>
-      <Point>
-        <coordinates>121.5936,25.0843,0</coordinates>
-      </Point>
-      <ExtendedData xmlns:mwm="https://comaps.app">
-        <mwm:name>
-          <mwm:lang code="default">嘟嘟房捷運內湖(機車)站停車場</mwm:lang>
-        </mwm:name>
-        <mwm:description>
-          <mwm:lang code="default">費率：計次：20元/次，隔日另計(以凌晨2時為基準)。季租：全日900元/季
-機車：20 元/日
-限高：2.0m
-小型車位：0 格（EV 充電樁：0 格）
-地址：臺北市內湖區成功路4段186號地下1層
-管轄：市屬機關學校委外
-完整收費：計次：20元/次，隔日另計(以凌晨2時為基準)。季租：全日900元/季。</mwm:lang>
         </mwm:description>
         <mwm:icon>Parking</mwm:icon>
         <mwm:visibility>1</mwm:visibility>
@@ -6136,7 +6058,7 @@
           <mwm:lang code="default">嘟嘟房捷運北投機廠站停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車20元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：72 格（EV 充電樁：2 格）
@@ -6175,7 +6097,7 @@
           <mwm:lang code="default">嘟嘟房捷運關渡站停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：小型車：季租10,500元，逾限時定期票停車時段以30元/時計。機車：
+          <mwm:lang code="default">費率：季租10,500元，逾限時定期票停車時段以30元/時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：53 格（EV 充電樁：2 格）
@@ -6214,7 +6136,7 @@
           <mwm:lang code="default">臺灣戲曲中心地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：週五40元/時，週六至週日50元/時
 機車：無機車位
 限高：2.0m
 小型車位：172 格（EV 充電樁：4 格）
@@ -6253,7 +6175,7 @@
           <mwm:lang code="default">康樂合署大樓地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車30元/時，當日單次停車最高收費上限20元/次（隔日另計），停車全程以半小時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：53 格（EV 充電樁：1 格）
@@ -6275,26 +6197,26 @@
   <tr><td><b>管　轄：</b></td><td>市屬機關學校自營</td></tr>
   <tr><td><b>小型車：</b></td><td>58 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>0 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.1m</td></tr>
+  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
   <tr><td><b>費　率：</b></td><td>每季7,500元。</td></tr>
   <tr><td><b>電　話：</b></td><td>8502-0126</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.096182,121.561292" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.079563,121.561313" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.561292,25.096182,0</coordinates>
+        <coordinates>121.561313,25.079563,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">臺北市濱江實驗國民中學B1停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：每季7,500元。
+          <mwm:lang code="default">費率：每季7,500元
 機車：無機車位
-限高：2.1m
+限高：2.0m
 小型車位：58 格（EV 充電樁：0 格）
 地址：臺北市中山區樂群二路262號地下1層
 管轄：市屬機關學校自營
@@ -6370,7 +6292,7 @@
           <mwm:lang code="default">財政大樓地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：20元/時，20元/時
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：135 格（EV 充電樁：5 格）
@@ -6487,52 +6409,13 @@
           <mwm:lang code="default">臺大癌醫中心分院地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 50 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 50元/時，停車全程以半小時計。，隔日另計
 機車：20 元/日
 限高：2.0m
 小型車位：404 格（EV 充電樁：8 格）
 地址：臺北市大安區基隆路3段155巷57號地下1至3層
 管轄：中央機關學校委外
 完整收費：小型車：計時 50元/時，停車全程以半小時計。機車：20元/次，隔日另計。</mwm:lang>
-        </mwm:description>
-        <mwm:icon>Parking</mwm:icon>
-        <mwm:visibility>1</mwm:visibility>
-      </ExtendedData>
-    </Placemark>
-    <Placemark>
-      <name>嘟嘟房捷運大橋頭站停車場</name>
-      <description><![CDATA[
-<h3>嘟嘟房捷運大橋頭站停車場</h3>
-<table border="0" cellpadding="3" cellspacing="0" style="font-family:sans-serif; font-size:13px; line-height:1.5;">
-  <tr><td><b>行政區：</b></td><td>大同區</td></tr>
-  <tr><td><b>地　址：</b></td><td>臺北市大同區延平北路3段與民權西路口地下1層</td></tr>
-  <tr><td><b>管　轄：</b></td><td>市屬機關學校委外</td></tr>
-  <tr><td><b>小型車：</b></td><td>0 格</td></tr>
-  <tr><td><b>充電樁：</b></td><td>0 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
-  <tr><td><b>費　率：</b></td><td>計次:20元/次(隔日另計，以凌晨2時為跨日基準)。月租:全日900元/季。</td></tr>
-  <tr><td><b>電　話：</b></td><td>2655-0818</td></tr>
-</table>
-<div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.0633,121.5122" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
-</div>
-]]></description>
-      <styleUrl>#placemark-blue</styleUrl>
-      <Point>
-        <coordinates>121.5122,25.0633,0</coordinates>
-      </Point>
-      <ExtendedData xmlns:mwm="https://comaps.app">
-        <mwm:name>
-          <mwm:lang code="default">嘟嘟房捷運大橋頭站停車場</mwm:lang>
-        </mwm:name>
-        <mwm:description>
-          <mwm:lang code="default">費率：計次:20元/次(隔日另計，以凌晨2時為跨日基準)。
-機車：20 元/日
-限高：2.0m
-小型車位：0 格（EV 充電樁：0 格）
-地址：臺北市大同區延平北路3段與民權西路口地下1層
-管轄：市屬機關學校委外
-完整收費：計次:20元/次(隔日另計，以凌晨2時為跨日基準)。月租:全日900元/季。</mwm:lang>
         </mwm:description>
         <mwm:icon>Parking</mwm:icon>
         <mwm:visibility>1</mwm:visibility>
@@ -6587,7 +6470,7 @@
   <tr><td><b>管　轄：</b></td><td>市屬機關學校委外</td></tr>
   <tr><td><b>小型車：</b></td><td>1256 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>36 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.1m</td></tr>
+  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
   <tr><td><b>費　率：</b></td><td>小型車：計時 30元/時；月租 全日5,200元。機車：10元/時，當日當次最高收費上限20元；月租300元。全程以半小時計費。</td></tr>
   <tr><td><b>電　話：</b></td><td>0903927353</td></tr>
 </table>
@@ -6604,52 +6487,13 @@
           <mwm:lang code="default">環南市場停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
-機車：10 元/時
-限高：2.1m
+          <mwm:lang code="default">費率：計時 30元/時
+機車：10 元/時（當日上限 20 元）
+限高：2.0m
 小型車位：1256 格（EV 充電樁：36 格）
 地址：臺北市萬華區環河南路2段245號地下1、地上2至R層
 管轄：市屬機關學校委外
 完整收費：小型車：計時 30元/時；月租 全日5,200元。機車：10元/時，當日當次最高收費上限20元；月租300元。全程以半小時計費。</mwm:lang>
-        </mwm:description>
-        <mwm:icon>Parking</mwm:icon>
-        <mwm:visibility>1</mwm:visibility>
-      </ExtendedData>
-    </Placemark>
-    <Placemark>
-      <name>國立臺灣大學立體機車停車場</name>
-      <description><![CDATA[
-<h3>國立臺灣大學立體機車停車場</h3>
-<table border="0" cellpadding="3" cellspacing="0" style="font-family:sans-serif; font-size:13px; line-height:1.5;">
-  <tr><td><b>行政區：</b></td><td>大安區</td></tr>
-  <tr><td><b>地　址：</b></td><td>臺北市大安區羅斯福路4段1號</td></tr>
-  <tr><td><b>管　轄：</b></td><td>中央機關學校自營</td></tr>
-  <tr><td><b>小型車：</b></td><td>0 格</td></tr>
-  <tr><td><b>充電樁：</b></td><td>0 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
-  <tr><td><b>費　率：</b></td><td>機車：20元/次，隔日另計；月租600元/月。</td></tr>
-  <tr><td><b>電　話：</b></td><td>3366-3366</td></tr>
-</table>
-<div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.0159,121.5424" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
-</div>
-]]></description>
-      <styleUrl>#placemark-blue</styleUrl>
-      <Point>
-        <coordinates>121.5424,25.0159,0</coordinates>
-      </Point>
-      <ExtendedData xmlns:mwm="https://comaps.app">
-        <mwm:name>
-          <mwm:lang code="default">國立臺灣大學立體機車停車場</mwm:lang>
-        </mwm:name>
-        <mwm:description>
-          <mwm:lang code="default">費率：機車：20元/次，隔日另計；
-機車：20 元/日
-限高：2.0m
-小型車位：0 格（EV 充電樁：0 格）
-地址：臺北市大安區羅斯福路4段1號
-管轄：中央機關學校自營
-完整收費：機車：20元/次，隔日另計；月租600元/月。</mwm:lang>
         </mwm:description>
         <mwm:icon>Parking</mwm:icon>
         <mwm:visibility>1</mwm:visibility>
@@ -6721,7 +6565,7 @@
           <mwm:lang code="default">延平國小地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，隔日另計)，停車全程以半小時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：309 格（EV 充電樁：6 格）
@@ -6799,7 +6643,7 @@
           <mwm:lang code="default">瑞光社會住宅地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08時~20時 每小時 20 元；20時~08時 每小時 20 元
+          <mwm:lang code="default">費率：週五40元/時(08時~20時)，20元/時(20時~08時)
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：194 格（EV 充電樁：4 格）
@@ -6838,7 +6682,7 @@
           <mwm:lang code="default">中南社會住宅地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車20元/時，停車全程以半小時計，當日單次停車最高收費上限20元/次，隔日另計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：73 格（EV 充電樁：2 格）
@@ -6865,12 +6709,12 @@
   <tr><td><b>電　話：</b></td><td>0228350247</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.105921,121.522509" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.089425,121.522571" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.522509,25.105921,0</coordinates>
+        <coordinates>121.522571,25.089425,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
@@ -6916,8 +6760,8 @@
           <mwm:lang code="default">新奇岩社會住宅地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
-機車：20 元/日
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
+機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：170 格（EV 充電樁：4 格）
 地址：臺北市北投區磺港路261號地下層（共三層）
@@ -6955,7 +6799,7 @@
           <mwm:lang code="default">大港墘公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-20 每小時 20 元；20-08 每小時 20 元
+          <mwm:lang code="default">費率：20元/時(20-08)，週六、週日、行政機關放假之紀念日與民俗日20元/時
 機車：10 元/時（當日上限 30 元）
 限高：2.0m
 小型車位：258 格（EV 充電樁：6 格）
@@ -6994,7 +6838,7 @@
           <mwm:lang code="default">東明甲區社會住宅地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車、大型重型，週六、日與行政機關放假之紀念日、民俗日40元/時，停車全程以半小時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：65 格（EV 充電樁：1 格）
@@ -7033,7 +6877,7 @@
           <mwm:lang code="default">東明乙區社會住宅地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：週五20元/時，週六、日與行政機關放假之紀念日、民俗日40元/時
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：323 格（EV 充電樁：6 格）
@@ -7072,7 +6916,7 @@
           <mwm:lang code="default">青年一期社會住宅地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：133 格（EV 充電樁：3 格）
@@ -7111,7 +6955,7 @@
           <mwm:lang code="default">健康1區社會住宅地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：07-20 每小時 20 元；18-09 每小時 450 元
+          <mwm:lang code="default">費率：小型車及大型重型，隔日另計)，全程以半小時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：135 格（EV 充電樁：3 格）
@@ -7150,7 +6994,7 @@
           <mwm:lang code="default">健康2區社會住宅地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：07-20 每小時 20 元；18-09 每小時 450 元
+          <mwm:lang code="default">費率：小型車及大型重型，隔日另計)，全程以半小時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：149 格（EV 充電樁：4 格）
@@ -7345,7 +7189,7 @@
           <mwm:lang code="default">廣慈1區社會住宅地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：370 格（EV 充電樁：8 格）
@@ -7384,7 +7228,7 @@
           <mwm:lang code="default">168停車聯盟-西寧市場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車40元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：17 格（EV 充電樁：0 格）
@@ -7423,7 +7267,7 @@
           <mwm:lang code="default">北科先鋒停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 50 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車50元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：78 格（EV 充電樁：2 格）
@@ -7462,7 +7306,7 @@
           <mwm:lang code="default">廣慈2區社會住宅地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：270 格（EV 充電樁：6 格）
@@ -7501,7 +7345,7 @@
           <mwm:lang code="default">國立臺灣師範大學附屬高級中學體育教學館地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：07-22 每小時 20 元；22-07 每小時 50 元
+          <mwm:lang code="default">費率：週五30元/時(07-22)、20元/時(22-07)
 機車：無機車位
 限高：2.0m
 小型車位：53 格（EV 充電樁：1 格）
@@ -7540,7 +7384,7 @@
           <mwm:lang code="default">行善社會住宅地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，當日單次停車最高收費上限20元/次，停車全程以半小時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：400 格（EV 充電樁：8 格）
@@ -7696,7 +7540,7 @@
           <mwm:lang code="default">中山國中地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：288 格（EV 充電樁：6 格）
@@ -7735,7 +7579,7 @@
           <mwm:lang code="default">臺北市立成功高級中學綜合大樓地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 40元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：93 格（EV 充電樁：2 格）
@@ -7774,7 +7618,7 @@
           <mwm:lang code="default">景美女中地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
 機車：10 元/時
 限高：2.0m
 小型車位：268 格（EV 充電樁：6 格）
@@ -7813,7 +7657,7 @@
           <mwm:lang code="default">新和國小地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車30元/時，隔日另計)，全程以半小時計費
 機車：10 元/時
 限高：2.0m
 小型車位：304 格（EV 充電樁：6 格）
@@ -7835,7 +7679,7 @@
   <tr><td><b>管　轄：</b></td><td>本處委外停車場</td></tr>
   <tr><td><b>小型車：</b></td><td>228 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>15 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
+  <tr><td><b>限　高：</b></td><td>1.8m</td></tr>
   <tr><td><b>費　率：</b></td><td>計時：小型車、大型重型機車40元/時(8-21)，20元/時(21-8)；機車10元/時，當日當次上限20元，隔日另計(以0時為跨日基準)，全程以半小時計費。月租：小型車全日4,000元/月，日間2,000元/月(7-19)，夜間2,000元/月(19-8)；機車300元/月；大型重型機車2,000元/月。停放於充電格位之車輛，每小時加收10元，依設備自動判斷未充電者每小時再加收10元(未充電者合計每小時加收20元)。</td></tr>
   <tr><td><b>電　話：</b></td><td>(02)27995657</td></tr>
 </table>
@@ -7852,9 +7696,9 @@
           <mwm:lang code="default">東湖立體停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：8-21 每小時 20 元；21-8 每小時 10 元
+          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
 機車：10 元/時
-限高：2.0m
+限高：1.8m
 小型車位：228 格（EV 充電樁：15 格）
 地址：臺北市內湖區東湖路3號(地下共2層、地上1層及3至8層)
 管轄：本處委外停車場
@@ -7891,52 +7735,13 @@
           <mwm:lang code="default">臺北市客家文化中心附設地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：計時 40元/時，停車全程以半小時計，停車未滿15分鐘者免費
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：63 格（EV 充電樁：1 格）
 地址：臺北市中正區汀州路3段2號
 管轄：市屬機關學校委外
 完整收費：小型車：計時 40元/時，停車全程以半小時計，停車未滿15分鐘者免費。月租：全日17,400元/3個月、日間8,700元/3個月、夜間8,700元/3個月。機車：僅供洽公或活動參與民眾使用，車輛駛入1日內可免費停放，如超過1日則以日計費（隔夜計費），每日收費30元。</mwm:lang>
-        </mwm:description>
-        <mwm:icon>Parking</mwm:icon>
-        <mwm:visibility>1</mwm:visibility>
-      </ExtendedData>
-    </Placemark>
-    <Placemark>
-      <name>臺北市環南綜合市場自治會</name>
-      <description><![CDATA[
-<h3>臺北市環南綜合市場自治會</h3>
-<table border="0" cellpadding="3" cellspacing="0" style="font-family:sans-serif; font-size:13px; line-height:1.5;">
-  <tr><td><b>行政區：</b></td><td>萬華區</td></tr>
-  <tr><td><b>地　址：</b></td><td>臺北市萬華區環河南路2段245號地下1至2、地上1層</td></tr>
-  <tr><td><b>管　轄：</b></td><td>市屬機關學校委外</td></tr>
-  <tr><td><b>小型車：</b></td><td>483 格</td></tr>
-  <tr><td><b>充電樁：</b></td><td>0 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.1m</td></tr>
-  <tr><td><b>費　率：</b></td><td>計時：小型車30元/時，大客車30元/時，停車全程以半小時計。月租：小型車全日7,200元/月。</td></tr>
-  <tr><td><b>電　話：</b></td><td>23621685</td></tr>
-</table>
-<div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.045253,121.489435" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
-</div>
-]]></description>
-      <styleUrl>#placemark-blue</styleUrl>
-      <Point>
-        <coordinates>121.489435,25.045253,0</coordinates>
-      </Point>
-      <ExtendedData xmlns:mwm="https://comaps.app">
-        <mwm:name>
-          <mwm:lang code="default">臺北市環南綜合市場自治會</mwm:lang>
-        </mwm:name>
-        <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
-機車：無機車位
-限高：2.1m
-小型車位：483 格（EV 充電樁：0 格）
-地址：臺北市萬華區環河南路2段245號地下1至2、地上1層
-管轄：市屬機關學校委外
-完整收費：計時：小型車30元/時，大客車30元/時，停車全程以半小時計。月租：小型車全日7,200元/月。</mwm:lang>
         </mwm:description>
         <mwm:icon>Parking</mwm:icon>
         <mwm:visibility>1</mwm:visibility>
@@ -7969,7 +7774,7 @@
           <mwm:lang code="default">臺北市文山運動中心停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-22 每小時 15 元；22-08 每小時 20 元
+          <mwm:lang code="default">費率：30元/時(08-22)、15元/時(22-08)
 機車：20 元/日
 限高：2.0m
 小型車位：79 格（EV 充電樁：2 格）
@@ -7996,19 +7801,19 @@
   <tr><td><b>電　話：</b></td><td>29393091</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.00665,121.575798" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=24.990141,121.575402" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.575798,25.00665,0</coordinates>
+        <coordinates>121.575402,24.990141,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">國際學人暨學生會館(I-House)收費停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：小型車：
+          <mwm:lang code="default">費率：公有平價計時
 機車：無機車位
 限高：2.0m
 小型車位：20 格（EV 充電樁：0 格）
@@ -8047,8 +7852,8 @@
           <mwm:lang code="default">福星社會住宅地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：10-22 每小時 10 元；22-10 每小時 60 元
-機車：10 元/時
+          <mwm:lang code="default">費率：10元/時(22-10)，週六、週日、行政機關放假之紀念日與民俗日60元/時(10-24)
+機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：165 格（EV 充電樁：6 格）
 地址：臺北市萬華區開封街2段37號地下1至4層
@@ -8086,7 +7891,7 @@
           <mwm:lang code="default">和興水岸社會住宅地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，當日當次上限20元，隔日另計，停車全程以半小時計
 機車：10 元/時
 限高：2.0m
 小型車位：113 格（EV 充電樁：3 格）
@@ -8125,8 +7930,8 @@
           <mwm:lang code="default">青年二期社會住宅地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
-機車：20 元/日
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
+機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：296 格（EV 充電樁：6 格）
 地址：臺北市萬華區青年路180、182號地下1至3層
@@ -8164,7 +7969,7 @@
           <mwm:lang code="default">臺北市內湖區新湖國民小學活動中心地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：小型車：
+          <mwm:lang code="default">費率：公有平價計時
 機車：無機車位
 限高：2.0m
 小型車位：21 格（EV 充電樁：3 格）
@@ -8203,7 +8008,7 @@
           <mwm:lang code="default">廣慈3區社會住宅地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車及大型重型，當日單次停車最高收費上限20元/次(隔日另計)，停車全程以半小時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：269 格（EV 充電樁：6 格）
@@ -8242,7 +8047,7 @@
           <mwm:lang code="default">大安國中地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-21 每小時 50 元；21-08 每小時 10 元
+          <mwm:lang code="default">費率：小型車(含大型重型，10元/時(21-08)，停車全程以半小時計
 機車：10 元/時（當日上限 30 元）
 限高：2.0m
 小型車位：223 格（EV 充電樁：5 格）
@@ -8269,12 +8074,12 @@
   <tr><td><b>電　話：</b></td><td>2939-8935</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.017345,121.555124" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.000895,121.55479" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.555124,25.017345,0</coordinates>
+        <coordinates>121.55479,25.000895,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
@@ -8320,7 +8125,7 @@
           <mwm:lang code="default">內湖國中地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車及大型重型，當日當次上限20元(隔日另計)，停車全程以半小時計
 機車：10 元/時
 限高：2.0m
 小型車位：119 格（EV 充電樁：3 格）
@@ -8347,19 +8152,19 @@
   <tr><td><b>電　話：</b></td><td>0227642151#9</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.070548,121.557815" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.05399,121.55772" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.557815,25.070548,0</coordinates>
+        <coordinates>121.55772,25.05399,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">三軍總醫院松山分院附設民眾停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車40元/時，停車全程以半小時計。計次：，大型重型，隔日另計，以00時為基準
 機車：20 元/日
 限高：2.0m
 小型車位：113 格（EV 充電樁：4 格）
@@ -8381,17 +8186,17 @@
   <tr><td><b>管　轄：</b></td><td>市屬機關學校委外</td></tr>
   <tr><td><b>小型車：</b></td><td>84 格</td></tr>
   <tr><td><b>充電樁：</b></td><td>2 格</td></tr>
-  <tr><td><b>限　高：</b></td><td>2.1m</td></tr>
+  <tr><td><b>限　高：</b></td><td>2.0m</td></tr>
   <tr><td><b>費　率：</b></td><td>計時：小型車(含大型重型機車)週一至週五30元/時，週六至週日及政府行政機關放假之紀念日、民俗節日50元/時，機車10元/時，當日單次停車最高收費上限20元/日，隔日另計，以00時為基準，停車全程以半小時計。月租：小型車全日4,300元/月，機車全日300元/月。</td></tr>
   <tr><td><b>電　話：</b></td><td>0227546661</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.087607,121.518046" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.071161,121.51803" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.518046,25.087607,0</coordinates>
+        <coordinates>121.51803,25.071161,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
@@ -8400,7 +8205,7 @@
         <mwm:description>
           <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
 機車：10 元/時（當日上限 20 元）
-限高：2.1m
+限高：2.0m
 小型車位：84 格（EV 充電樁：2 格）
 地址：臺北市大同區承德路3段212、212-2號地上1層及地下1至3層
 管轄：市屬機關學校委外
@@ -8425,19 +8230,19 @@
   <tr><td><b>電　話：</b></td><td>0227995657</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.132291,121.518048" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.115763,121.51822" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.518048,25.132291,0</coordinates>
+        <coordinates>121.51822,25.115763,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">振華公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：405 格（EV 充電樁：13 格）
@@ -8464,19 +8269,19 @@
   <tr><td><b>電　話：</b></td><td>洽現場服務處</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=24.993996,121.5569" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=24.977582,121.55646" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.5569,24.993996,0</coordinates>
+        <coordinates>121.55646,24.977582,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">樟新水岸社會住宅地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 20 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，停車全程以半小時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：154 格（EV 充電樁：3 格）
@@ -8503,19 +8308,19 @@
   <tr><td><b>電　話：</b></td><td>洽現場服務處</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.04399,121.559106" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.027476,121.55889" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.559106,25.04399,0</coordinates>
+        <coordinates>121.55889,25.027476,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">六張犁1區社宅停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車30元/時，當日單次停車最高收費上限20元/，停車全程以半小時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：230 格（EV 充電樁：5 格）
@@ -8542,19 +8347,19 @@
   <tr><td><b>電　話：</b></td><td>洽現場服務處</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.044241,121.559515" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.027725,121.5593" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.559515,25.044241,0</coordinates>
+        <coordinates>121.5593,25.027725,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">六張犁2區社宅停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車30元/時，當日單次停車最高收費上限20元/日，停車全程以半小時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：340 格（EV 充電樁：7 格）
@@ -8581,19 +8386,19 @@
   <tr><td><b>電　話：</b></td><td>0800021111</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.073026,121.610394" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.056256,121.6103" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.610394,25.073026,0</coordinates>
+        <coordinates>121.6103,25.056256,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">經貿社會住宅地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-20 每小時 30 元；20-08 每小時 20 元
+          <mwm:lang code="default">費率：小型車、大型重型，20元/時(20-08)，停車全程以半小時計
 機車：20 元/日
 限高：2.0m
 小型車位：108 格（EV 充電樁：5 格）
@@ -8620,19 +8425,19 @@
   <tr><td><b>電　話：</b></td><td>27995657</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.042531,121.543496" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.026077,121.54328" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.543496,25.042531,0</coordinates>
+        <coordinates>121.54328,25.026077,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">科技大樓地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：09-21 每小時 10 元；21-09 每小時 10 元
+          <mwm:lang code="default">費率：全日每小時 50 元（全程半小時計）
 機車：10 元/時（當日上限 30 元）
 限高：2.0m
 小型車位：113 格（EV 充電樁：4 格）
@@ -8659,19 +8464,19 @@
   <tr><td><b>電　話：</b></td><td>0228233418</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.124026,121.512444" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.107532,121.51258" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.512444,25.124026,0</coordinates>
+        <coordinates>121.51258,25.107532,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">福星公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車(含大型重型，當日單次停車最高收費上限20元/次，停車全程以半小時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：425 格（EV 充電樁：21 格）
@@ -8698,19 +8503,19 @@
   <tr><td><b>電　話：</b></td><td>0226550818</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.086675,121.620548" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.069838,121.62052" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.620548,25.086675,0</coordinates>
+        <coordinates>121.62052,25.069838,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">樂活公園地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：08-21 每小時 20 元；21-08 每小時 10 元
+          <mwm:lang code="default">費率：全日每小時 40 元（全程半小時計）
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：207 格（EV 充電樁：21 格）
@@ -8737,12 +8542,12 @@
   <tr><td><b>電　話：</b></td><td>0227546661</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.079219,121.577909" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.062568,121.57785" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.577909,25.079219,0</coordinates>
+        <coordinates>121.57785,25.062568,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
@@ -8776,12 +8581,12 @@
   <tr><td><b>電　話：</b></td><td>0227546661</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.105421,121.503242" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.088993,121.5033" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.503242,25.105421,0</coordinates>
+        <coordinates>121.5033,25.088993,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
@@ -8815,19 +8620,19 @@
   <tr><td><b>電　話：</b></td><td>0809228924</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.071204,121.568945" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.054602,121.56885" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.568945,25.071204,0</coordinates>
+        <coordinates>121.56885,25.054602,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">Times全聯松山鵬程店</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 30 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車30元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：17 格（EV 充電樁：0 格）
@@ -8854,12 +8659,12 @@
   <tr><td><b>電　話：</b></td><td>0229599991</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.004604,121.559304" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=24.988162,121.55891" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.559304,25.004604,0</coordinates>
+        <coordinates>121.55891,24.988162,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
@@ -8893,19 +8698,19 @@
   <tr><td><b>電　話：</b></td><td>23123456</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.060294,121.51882" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.043896,121.51869" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.51882,25.060294,0</coordinates>
+        <coordinates>121.51869,25.043896,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">臺大醫院健康大樓停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 50 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車50元/時，停車全程以半小時計
 機車：10 元/時（當日上限 20 元）
 限高：2.0m
 小型車位：195 格（EV 充電樁：0 格）
@@ -8932,12 +8737,12 @@
   <tr><td><b>電　話：</b></td><td>27057716</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.040636,121.53377" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.024221,121.53355" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.53377,25.040636,0</coordinates>
+        <coordinates>121.53355,25.024221,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
@@ -8971,19 +8776,19 @@
   <tr><td><b>電　話：</b></td><td>洽現場服務處</td></tr>
 </table>
 <div style="margin-top:10px;">
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.099768,121.562793" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=25.083137,121.56283" target="_blank" style="display:inline-block; padding:6px 12px; background-color:#1a73e8; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">在 Google 地圖中開啟導航</a>
 </div>
 ]]></description>
       <styleUrl>#placemark-blue</styleUrl>
       <Point>
-        <coordinates>121.562793,25.099768,0</coordinates>
+        <coordinates>121.56283,25.083137,0</coordinates>
       </Point>
       <ExtendedData xmlns:mwm="https://comaps.app">
         <mwm:name>
           <mwm:lang code="default">七星大樓地下停車場</mwm:lang>
         </mwm:name>
         <mwm:description>
-          <mwm:lang code="default">費率：全日每小時 50 元（全程半小時計）
+          <mwm:lang code="default">費率：小型車50元/時，停車全程以半小時計
 機車：無機車位
 限高：2.0m
 小型車位：34 格（EV 充電樁：2 格）

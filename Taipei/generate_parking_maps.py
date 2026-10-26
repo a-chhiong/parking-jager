@@ -33,24 +33,62 @@ if sys.stdout.encoding != 'utf-8':
 
 OFFICIAL_API_URL = "https://tcgbusfs.blob.core.windows.net/blobtcmsv/TCMSV_alldesc.json"
 
-# Known precise ramp entrance coordinates for flagship baseline facilities
-KNOWN_ENTRANCES = {
-    '民有市場地下停車場': (25.060678, 121.547147),
-    '濱江果菜市場地下停車場': (25.068994, 121.539828),
-    '濱江市場地下停車場': (25.068994, 121.539828),
-    '台北中山市場地下停車場': (25.050182, 121.522241),
-    '環南綜合市場停車場': (25.029812, 121.493921),
-    '環南市場地下停車場': (25.029812, 121.493921),
-    '第一果菜批發市場停車場': (25.018241, 121.498321),
-    '臺北市家禽批發市場地下停車場': (25.026412, 121.491241),
-    '南門市場地下停車場': (25.032128, 121.518641),
-    '水源大廈地下停車場': (25.013621, 121.532812),
-    '大龍市場地下停車場': (25.074521, 121.512612),
-    '士林市場地下停車場': (25.088612, 121.524812),
-    '臺北花木批發市場地下停車場': (25.000672, 121.539481),
-    '民權公園地下停車場': (25.061732, 121.558364),
-    '民生立體收費停車場': (25.058362, 121.560481),
-}
+1
+
+def twd97_to_wgs84(x, y):
+    """
+    Standard Geodetic Transverse Mercator (TM2) reverse projection from TWD97 to WGS84.
+    Central Meridian: 121.0 E, False Easting: 250,000 m, Scale Factor: 0.9999.
+    Sub-meter accurate across Taiwan (eliminates linear approximation error).
+    """
+    a = 6378137.0
+    f = 1.0 / 298.257222101
+    b = a * (1.0 - f)
+    e2 = (a**2 - b**2) / (a**2)
+    e_prime2 = (a**2 - b**2) / (b**2)
+    k0 = 0.9999
+    dx = 250000.0
+
+    x_adj = x - dx
+    y_adj = y
+
+    M = y_adj / k0
+    mu = M / (a * (1.0 - e2 / 4.0 - 3.0 * e2**2 / 64.0 - 5.0 * e2**3 / 256.0))
+
+    e1 = (1.0 - math.sqrt(1.0 - e2)) / (1.0 + math.sqrt(1.0 - e2))
+    J1 = 3.0 * e1 / 2.0 - 27.0 * e1**3 / 32.0
+    J2 = 21.0 * e1**2 / 16.0 - 55.0 * e1**4 / 32.0
+    J3 = 151.0 * e1**3 / 96.0
+    J4 = 1097.0 * e1**4 / 512.0
+
+    fp = mu + J1 * math.sin(2.0 * mu) + J2 * math.sin(4.0 * mu) + J3 * math.sin(6.0 * mu) + J4 * math.sin(8.0 * mu)
+
+    sin_fp = math.sin(fp)
+    cos_fp = math.cos(fp)
+    tan_fp = math.tan(fp)
+
+    C1 = e_prime2 * (cos_fp**2)
+    T1 = tan_fp**2
+    R1 = a * (1.0 - e2) / ((1.0 - e2 * (sin_fp**2))**1.5)
+    N1 = a / math.sqrt(1.0 - e2 * (sin_fp**2))
+
+    D = x_adj / (N1 * k0)
+
+    # Latitude
+    lat = fp - (N1 * tan_fp / R1) * (
+        D**2 / 2.0
+        - (5.0 + 3.0 * T1 + 10.0 * C1 - 4.0 * C1**2 - 9.0 * e_prime2) * (D**4) / 24.0
+        + (61.0 + 90.0 * T1 + 298.0 * C1 + 45.0 * (T1**2) - 252.0 * e_prime2 - 3.0 * C1**2) * (D**6) / 720.0
+    )
+
+    # Longitude (central meridian 121.0 deg)
+    lon = math.radians(121.0) + (
+        D
+        - (1.0 + 2.0 * T1 + C1) * (D**3) / 6.0
+        + (5.0 - 2.0 * C1 + 28.0 * T1 - 3.0 * C1**2 + 8.0 * e_prime2 + 24.0 * (T1**2)) * (D**5) / 120.0
+    ) / cos_fp
+
+    return round(math.degrees(lat), 6), round(math.degrees(lon), 6)
 
 
 def fetch_official_data(cache_file='alldesc_cache.json', use_cache=True):
@@ -85,17 +123,14 @@ def fetch_official_data(cache_file='alldesc_cache.json', use_cache=True):
 
 def extract_coordinates(lot):
     """
-    Extracts WGS84 Latitude and Longitude from EntranceCoord, fallback to TWD97 conversion.
+    Extracts WGS84 Latitude and Longitude strictly from official dataset fields:
+      1. Primary: Official EntranceCoord (WGS84 vehicle entrance) if non-zero and within Taipei bounds.
+      2. Fallback: Official Cadastral Survey TWD97 (tw97x, tw97y) converted via rigorous TM2 reverse projection.
+    Zero hardcoded coordinates. Sub-meter precision.
     """
-    # 1. Custom overrides for pinpoint accuracy
-    name = lot.get('name', '')
-    for k, (lat, lng) in KNOWN_ENTRANCES.items():
-        if k in name:
-            return lat, lng
-
-    # 2. Official EntranceCoord (WGS84)
+    # 1. Official EntranceCoord (WGS84)
     entrance_info = lot.get('EntranceCoord', {}).get('EntrancecoordInfo', [])
-    if entrance_info:
+    if entrance_info and isinstance(entrance_info, list):
         for ent in entrance_info:
             try:
                 # In Taipei data: Xcod = Latitude (~25.0x), Ycod = Longitude (~121.5x)
@@ -108,15 +143,12 @@ def extract_coordinates(lot):
             except (ValueError, TypeError):
                 continue
 
-    # 3. Fallback: Convert TWD97 cadastral coordinates to WGS84
+    # 2. Fallback: Convert TWD97 cadastral coordinates to WGS84 using rigorous TM2 reverse projection
     try:
-        tx = float(lot.get('tw97x', 0))
-        ty = float(lot.get('tw97y', 0))
-        if tx > 0 and ty > 0:
-            a = 6378137.0
-            k0 = 0.9999
-            lng = round(121.0 + (tx - 250000.0) / (a * math.cos(25.0 * math.pi / 180.0) * k0 * (math.pi / 180.0)), 6)
-            lat = round((ty / (110574.0 * k0)), 6)
+        tx = float(lot.get('tw97x', 0) or 0)
+        ty = float(lot.get('tw97y', 0) or 0)
+        if 200000 <= tx <= 350000 and 2700000 <= ty <= 2850000:
+            lat, lng = twd97_to_wgs84(tx, ty)
             if 24.8 <= lat <= 25.4 and 121.3 <= lng <= 121.8:
                 return lat, lng
     except (ValueError, TypeError):
@@ -128,46 +160,63 @@ def extract_coordinates(lot):
 def parse_car_hourly_rate(lot):
     """
     Parses the estimated standard daytime hourly rate for small cars (NTD/hr).
+    Handles both 'C' and 'CM' (small car + heavy moto) rules in FareInfo, plus regex on payex.
     """
     # Check structured FareInfo first
     fare_info = lot.get('FareInfo', {})
     if isinstance(fare_info, dict):
         rules = fare_info.get('FareRule', [])
         for r in rules:
-            if r.get('ParkingType') == 'C' and r.get('RateType') == '1':
+            if r.get('ParkingType') in ('C', 'CM') and r.get('RateType') == '1':
                 try:
-                    return int(r.get('ParkingRates', 0))
+                    rate = int(r.get('ParkingRates', 0))
+                    if rate > 0:
+                        return rate
                 except (ValueError, TypeError):
                     pass
 
     # Fallback to regex parsing on payex text
     payex = lot.get('payex', '')
-    m = re.search(r'小型車[^\d]*?(\d+)\s*元/(?:時|小時)', payex)
-    if m:
-        return int(m.group(1))
+    m1 = re.search(r'小型車[^\d]*?(\d+)\s*元(?:/(?:時|小時)|\s*(?:每小時|/hr))?', payex)
+    if m1:
+        val = int(m1.group(1))
+        if 10 <= val <= 200:
+            return val
 
-    m2 = re.search(r'計時[^\d]*?(\d+)\s*元/(?:時|小時)', payex)
+    m2 = re.search(r'計時[^\d]*?(\d+)\s*元(?:/(?:時|小時)|\s*每小時)?', payex)
     if m2:
-        return int(m2.group(1))
+        val = int(m2.group(1))
+        if 10 <= val <= 200:
+            return val
+
+    m3 = re.search(r'每小時\s*(\d+)\s*元', payex)
+    if m3:
+        val = int(m3.group(1))
+        if 10 <= val <= 200:
+            return val
 
     return None
 
 
 def filter_parking_lots(raw_lots, args):
     """
-    Applies transparent, multi-stage filtering logic:
+    Applies transparent, multi-stage objective filtering logic:
       1. Public / Municipal management (avoids private gouging)
-      2. 24/7 operating hours
-      3. Underground / Indoor Planar (avoids weather & mechanical tower risk)
-      4. Rate ceiling check
-      5. EV charging station availability
-      6. District filter
-      7. Coordinate presence
+      2. True parking facility entity (excludes non-parking administrative associations & bus depots)
+      3. Capacity check (requires small car parking stalls)
+      4. 24/7 operating hours
+      5. Underground / Indoor Planar (avoids weather & mechanical tower risk)
+      6. Rate ceiling check
+      7. EV charging station availability
+      8. District filter
+      9. Objective coordinate validation
     """
     filtered = []
     stats = {
         'total': len(raw_lots),
         'passed_public': 0,
+        'passed_not_admin': 0,
+        'passed_capacity': 0,
         'passed_24h': 0,
         'passed_underground': 0,
         'passed_rate': 0,
@@ -187,6 +236,7 @@ def filter_parking_lots(raw_lots, args):
     }
 
     mechanical_keywords = ['機械塔', '機械式', '倉儲式', '雙層機械', '塔台式']
+    admin_or_depot_keywords = ['自治會', '調度站', '保養廠', '維修廠', '聯合訓練協會']
 
     for p in raw_lots:
         name = p.get('name', '').strip()
@@ -201,14 +251,30 @@ def filter_parking_lots(raw_lots, args):
             continue
         stats['passed_public'] += 1
 
-        # Step 2: 24/7 Operation
+        # Step 2: Genuine Parking Facility Entity (Exclude administrative offices and bus yards)
+        if any(ak in name for ak in admin_or_depot_keywords):
+            continue
+        if '客運' in name and '停車場' not in name:
+            continue
+        stats['passed_not_admin'] += 1
+
+        # Step 3: Small Car Capacity Check
+        try:
+            total_car = int(p.get('totalcar', 0) or 0)
+        except (ValueError, TypeError):
+            total_car = 0
+        if total_car <= 0:
+            continue
+        stats['passed_capacity'] += 1
+
+        # Step 4: 24/7 Operation
         if args.hours_24:
             is_24 = ('00:00:00-23:59:59' in service_time or '24小時' in service_time or '00:00-24:00' in service_time)
             if not is_24:
                 continue
         stats['passed_24h'] += 1
 
-        # Step 3: Underground / Indoor Planar Structure
+        # Step 5: Underground / Indoor Planar Structure
         if args.underground_only:
             is_ug = ('地下' in name or '地下' in addr or 'B1' in addr or 'B2' in addr or '立體' in name or '室內' in summary)
             if not is_ug:
@@ -220,14 +286,14 @@ def filter_parking_lots(raw_lots, args):
                 continue
         stats['passed_underground'] += 1
 
-        # Step 4: Small Car Hourly Rate Ceiling
+        # Step 6: Small Car Hourly Rate Ceiling
         hourly_rate = parse_car_hourly_rate(p)
         if args.max_rate is not None and hourly_rate is not None:
             if hourly_rate > args.max_rate:
                 continue
         stats['passed_rate'] += 1
 
-        # Step 5: EV Charging Filter
+        # Step 7: EV Charging Filter
         charging_count = 0
         try:
             charging_count = int(p.get('ChargingStation', 0) or 0)
@@ -239,11 +305,11 @@ def filter_parking_lots(raw_lots, args):
             continue
         stats['passed_ev'] += 1
 
-        # Step 6: Administrative District Filter
+        # Step 8: Administrative District Filter
         if args.district and args.district not in area:
             continue
 
-        # Step 7: Coordinates
+        # Step 9: Coordinates
         lat, lng = extract_coordinates(p)
         if not lat or not lng:
             if args.require_coords:
@@ -255,11 +321,8 @@ def filter_parking_lots(raw_lots, args):
         full_addr = addr if addr.startswith('臺北') or addr.startswith('台北') else f"臺北市{area}{addr}"
         google_maps_url = f"https://www.google.com/maps/search/?api=1&query={lat},{lng}" if (lat and lng) else f"https://www.google.com/maps/search/?api=1&query={urllib.parse.quote(full_addr)}"
 
-        total_car = p.get('totalcar', '0')
         total_moto = p.get('totalmotor', '0')
         payex = p.get('payex', '依現場公告費率').strip()
-
-        # Simplify payex if too long
         payex_clean = payex.replace('\r', '').replace('\n', ' ')
 
         filtered.append({
@@ -267,6 +330,7 @@ def filter_parking_lots(raw_lots, args):
             'name': name,
             'district': area,
             'address': full_addr,
+            'summary': summary,
             'type_name': type2,
             'hourly_rate': hourly_rate if hourly_rate else '依公告',
             'payex': payex_clean,
@@ -354,9 +418,9 @@ def export_kml(lots, filename):
     kml.append('    </ExtendedData>')
 
     for l in lots:
-        rate_car = format_md_rate_car(l['payex'], l['hourly_rate'], l['name'])
+        rate_car = format_md_rate_car(l['payex'], l['hourly_rate'])
         rate_moto = format_md_rate_moto(l['payex'], l['total_moto'])
-        height = format_md_height(l['name'])
+        height = format_md_height(l)
         desc_plain = (
             f"費率：{rate_car}\n"
             f"機車：{rate_moto}\n"
@@ -440,8 +504,8 @@ def export_geojson(lots, filename):
         lat = float(l['lat'])
         lng = float(l['lng'])
         name = l['name']
-        height = format_md_height(name)
-        rate_car = format_md_rate_car(l['payex'], l['hourly_rate'], name)
+        height = format_md_height(l)
+        rate_car = format_md_rate_car(l['payex'], l['hourly_rate'])
         rate_moto = format_md_rate_moto(l['payex'], l['total_moto'])
         parking_type = 'multi-storey' if '立體' in name else 'underground'
 
@@ -494,89 +558,112 @@ def export_geojson(lots, filename):
     print(f"[+] Successfully generated GeoJSON (RFC 7946 & OSM Ready): {filename} ({len(features)} features)")
 
 
-def format_md_rate_car(payex, hourly_rate, name):
-    if '民有市場' in name:
-        return '30 元/時（115/11/1起 40 元）'
-    if '松山國小' in name:
-        return '週一至週四 40 元/時；週五至週日 50 元/時'
-    if '金華公園' in name:
-        return '08:00–22:00 每小時 50 元；22:00–08:00 每小時 10 元'
-    if '中山市場' in name:
-        return '臨停約 100 元/時（以半小時計）'
-    if '士林市場' in name:
-        return '平日 40 元/時、假日 60 元/時'
-    if '花木批發' in name:
-        return '20 元/時（半小時 10 元）'
+def format_md_rate_car(payex, hourly_rate):
+    """
+    Dynamically extracts small car daytime timing rate from payex and hourly_rate.
+    No hardcoded lot names.
+    """
+    # Strip monthly rent section
+    timing_part = re.split(r'月租[：:]?', payex)[0].strip(' ；;，,。')
+    # Strip motorcycle rate section
+    timing_part = re.sub(r'[,，、;；]?\s*機車[^，。;；]*', '', timing_part).strip(' ；;，,。')
+    timing_part = re.sub(r'[,，、;；]?\s*單次最高收費上限[^，。;；]*', '', timing_part).strip(' ；;，,。')
+    # Clean leading label
+    timing_part = re.sub(r'^(?:小型車[：:]\s*)?(?:計時[：:]\s*)?', '', timing_part).strip()
 
-    # Try Day/Night detection: e.g. 08:00-22:00 30元, 22:00-08:00 10元
-    m = re.search(r'(\d{1,2}(?::\d{2})?(?:時)?[-~]\d{1,2}(?::\d{2})?(?:時)?)[^\d]*?(\d+)\s*元.*?(\d{1,2}(?::\d{2})?(?:時)?[-~]\d{1,2}(?::\d{2})?(?:時)?)[^\d]*?(\d+)\s*元', payex)
-    if m:
-        return f'{m.group(1)} 每小時 {m.group(2)} 元；{m.group(3)} 每小時 {m.group(4)} 元'
-    
-    m2 = re.search(r'(\d+)\s*元[^\(（]*?[\(（](\d{1,2}(?::\d{2})?[-~]\d{1,2}(?::\d{2})?)[\)）].*?(\d+)\s*元[^\(（]*?[\(（](\d{1,2}(?::\d{2})?[-~]\d{1,2}(?::\d{2})?)[\)）]', payex)
-    if m2:
-        return f'{m2.group(2)} 每小時 {m2.group(1)} 元；{m2.group(4)} 每小時 {m2.group(3)} 元'
+    # Differential rate pattern (weekday/weekend or day/night)
+    m_diff = re.search(r'((?:週[一二三四五六日、至]+)?\d+\s*元/時[^\n;；，。]*?[，、][^\n;；，。]*?\d+\s*元/時[^\n;；，。]*)', timing_part)
+    if m_diff and len(m_diff.group(1)) <= 50:
+        return m_diff.group(1).strip()
+
+    m_dn = re.search(r'(\d+\s*元/時\s*\(.*?\)[^，。；;]*?，\s*\d+\s*元/時\s*\(.*?\))', timing_part)
+    if m_dn:
+        return m_dn.group(1).strip()
+
+    if 0 < len(timing_part) <= 45:
+        return timing_part
 
     if hourly_rate and hourly_rate != '依公告':
-        return f'全日每小時 {hourly_rate} 元（全程半小時計）'
+        return f"全日每小時 {hourly_rate} 元（全程半小時計）"
 
-    clean = re.sub(r'月租.*', '', payex).strip()
-    return clean[:35] if clean else '公有平價計時'
+    return timing_part[:40] if timing_part else '公有平價計時'
 
 
 def format_md_rate_moto(payex, total_moto):
+    """
+    Dynamically extracts motorcycle timing rate and daily cap from payex.
+    """
     try:
         if int(total_moto or 0) == 0:
             return '無機車位'
     except (ValueError, TypeError):
         pass
 
-    m_cap = re.search(r'當日(?:單次)?(?:停車)?(?:最高)?收費上限\s*(\d+)\s*元', payex)
+    m_cap = re.search(r'當日(?:單次|當次)?(?:停車)?(?:最高)?收費上限\s*(\d+)\s*元', payex)
     if m_cap:
         return f'10 元/時（當日上限 {m_cap.group(1)} 元）'
-    if '20元/次' in payex:
+    if '20元/次' in payex or '20元/日' in payex:
         return '20 元/日'
     if '10元/時' in payex:
         return '10 元/時'
     return '10 元/時（當日上限 20 元）'
 
 
-def format_md_height(name):
-    if '民生立體' in name:
-        return '1.7m'
-    if '中山市場' in name:
+def format_md_height(lot):
+    """
+    Objectively determines entrance vehicle clearance:
+    1. Checks explicit height notice in lot summary or name.
+    2. Mechanical/aboveground structures default to 1.8m.
+    3. Underground parking structures default to Taipei Building Code minimum (2.0m).
+    """
+    name = lot.get('name', '')
+    summary = lot.get('summary', '')
+    text = f"{name} {summary}"
+    m = re.search(r'限高\s*([0-9.]+)\s*(?:公尺|m|M)?', text)
+    if m:
+        return f"{m.group(1)}m"
+    if '立體' in name:
         return '1.8m'
-    if any(k in name for k in ['大龍', '濱江', '環南', '家禽']):
-        return '2.1m'
     return '2.0m'
 
 
-def format_md_features(lot, name):
-    if '民有市場' in name:
-        return '設 EV 充電格位、格上共享車站點'
-    if '金華公園' in name:
-        return '智慧充電示範站（充電格位每小時加收 10 元為 60 元/時）'
-    if '大龍' in name:
-        return '大龍新城共構大樓，設有 EV 慢充充電樁'
-    if '環南' in name:
-        return '地下與地上立體共構、設 EV 充電樁'
-    if '濱江' in name:
-        return '設 EV 充電格、直通第二果菜市場'
-    if '士林市場' in name:
-        return '位於士林夜市正下方，出入便利'
-    if '民生立體' in name:
-        return '限高 1.7m，休旅車及加裝車頂架車輛切勿進場'
+def format_md_features(lot):
+    """
+    Dynamically generates facilities and features from structured lot data:
+    - Underground / multi-storey structure
+    - Verified EV charging stalls count
+    - Friendly parking stalls (accessibility, parents with children)
+    - 24/7 electronic ticketing
+    """
+    features = []
+    name = lot.get('name', '')
+    summary = lot.get('summary', '')
 
-    charging = lot.get('charging_stalls', 0)
-    has_ev = False
+    if '立體' in name:
+        features.append('室內立體平面')
+    else:
+        features.append('室內地下平面')
+
+    ev = lot.get('charging_stalls', 0)
     try:
-        has_ev = int(charging or 0) > 0
+        if int(ev) > 0:
+            features.append(f'設 EV 充電格位 {ev} 格')
     except (ValueError, TypeError):
-        has_ev = str(charging) not in ('0', '', 'None')
+        if str(ev) not in ('0', '', 'None'):
+            features.append('設 EV 充電樁')
 
-    if has_ev:
-        return '室內地下平面、EV充電樁'
-    return '室內地下平面、公有規範管理'
+    m_dis = re.search(r'身心障礙(?:停車位)?(\d+)格', summary)
+    m_preg = re.search(r'孕婦[^0-9]*?(\d+)格', summary)
+    friendly = []
+    if m_dis and int(m_dis.group(1)) > 0:
+        friendly.append(f'身障 {m_dis.group(1)} 格')
+    if m_preg and int(m_preg.group(1)) > 0:
+        friendly.append(f'親子 {m_preg.group(1)} 格')
+    if friendly:
+        features.append('、'.join(friendly))
+
+    features.append('24H/電子票證')
+    return '；'.join(features)
 
 
 def export_markdown(lots, filename):
@@ -624,8 +711,6 @@ def export_markdown(lots, filename):
         for l in items:
             name = l['name']
             url = l['gmaps_url']
-            if '民有市場' in name:
-                url = 'https://maps.app.goo.gl/WsLPEg952dXUfFgv5'
 
             clean_addr = l['address'].replace('臺北市', '').replace('台北市', '')
             if clean_addr.startswith(dist):
@@ -633,9 +718,9 @@ def export_markdown(lots, filename):
             if not clean_addr:
                 clean_addr = l['address']
 
-            rate_car = format_md_rate_car(l['payex'], l['hourly_rate'], name)
+            rate_car = format_md_rate_car(l['payex'], l['hourly_rate'])
             rate_moto = format_md_rate_moto(l['payex'], l['total_moto'])
-            height = format_md_height(name)
+            height = format_md_height(l)
 
             stalls = f"汽車 {l['total_car']}"
             if l['charging_stalls'] and str(l['charging_stalls']) != '0':
@@ -643,7 +728,7 @@ def export_markdown(lots, filename):
             else:
                 stalls += "<br>公有格位"
 
-            features = format_md_features(l, name)
+            features = format_md_features(l)
 
             md.append(f"| [{name}]({url}) | {clean_addr} | {rate_car} | {rate_moto} | {height} | {stalls} | {features} |")
         md.append('')
@@ -700,20 +785,22 @@ def main():
     # Step 2: Filter
     filtered_lots, stats = filter_parking_lots(raw_lots, args)
 
-    print("\n" + "=" * 50)
-    print("      TAIPEI PARKING JÄGER FILTERING PIPELINE      ")
-    print("=" * 50)
-    print(f"1. Total in Official Database      : {stats['total']:>5} lots")
-    print(f"2. Passed Public Ownership Filter  : {stats['passed_public']:>5} lots (Eliminated private lots)")
-    print(f"3. Passed 24/7 Hours Filter        : {stats['passed_24h']:>5} lots")
-    print(f"4. Passed Underground/Planar Filter: {stats['passed_underground']:>5} lots (Eliminated open-air/mechanical towers)")
-    print(f"5. Passed Hourly Rate Ceiling (≤${args.max_rate}): {stats['passed_rate']:>5} lots")
+    print("\n" + "=" * 55)
+    print("        TAIPEI PARKING JÄGER FILTERING PIPELINE        ")
+    print("=" * 55)
+    print(f"1. Total in Official Database          : {stats['total']:>5} lots")
+    print(f"2. Passed Public Ownership Filter      : {stats['passed_public']:>5} lots (Eliminated private lots)")
+    print(f"3. Passed Genuine Parking Facility     : {stats['passed_not_admin']:>5} lots (Eliminated non-parking administrative entities/depots)")
+    print(f"4. Passed Small Car Capacity Check     : {stats['passed_capacity']:>5} lots (Eliminated 0-car facilities)")
+    print(f"5. Passed 24/7 Hours Filter            : {stats['passed_24h']:>5} lots")
+    print(f"6. Passed Underground/Planar Filter    : {stats['passed_underground']:>5} lots (Eliminated open-air/mechanical towers)")
+    print(f"7. Passed Hourly Rate Ceiling (≤${args.max_rate}) : {stats['passed_rate']:>5} lots")
     if args.ev_only:
-        print(f"6. Passed EV Charger Filter (EV-only): {stats['passed_ev']:>5} lots")
-    print(f"7. Passed Valid Coordinates Filter : {stats['passed_coords']:>5} lots")
-    print("-" * 50)
-    print(f"==> FINAL QUALIFIED TARGET LOTS    : {stats['final']:>5} lots")
-    print("=" * 50 + "\n")
+        print(f"8. Passed EV Charger Filter (EV-only)  : {stats['passed_ev']:>5} lots")
+    print(f"9. Passed Valid Coordinates Filter     : {stats['passed_coords']:>5} lots")
+    print("-" * 55)
+    print(f"==> FINAL QUALIFIED TARGET LOTS        : {stats['final']:>5} lots")
+    print("=" * 55 + "\n")
 
     # Step 3: Export
     export_csv(filtered_lots, args.output_csv)
